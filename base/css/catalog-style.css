@@ -1,0 +1,25 @@
+.expand__sidebar{
+    position:absolute;
+}
+.expand__sidebar__active{
+    position:absolute;
+    left:500px;
+}
+.sidebar{
+    position:absolute;
+    z-index:5;
+    background:#000;
+    width:312px;
+    margin:0 auto;
+    display:none;
+}
+.sidebar__active{
+    display:block;
+}
+.sidebar__logo{
+    text-align:center;
+    margin-top:41px;
+}
+.sidebar__logo_language{
+
+}
