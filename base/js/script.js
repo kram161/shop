@@ -8,10 +8,14 @@ $(document).ready(function() {
     $('.expand__sidebar').click(function(e){
         $('.sidebar').toggleClass('sidebar__active');
         $('.expand__sidebar').toggleClass('expand__sidebar__active');
+        $('.main-content').toggleClass('Main-content__active')
+        $('.main-navbar__first-second').toggleClass('main-navbar__first-second__active')
     })
     $('.expand__sidebar__active').click(function(e){
         $('.sidebar').removeClass('sidebar__active');
         $('.expand__sidebar').removeClass('expand__sidebar__active');
+        $('.main-content').removeClass('Main-content__active')
+        $('.main-navbar__first-second').removeClass('main-navbar__first-second__active')
     })
     $('.sidebar__change-theme__button').click(function(e){
         $('.sidebar__change-theme').toggleClass('sidebar__change-theme__white-theme')

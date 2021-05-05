@@ -1,4 +1,13 @@
-.expand__sidebar,.expand__sidebar__active,.sidebar,.sidebar__active,.expand__sidebar__active .expand__sidebar__button,.expand__sidebar__button,.catalog-buttons__button:hover,.catalog-buttons__button{
+body{
+    display:flex;
+}
+.main-content{
+    width:100%;
+}
+.Main-content__active{
+    padding-left:312px;
+}
+.main-content,.expand__sidebar,.expand__sidebar__active,.sidebar,.sidebar__active,.expand__sidebar__active .expand__sidebar__button,.expand__sidebar__button,.catalog-buttons__button:hover,.catalog-buttons__button{
     -webkit-transition: all 500ms linear ;
     -moz-transition: all 500ms linear ;
     -o-transition: all 500ms linear ;
@@ -28,9 +37,6 @@
     text-decoration:none;
     font-weight:600;
 }
-.expand__sidebar__active{
-    left:312px;
-}
 .expand__sidebar__button{
     position:relative;
     top:8px;
@@ -43,7 +49,7 @@
     margin-left:30px;
 }
 .sidebar{
-    position:absolute;
+    position:fixed;
     z-index:6;
     background:#000;
     width:312px;
@@ -52,11 +58,16 @@
     left:-312px;
 }
 .sidebar__active{
+    position:fixed;
     left:0;
+    overflow-y: auto;
+}
+.sidebar__active::-webkit-scrollbar {
+    width: 0;
 }
 .sidebar__logo{
     text-align:center;
-    margin-top:41px;
+    padding-top: 20px;
 }
 .sidebar__logo_language{
     display:flex;
@@ -480,4 +491,7 @@
     left:2px;
     height:20px;
     width:20px;
+}
+.main-navbar__first-second__active{
+    margin-right:312px;
 }
