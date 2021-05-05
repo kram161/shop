@@ -46,6 +46,7 @@
     z-index:6;
     background:#000;
     width:312px;
+    height:100%;
     margin:0 auto;
     left:-312px;
 }
@@ -86,7 +87,6 @@
 .inactive__language{
     margin:9px 9px 9px 9px;
 }
-
 .sidebar__services{
     margin:35px 53px 36px 22px;
     padding-bottom:71px;
@@ -171,4 +171,11 @@
 }
 .sidebar__logo__white-theme .sidebar__logo_language__us {
     border-right: 1px solid #000;
+}
+#Catalog{
+    background-image: url(../img/catalog-img/catalog-bck.png);
+    background-repeat:no-repeat;
+    background-size: cover;
+    min-height:1988px;
+    position: relative;
 }
