@@ -24,7 +24,4 @@ $(document).ready(function() {
         $('.sidebar__menu').toggleClass('sidebar__menu__white-theme')
         $('.sidebar').toggleClass('sidebar__white-theme')
     })
-    $('.product-card__image__slider__nav').click(function(e){
-        $('.product-card__image__slider__nav').toggleClass('product-card__image__slider__nav__active')
-    })
 });
