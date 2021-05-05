@@ -1,4 +1,4 @@
-$(function(){
+$(document).ready(function(){
     $('.main-info__scroll-button').on('click', function(e){
         $('html,body').stop().animate({ scrollTop: $('#Choice').offset().top }, 1000);
         e.preventDefault();
