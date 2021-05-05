@@ -95,4 +95,20 @@ $(document).ready(function(){
         }
         return slideHandlerOld.call(this, index, sync, dontAnimate);
     };
+    $('.product-card__image__slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows: false,
+        fade: true,
+        asNavFor: '.product-card__image__nav'
+    });
+    $('.product-card__image__nav').slick({
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        asNavFor: '.product-card__image__slider',
+        dots: false,
+        focusOnSelect: false,
+        nextArrow: nxtArrow,
+    });
+
 })
