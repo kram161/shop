@@ -12,8 +12,8 @@ $(function(){
         '</span>'
     $('.game__slider').slick({
         swipeToSlide: true,
-        infinite:true,
-        slidesToShow: 3,
+        infinite:false,
+        slidesToShow: 4,
         slidesToScroll: 1,
         variableHeight: true,
         variableWidth: true,
@@ -50,9 +50,9 @@ $(function(){
     };
     $('.hot-deals__cards__slider').slick({
         swipeToSlide: true,
-        infinite: true,
+        infinite: false,
         slidesToShow: 3,
-        slidesToScroll:3,
+        slidesToScroll:1,
         variableHeight: true,
         variableWidth: true,
         prevArrow: false,
@@ -60,7 +60,8 @@ $(function(){
     });
     $('.review__slider').slick({
         swipeToSlide: true,
-        slidesToShow: 1,
+        infinite: false,
+        slidesToShow: 4,
         slidesToScroll:1,
         variableHeight: true,
         variableWidth: true,
