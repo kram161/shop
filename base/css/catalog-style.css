@@ -469,11 +469,6 @@ body{
     z-index:5;
     cursor:pointer;
 }
-.product-card__image__slider__nav__active img{
-    position: absolute;
-    width:700px;
-    height:700px;
-}
 .product-card__image .slick-list{
     height:360px;
 }
