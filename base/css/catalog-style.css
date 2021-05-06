@@ -8,7 +8,7 @@ body{
 .Main-content__active{
     padding-left:0;
 }
-.main-navbar,.main-navbar__active,.main-content,.expand__sidebar,.expand__sidebar__active,.sidebar,.sidebar__active,.expand__sidebar__active .expand__sidebar__button,.expand__sidebar__button,.catalog-buttons__button:hover,.catalog-buttons__button,.sidebar__change-theme__button__dot,.sidebar__change-theme__button__dot__active,.product-customization__platform__unit{
+.sidebar__services a:hover path,.sidebar__services a:hover p,.sidebar__menu a:hover path,.sidebar__menu a:hover p,.main-navbar,.main-navbar__active,.main-content,.expand__sidebar,.expand__sidebar__active,.sidebar,.sidebar__active,.expand__sidebar__active .expand__sidebar__button,.expand__sidebar__button,.catalog-buttons__button:hover,.catalog-buttons__button,.sidebar__change-theme__button__dot,.sidebar__change-theme__button__dot__active,.product-customization__platform__unit{
     -webkit-transition: all 200ms linear ;
     -moz-transition: all 200ms linear ;
     -o-transition: all 200ms linear ;
@@ -101,10 +101,10 @@ body{
     border-bottom:1px solid rgba(255, 255, 255, 0.15);
 }
 .sidebar__services a:hover path{
-    fill: #14a530;
+    fill: #86C9D1;
 }
 .sidebar__services a:hover p{
-    color:#14a530;
+    color:#86C9D1;
 }
 .sidebar__menu a:hover path{
     stroke:#D0CCCCFF;
