@@ -372,10 +372,6 @@ body{
     font-weight:600;
     text-decoration:none;
 }
-.catalog-cards__unit__description__information_button:hover{
-    border-bottom:2px dashed #86C9D1;
-}
-
 .catalog-cards__offer-of-the-day .catalog-cards__unit__description__information a{
     color:#fff;
 }
