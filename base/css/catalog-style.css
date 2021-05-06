@@ -100,6 +100,18 @@ body{
     padding-bottom:71px;
     border-bottom:1px solid rgba(255, 255, 255, 0.15);
 }
+.sidebar__services a:hover path{
+    fill:#00B67A;
+}
+.sidebar__services a:hover p{
+    color:#00B67A;
+}
+.sidebar__menu a:hover path{
+    stroke:#D0CCCCFF;
+}
+.sidebar__menu a:hover p{
+    color:#D0CCCCFF;
+}
 .sidebar__services a,.sidebar__menu a{
     color:#fff;
     text-decoration:none;
