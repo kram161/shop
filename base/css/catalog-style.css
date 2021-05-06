@@ -355,7 +355,7 @@ body{
 }
 .catalog-cards__unit__description__information{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
 }
 .catalog-cards__unit__description__information p,.catalog-cards__unit__description__information_button {
     margin:0;
@@ -372,16 +372,14 @@ body{
     font-weight:600;
     text-decoration:none;
 }
-.catalog-cards__unit__description__information_button a:hover{
+.catalog-cards__unit__description__information_button:hover{
     border-bottom:2px dashed #86C9D1;
 }
 
 .catalog-cards__offer-of-the-day .catalog-cards__unit__description__information a{
     color:#fff;
 }
-.catalog-cards__unit__description__information_button .catalog-cards__unit__description__information a:hover{
-    border-bottom:2px dashed #fff;
-}
+
 
 .catalog-cards__offer-of-the-day__information,.catalog-cards__discount__information{
     position: absolute;
