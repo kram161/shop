@@ -101,10 +101,10 @@ body{
     border-bottom:1px solid rgba(255, 255, 255, 0.15);
 }
 .sidebar__services a:hover path{
-    fill:#00B67A;
+    fill: #14a530;
 }
 .sidebar__services a:hover p{
-    color:#00B67A;
+    color:#14a530;
 }
 .sidebar__menu a:hover path{
     stroke:#D0CCCCFF;
