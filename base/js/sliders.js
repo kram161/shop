@@ -110,4 +110,14 @@ $(document).ready(function(){
         focusOnSelect: false,
         nextArrow: nxtArrow,
     });
+    $('.product-footer__slider').slick({
+        swipeToSlide: true,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll:1,
+        variableHeight: true,
+        variableWidth: true,
+        prevArrow: false,
+        nextArrow: nxtArrow,
+    });
 })

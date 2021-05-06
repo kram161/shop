@@ -24,4 +24,32 @@ $(document).ready(function() {
         $('.sidebar__menu').toggleClass('sidebar__menu__white-theme')
         $('.sidebar').toggleClass('sidebar__white-theme')
     })
+    $('.product-information__visible,.product-information__hidden').hover(function(e){
+        $('.product-information__hidden').toggleClass('product-information__hidden__active')
+    })
+});
+let mySlider = new rSlider({
+    target: '#sampleSlider',
+    values: [1, 2, 3, 4, 5, 6, 7, 8,9,10,11,12,13,14,15],
+    tooltip: true,
+    scale: true,
+    labels: true,
+    set: [8],
+    width:932,
+});
+$(document).ready(function() {
+    $('.down').click(function () {
+        var $input = $(this).parent().find('input');
+        var count = parseInt($input.val()) - 1;
+        count = count < 1 ? 1 : count;
+        $input.val(count);
+        $input.change();
+        return false;
+    });
+    $('.up').click(function () {
+        var $input = $(this).parent().find('input');
+        $input.val(parseInt($input.val()) + 1);
+        $input.change();
+        return false;
+    });
 });
