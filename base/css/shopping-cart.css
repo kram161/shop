@@ -72,10 +72,13 @@
 .shopping-cart__basket-total{
     display:flex;
     justify-content: space-between;
-    width:30%;
+    width:278px;
     background:#FFFFFF;
     color:#000;
     border-radius:15px;
+    height:194px;
+    position:relative;
+    bottom:-32px;
 }
 .shopping-cart__basket-total__description p,.shopping-cart__basket-total__amount p{
     margin:10px 0 10px 0;
@@ -85,7 +88,7 @@
 .shopping-cart__basket-total__amount p{
     font-weight:600;
 }
-.shopping-cart__basket-total__amount p:nth-child(3){
+.shopping-cart__basket-total__amount p:nth-child(4){
     color:#86C9D1;
 }
 .shopping-cart__basket-total__description{
@@ -106,6 +109,9 @@
 }
 .shopping-cart__basket__forms{
     display:flex;
+    justify-content:space-between;
+    position:relative;
+    margin-top:75px;
 }
 .shopping-cart__basket__forms__chat{
     display:flex;
@@ -113,8 +119,20 @@
     background:#232224;
     border:1px solid #343435;
     border-radius:15px;
+    width:360px;
+    position:relative;
+    bottom:0;
 }
-.shopping-cart__basket__forms__chat p{
+.shopping-cart__basket__forms__promo-code{
+    background:#232224;
+    border:1px solid #343435;
+    border-radius:15px;
+    width:411px;
+    height:172px;
+    position:relative;
+    bottom: -53px;
+}
+.shopping-cart__basket__forms__chat p,.shopping-cart__basket__forms__promo-code p{
     font-size:25px;
     font-weight:400;
     padding:14px 24px 14px 24px;
@@ -131,6 +149,80 @@
     font-size:20px;
     font-weight:400;
     padding:0 24px 14px 24px;
+}
+.shopping-cart__basket__forms__chat input,.shopping-cart__basket__forms__promo-code input{
+    font-size:20px;
+    font-weight:400;
+}
+.shopping-cart__basket__forms__chat input{
+    background:#fff;
+    border-radius:15px;
+    margin:0 24px 28px 24px;
+    outline: none;
+    padding: 15px;
+}
+.shopping-cart__basket__forms__promo-code input{
+    width: 50%;
+    margin:0 24px 28px 24px;
+    background:#fff;
+    border-radius:15px;
+    outline: none;
+    padding: 15px;
+}
+.shopping-cart__basket__forms__promo-code__button{
+    position:relative;
+    top:3px;
+    border-radius: 15px;
+    padding: 11px 12px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.shopping-cart__basket__payment__button{
+    display:flex;
+    justify-content:space-between;
+    flex-direction: row;
+}
+.shopping-cart__basket__payment__button label{
+    background:#292929;
+    border:1px solid #343435;
+    display: flex;
+    padding:27px 18px;
+    border-radius:15px;
+}
+.shopping-cart__basket__payment__button svg{
+    margin-right:80px;
+}
+.shopping-cart__basket__payment{
+    padding:20px 38px;
+    background:#232224;
+    border:1px solid #343435;
+    border-radius:15px;
+    margin-top: 40px;
+}
+.shopping-cart__basket__payment p{
+    color:#86C9D1;
+    font-weight:400;
+    font-size:25px;
+    margin:0;
+}
+.shopping-cart__basket__payment__units{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+.product-customization__platform__unit__button{
+    margin-right:40px;
+    margin-top: 14px;
+}
+.prdctradio{
+    top:1px !important;
+}
+.prdctradio::before{
+    background: #86C9D1;
+}
+.payment-logo{
+    width:66px;
+    height:21px;
 }
 
 
