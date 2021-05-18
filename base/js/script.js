@@ -108,6 +108,14 @@ $(document).ready(function() {
         $('.success-discord').toggleClass('personal-data-active')
         $('.change-discord').removeClass('personal-data-active')
     });
+    $('.change-password').click(function(e){
+        $('.personal-information__change-password').toggleClass('change-password__active')
+        $('.personal-password').toggleClass('personal-information__change-password')
+    });
+    $('.password-save__button').click(function(e){
+        $('.personal-information__change-password').removeClass('change-password__active')
+        $('.personal-password').removeClass('personal-information__change-password')
+    });
 });
 let mySlider = new rSlider({
     target: '#sampleSlider',
