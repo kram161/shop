@@ -1,4 +1,4 @@
-body{
+.cover{
     display:flex;
 }
 .main-content{
@@ -247,7 +247,7 @@ body{
     text-decoration:none;
     font-weight:600;
     width:158px;
-    z-index:5;
+    z-index:2;
     position: relative;
     margin-right:13px;
 }
@@ -340,7 +340,6 @@ body{
 }
 .catalog-cards__unit{
     Width:209px;
-    Height:354px;
     border-radius:20px;
     color:#000;
     font-size:15px;
@@ -357,7 +356,7 @@ body{
     background:#fff;
     position:relative;
     border-radius:0 0 20px 20px;
-    bottom:5px;
+    margin-top: -5px;
 }
 .catalog-cards__unit__description__name p{
     margin:0;
@@ -368,11 +367,15 @@ body{
 .catalog-cards__unit__description__information{
     display:flex;
     justify-content:space-around;
-}
-.catalog-cards__unit__description__information p,.catalog-cards__unit__description__information_button {
-    margin:0;
-    padding:35px 17px 21px 17px;
     position:relative;
+}
+.catalog-cards__unit__description__information__price{
+    position: relative;
+}
+.catalog-cards__unit__description__information p,.catalog-cards__unit__description__information__button {
+    margin:20px 0;
+    position:relative;
+    box-sizing:border-box;
 }
 .catalog-cards__unit__description__information a{
     color:#86C9D1;
@@ -419,7 +422,8 @@ body{
     position:absolute;
     font-size:10px;
     color:#FF0000FF;
-    right:-7px;
+    right: -20px;
+    top: 10px;
     text-decoration: line-through;
 }
 .catalog-cards__hot__image,.catalog-cards__new__image{
@@ -684,7 +688,7 @@ body{
     border-radius:100px !important;
     background-color:#FFFFFF !important;
     z-index:8 !important;
-    top:9px !important;
+    top:10px !important;
     left:9px !important;
 }
 .product-customization__quantity__range .rs-bg{
