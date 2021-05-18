@@ -1,0 +1,24 @@
+.shopping-cart{
+    margin-top:127px;
+}
+.shopping-cart__description h2{
+    font-size:50px;
+    font-weight: 600;
+    text-align:center;
+}
+.shopping-cart__basket-description,.shopping-cart__basket-description__second{
+    display:flex;
+    justify-content:space-between;
+}
+.shopping-cart__basket-description__first p,.shopping-cart__basket-description__second p{
+    color:#86C9D1;
+    font-size:15px;
+    font-weight:400;
+}
+.shopping-cart__basket-description__first p{
+    margin-left:104px;
+}
+.shopping-cart__basket-description__second p{
+    position:relative;
+    margin-right:86px;
+}
