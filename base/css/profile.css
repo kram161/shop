@@ -29,3 +29,71 @@
     border-bottom:2px solid #86C9D1;
     color:#86C9D1;
 }
+.personal,.purchase-history,.referral-system{
+    display:none;
+}
+.personal-active{
+    display:block;
+}
+
+.persona-information__main svg{
+    cursor:pointer;
+}
+.persona-information__main,.persona-information__main__name{
+    display:flex;
+}
+.persona-information__main__image{
+    margin-right: 44px;
+}
+.persona-information__main__image,.persona-information__main__image img{
+    position:relative;
+}
+.persona-information__main__image svg{
+    position:absolute;
+    bottom:0;
+    right:15px;
+}
+.persona-information__main__full-name{
+    margin:35px 0;
+}
+.persona-information__main__full-name h4,.persona-information__main__full-name p{
+    margin:0;
+}
+.persona-information__main__full-name h4{
+    font-size:25px;
+    font-weight:600;
+    color:#86C9D1;
+}
+.persona-information__main__full-name svg{
+    margin-left:25px;
+}
+.persona-information__main__full-name p{
+    font-size:15px;
+    font-weight:400;
+    color:#6B6B6B;
+}
+.personal-information__personal-data{
+    display:flex;
+    margin:82px 0;
+}
+.personal-information__personal-data__headlines{
+    margin:0 62px;
+}
+.change-login,.success-login,.change-email,.success-email,.change-phone,.success-phone,.change-telegram,.success-telegram,.change-discord,.success-discord{
+    cursor:pointer;
+}
+.personal-data-active{
+    display:none;
+}
+.personal-information__personal-data__headlines p{
+    margin:18px 0;
+}
+.personal-login,.personal-email,.personal-phone,.personal-telegram,.personal-discord,.personal-password{
+    display:flex;
+    margin:18px 0;
+}
+.personal-information__personal-data__units input{
+    background:none;
+    border:none;
+    outline:none;
+}

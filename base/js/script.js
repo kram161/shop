@@ -58,6 +58,56 @@ $(document).ready(function() {
         $('.purchase-history').removeClass('personal-active')
         $('.referral-system').toggleClass('personal-active')
     });
+    $('.change-login').click(function(e){
+        $('.personal-login__box').attr('readonly',false);
+        $('.change-login').toggleClass('personal-data-active')
+        $('.success-login').removeClass('personal-data-active')
+    });
+    $('.success-login').click(function(e){
+        $('.personal-login__box').attr('readonly', true);
+        $('.success-login').toggleClass('personal-data-active')
+        $('.change-login').removeClass('personal-data-active')
+    });
+    $('.change-email').click(function(e){
+        $('.personal-email__box').attr('readonly',false);
+        $('.change-email').toggleClass('personal-data-active')
+        $('.success-email').removeClass('personal-data-active')
+    });
+    $('.success-email').click(function(e){
+        $('.personal-email__box').attr('readonly', true);
+        $('.success-email').toggleClass('personal-data-active')
+        $('.change-email').removeClass('personal-data-active')
+    });
+    $('.change-phone').click(function(e){
+        $('.personal-phone__box').attr('readonly',false);
+        $('.change-phone').toggleClass('personal-data-active')
+        $('.success-phone').removeClass('personal-data-active')
+    });
+    $('.success-phone').click(function(e){
+        $('.personal-phone__box').attr('readonly', true);
+        $('.success-phone').toggleClass('personal-data-active')
+        $('.change-phone').removeClass('personal-data-active')
+    });
+    $('.change-telegram').click(function(e){
+        $('.personal-telegram__box').attr('readonly',false);
+        $('.change-telegram').toggleClass('personal-data-active')
+        $('.success-telegram').removeClass('personal-data-active')
+    });
+    $('.success-telegram').click(function(e){
+        $('.personal-telegram__box').attr('readonly', true);
+        $('.success-telegram').toggleClass('personal-data-active')
+        $('.change-telegram').removeClass('personal-data-active')
+    });
+    $('.change-discord').click(function(e){
+        $('.personal-discord__box').attr('readonly',false);
+        $('.change-discord').toggleClass('personal-data-active')
+        $('.success-discord').removeClass('personal-data-active')
+    });
+    $('.success-discord').click(function(e){
+        $('.personal-discord__box').attr('readonly', true);
+        $('.success-discord').toggleClass('personal-data-active')
+        $('.change-discord').removeClass('personal-data-active')
+    });
 });
 let mySlider = new rSlider({
     target: '#sampleSlider',
