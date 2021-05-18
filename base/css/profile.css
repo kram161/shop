@@ -1,3 +1,31 @@
 .profile{
     margin-top:127px;
 }
+.profile-menu{
+    display:flex;
+    justify-content:space-between;
+    cursor:pointer;
+    margin-top:59px;
+    margin-bottom:50px;
+}
+.profile-menu__personal,.profile-menu__purchase-history,.profile-menu__referral-system{
+    border-bottom:1px solid #30302F;
+    width:100%;
+    padding:0 0 19px 0;
+    font-size:20px;
+    font-weight:400;
+}
+.profile-menu__personal:hover,.profile-menu__purchase-history:hover,.profile-menu__referral-system:hover{
+    color:#86C9D1;
+    border-bottom:2px solid #86C9D1;
+}
+.profile-menu__purchase-history{
+    text-align:center;
+}
+.profile-menu__referral-system{
+    text-align:right;
+}
+.profile-menu__active{
+    border-bottom:2px solid #86C9D1;
+    color:#86C9D1;
+}

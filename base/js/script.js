@@ -34,6 +34,30 @@ $(document).ready(function() {
     $('.product-information__visible,.product-information__hidden').hover(function(e){
         $('.product-information__hidden').toggleClass('product-information__hidden__active')
     })
+    $('.profile-menu__personal').click(function(e){
+        $('.profile-menu__personal').toggleClass('profile-menu__active')
+        $('.profile-menu__purchase-history').removeClass('profile-menu__active')
+        $('.profile-menu__referral-system').removeClass('profile-menu__active')
+        $('.personal').toggleClass('personal-active')
+        $('.purchase-history').removeClass('personal-active')
+        $('.referral-system').removeClass('personal-active')
+    });
+    $('.profile-menu__purchase-history').click(function(e){
+        $('.profile-menu__purchase-history').toggleClass('profile-menu__active')
+        $('.profile-menu__personal').removeClass('profile-menu__active')
+        $('.profile-menu__referral-system').removeClass('profile-menu__active')
+        $('.personal').removeClass('personal-active')
+        $('.purchase-history').toggleClass('personal-active')
+        $('.referral-system').removeClass('personal-active')
+    });
+    $('.profile-menu__referral-system').click(function(e){
+        $('.profile-menu__referral-system').toggleClass('profile-menu__active')
+        $('.profile-menu__personal').removeClass('profile-menu__active')
+        $('.profile-menu__purchase-history').removeClass('profile-menu__active')
+        $('.personal').removeClass('personal-active')
+        $('.purchase-history').removeClass('personal-active')
+        $('.referral-system').toggleClass('personal-active')
+    });
 });
 let mySlider = new rSlider({
     target: '#sampleSlider',
