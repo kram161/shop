@@ -116,6 +116,21 @@ $(document).ready(function() {
         $('.personal-information__change-password').removeClass('change-password__active')
         $('.personal-password').removeClass('personal-information__change-password')
     });
+    $('.gmail-auth').click(function(e){
+        $('.authorization-form__sign-in-gmail').toggleClass('authorization_form-active',true)
+        $('.authorization-form__registration').removeClass('authorization_form-active',false)
+        $('.authorization-form__sign-in').removeClass('authorization_form-active',false)
+    });
+    $('.sign-in-auth').click(function(e){
+        $('.authorization-form__sign-in').toggleClass('authorization_form-active',true)
+        $('.authorization-form__registration').removeClass('authorization_form-active',false)
+        $('.authorization-form__sign-in-gmail').removeClass('authorization_form-active',false)
+    });
+    $('.reg-auth').click(function(e){
+        $('.authorization-form__registration').toggleClass('authorization_form-active',true)
+        $('.authorization-form__sign-in-gmail').removeClass('authorization_form-active',false)
+        $('.authorization-form__sign-in').removeClass('authorization_form-active',false)
+    });
 });
 let mySlider = new rSlider({
     target: '#sampleSlider',
