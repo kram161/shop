@@ -1,0 +1,147 @@
+.trust__background__picture{
+    background-image:url('../img/guarantees/trust.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index:4;
+    height: 868px;
+    margin-left: auto;
+    box-shadow: inset 81px 0 80px 0 #000;
+}
+.trust__scroll-button a{
+    position:absolute;
+    left:138px;
+    bottom:0;
+    background-color: #86C9D1;
+    padding:24px 14px;
+    border:2px solid #86C9D1;
+}
+.trust__scroll-button a:hover{
+    background: none;
+    color:#fff;
+}
+.trust__scroll-button:hover #styled-element{
+    stroke: #86C9D1;
+}
+.trust-way{
+    display:flex;
+    justify-content: flex-start;
+    margin-top:53px;
+}
+.trust-way svg{
+    margin-top:6px;
+}
+.trust-way a{
+    margin:0 15px;
+    font-size:20px;
+    color:#6B6B6B;
+    font-weight:400;
+    text-decoration:none;
+}
+.trust__main-info{
+    text-align:center;
+}
+.trust__main-info h2{
+    font-size:50px;
+    font-weight:900;
+    margin:138px 0 77px 0;
+}
+.trust__description{
+    display:flex;
+    justify-content:space-between;
+}
+.trust__description-unit{
+    width:234px;
+}
+.trust__description-unit h5{
+    font-weight: 600;
+    font-size: 20px;
+    color:#fff;
+}
+.trust__description-unit p{
+    font-weight: 400;
+    font-size: 20px;
+    color:#D3D0D0;
+}
+.guarantees-review{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin-top:140px;
+}
+.guarantees-review__description{
+    text-align:center;
+}
+.guarantees-review__description h2{
+    font-size:50px;
+    font-weight:900;
+}
+.guarantees-review__description h5{
+    font-size:25px;
+    font-weight:600;
+}
+.guarantees-review__description span{
+    color:#86C9D1;
+}
+.slick-current .review__slider__slide__description h5{
+    margin:15px 0;
+}
+.slick-current .review__slider__slide__description p {
+    margin: 10px 0;
+}
+.review__slider__slide{
+    margin:0 10px;
+}
+.guarantees-review__slider-slide {
+    margin:0 55px;
+}
+.prev__arrow{
+    position:absolute;
+    top:110px;
+    left:-80px;
+    z-index:2;
+    color:#000;
+    width:56px;
+    height:56px;
+    background: #fff;
+    border-radius: 50%;
+    text-align:center;
+    line-height:50px;
+    display:inline-block;
+    cursor:pointer;
+}
+.next__arrow {
+    position:absolute;
+    top:110px;
+    right:-40px;
+}
+.guarantees-review__slider .next__arrow {
+    border:1px solid #fff;
+}
+.guarantees-review__slider .prev__arrow {
+    border:1px solid #fff;
+}
+.guarantees-review__slider .prev__arrow svg{
+    margin-top:18px;
+    margin-right: 5px;
+    height:20px;
+}
+.guarantees-review__slider .prev__arrow:hover{
+    fill:#86C9D1;
+    background:none;
+    border:1px solid #86C9D1;
+}
+.guarantees-review__slider .next__arrow svg{
+    margin-top:18px;
+    margin-left: 3px;
+    height:20px;
+}
+.guarantees-review__slider .next__arrow:hover{
+    fill:#86C9D1;
+    background:none;
+    border:1px solid #86C9D1;
+}
+.guarantees-review__slider{
+    border-bottom:1px solid rgba(255, 255, 255, 0.15);
+    margin-bottom:50px;
+}

@@ -120,4 +120,14 @@ $(document).ready(function(){
         prevArrow: false,
         nextArrow: nxtArrow,
     });
+    $('.guarantees-review__slider').slick({
+        swipeToSlide: true,
+        infinite: true,
+        slidesToShow: 3,
+        slidesToScroll:1,
+        variableHeight: true,
+        variableWidth: true,
+        prevArrow: prvArrow,
+        nextArrow: nxtArrow,
+    });
 })

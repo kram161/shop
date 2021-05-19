@@ -206,10 +206,10 @@
     display:flex;
     justify-content:center;
 }
-.catalog-way svg,.product-way svg{
+.catalog-way svg,.product-way svg,.trust-way svg{
     margin-top:6px;
 }
-.catalog-way a,.product-way a{
+.catalog-way a,.product-way a,.trust-way a{
     margin:0 15px;
     font-size:20px;
     color:#6B6B6B;

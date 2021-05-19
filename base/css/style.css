@@ -60,7 +60,11 @@ body{
 .slider__wrapper{
     width:87%;
     margin: 0 auto;
-    overflow:hidden;
+}
+.guarantees-slider__wrapper{
+    max-width:1150px;
+    width:100%;
+    margin: 0 auto;
 }
 .footer__wrapper{
     max-width:1376px;
