@@ -593,11 +593,11 @@
     background:#232224;
     border:1px solid #343435;
     border-radius:15px;
-    padding: 17px 32px;
-    width:180px;
+    width:240px;
 }
 .product-customization__platform__unit__activator{
     cursor:pointer;
+    padding:19px 0 19px 32px;
 }
 .product-customization__platform__unit__active{
     width:397px;
@@ -613,7 +613,7 @@
     background: #575757;
 }
 .product-customization__platform__unit p,.product-customization__platform__unit__button span{
-    margin:0 0 11px 0;
+    margin:0;
     font-weight:400;
     font-size:20px;
     color:#86C9D1;
@@ -624,6 +624,7 @@
 }
 .product-customization__platform__unit__description{
     display:none;
+    padding:19px 32px 19px 32px;
 }
 .product-customization__platform__unit__description__active{
     display:flex;
@@ -656,7 +657,6 @@
 .product-customization__quantity__range{
     max-width:932px;
     margin-left:13px;
-
 }
 .product-customization__quantity__range__active{
     position:relative;
