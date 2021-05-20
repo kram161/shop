@@ -131,8 +131,34 @@ $(document).ready(function() {
         $('.authorization-form__sign-in-gmail').removeClass('authorization_form-active',false)
         $('.authorization-form__sign-in').removeClass('authorization_form-active',false)
     });
+    $('.reg-auth').click(function(e){
+        $('.authorization-form__registration').toggleClass('authorization_form-active',true)
+        $('.authorization-form__sign-in-gmail').removeClass('authorization_form-active',false)
+        $('.authorization-form__sign-in').removeClass('authorization_form-active',false)
+    });
+    $('.guarantees-answers__units-answer').click(function(e){
+        $(this).toggleClass('answer-activate')
+    });
+    $('.guarantees-answers__button').click(function(e){
+        $('.guarantees-answers__button').removeClass('guarantees-answers__button-active')
+        $(this).toggleClass('guarantees-answers__button-active')
+    });
+    $('.guarantees-payment').click(function(e){
+        $('.guarantees-payment__answer').toggleClass('guarantees-answers__units-active')
+        $('.guarantees-services__answer').removeClass('guarantees-answers__units-active')
+        $('.guarantees-safety__answer').removeClass('guarantees-answers__units-active')
+    });
+    $('.guarantees-services').click(function(e){
+        $('.guarantees-services__answer').toggleClass('guarantees-answers__units-active')
+        $('.guarantees-payment__answer').removeClass('guarantees-answers__units-active')
+        $('.guarantees-safety__answer').removeClass('guarantees-answers__units-active')
+    });
+    $('.guarantees-safety').click(function(e){
+        $('.guarantees-safety__answer').toggleClass('guarantees-answers__units-active')
+        $('.guarantees-payment__answer').removeClass('guarantees-answers__units-active')
+        $('.guarantees-services__answer').removeClass('guarantees-answers__units-active')
+    });
 });
-
 $(document).ready(function() {
     $('.down').click(function () {
         var $input = $(this).parent().find('input');

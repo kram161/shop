@@ -69,14 +69,14 @@
     justify-content:center;
     margin-top:140px;
 }
-.guarantees-review__description{
+.guarantees-review__description,.guarantees-payments__description,.guarantees-answers__description,.guarantees-question__description{
     text-align:center;
 }
-.guarantees-review__description h2{
+.guarantees-review__description h2,.guarantees-payments__description h2,.guarantees-answers__description h2,.guarantees-question__description h2{
     font-size:50px;
     font-weight:900;
 }
-.guarantees-review__description h5{
+.guarantees-review__description h5,.guarantees-payments__description h5,.guarantees-question__description h5{
     font-size:25px;
     font-weight:600;
 }
@@ -144,4 +144,95 @@
 .guarantees-review__slider{
     border-bottom:1px solid rgba(255, 255, 255, 0.15);
     margin-bottom:50px;
+}
+.guarantees-payments{
+    border-bottom:1px solid rgba(255, 255, 255, 0.15);
+    padding-bottom:80px;
+    margin-bottom:80px;
+}
+.guarantees-payments__units{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    margin-top:150px;
+}
+.guarantees-payment-logo{
+    width:150px;
+    height:45px;
+    margin:10px 25px;
+}
+.guarantees-answers__button{
+    padding:10px 30px;
+    color:#86C9D1;
+    font-size: 13px;
+    font-weight:600;
+}
+.guarantees-answers__description-buttons{
+    margin-bottom: 20px;
+}
+.guarantees-answers__description-buttons a{
+    margin:20px 10px;
+}
+.guarantees-answers__button-active{
+    background:#86C9D1;
+    color:#000;
+}
+.guarantees-answers__units{
+    display:none;
+    margin-top:36px;
+}
+.guarantees-answers__units-answer{
+    cursor:pointer;
+    margin:7px 0;
+}
+.guarantees-answers__units-answer h5{
+    background:#fff;
+}
+.guarantees-answers__units-answer h5,.guarantees-answers__units-answer p{
+    margin:0;
+    padding:12px 17px;
+    font-size:20px;
+    font-weight:400;
+    color:#000;
+    position:relative;
+}
+.answer-arrow{
+    position:absolute;
+    top:21px;
+    right:20px;
+}
+.answer-hidden {
+    padding:0;
+    margin:auto;
+    visibility: hidden;
+    height:0;
+    overflow:hidden;
+    opacity:0;
+    transition:all 0.2s linear;
+    background:none;
+}
+.answer-activate .answer-hidden__active{
+    padding:10px;
+    visibility: visible;
+    height:auto;
+    overflow:visible;
+    opacity:1;
+    background:#fff;
+}
+.answer-activate .answer-arrow__active{
+    transform: rotate(180deg)
+}
+.answer-activate .answer-arrow__active path{
+    stroke:#000;
+}
+.guarantees-question{
+    margin: 80px 0 200px 0;
+}
+.guarantees-question__button{
+    font-size:17px;
+    font-weight:600;
+    padding:12px 30px;
+}
+.guarantees-answers__units-active{
+    display:block;
 }
