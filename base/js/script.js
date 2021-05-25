@@ -1,7 +1,13 @@
 $(document).ready(function(){
     $('.main-info__scroll-button').on('click', function(e){
-        $('html,body').stop().animate({ scrollTop: $('#Choice').offset().top }, 1000);
-        e.preventDefault();
+        try {
+            $('html,body').stop().animate({ scrollTop: $('#Choice').offset().top }, 1000);
+            e.preventDefault();
+        }
+        catch (events){
+            $('html,body').stop().animate({ scrollTop: $('#Guarantees-review').offset().top }, 1000);
+            e.preventDefault();
+        }
     });
 });
 $(document).ready(function() {
@@ -125,11 +131,6 @@ $(document).ready(function() {
         $('.authorization-form__sign-in').toggleClass('authorization_form-active',true)
         $('.authorization-form__registration').removeClass('authorization_form-active',false)
         $('.authorization-form__sign-in-gmail').removeClass('authorization_form-active',false)
-    });
-    $('.reg-auth').click(function(e){
-        $('.authorization-form__registration').toggleClass('authorization_form-active',true)
-        $('.authorization-form__sign-in-gmail').removeClass('authorization_form-active',false)
-        $('.authorization-form__sign-in').removeClass('authorization_form-active',false)
     });
     $('.reg-auth').click(function(e){
         $('.authorization-form__registration').toggleClass('authorization_form-active',true)
