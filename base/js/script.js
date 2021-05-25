@@ -1,12 +1,14 @@
 $(document).ready(function(){
     $('.main-info__scroll-button').on('click', function(e){
-        try {
+        if ($('section').is('#Choice')){
             $('html,body').stop().animate({ scrollTop: $('#Choice').offset().top }, 1000);
             e.preventDefault();
         }
-        catch (events){
+        else if($('section').is('#Trust')){
             $('html,body').stop().animate({ scrollTop: $('#Guarantees-review').offset().top }, 1000);
-            e.preventDefault();
+        }
+        else if($('section').is('#Jobs')){
+            $('html,body').stop().animate({ scrollTop: $('#Jobs-form').offset().top }, 1000);
         }
     });
 });
