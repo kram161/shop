@@ -31,9 +31,6 @@
     background:#fff;
     border:2px solid #C4C3C3;
 }
-.expand__sidebar--svg__white-theme path{
-    stroke:#C4C3C3;
-}
 .expand__sidebar a{
     color:#3F3C3C;
     text-decoration:none;
@@ -51,33 +48,7 @@
 .main-navbar__first-child__dropdown{
     margin-left:35px;
 }
-.main-navbar__first-child__dropdown__white-theme a{
-    color:#000;
-}
-.main-navbar__first-child__dropdown__white-theme .dropdown-content{
-    background-color: rgba(63, 60, 60, 0.98);
-}
-.main-navbar__first-child__dropdown__white-theme .dropdown-content a{
-    color:#898989;
-}
-.main-navbar__first-child__dropdown__white-theme .dropdown-content a:hover{
-    color:#fff;
-}
-.main-navbar__first-child__dropdown__white-theme .dropdown-button path{
-    stroke:#000;
-}
-.main-navbar__first-child__dropdown__white-theme .dropdown-content__search input{
-    background: #3F3C3C;
-    color:#5F5F5F;
-}
-.main-navbar__first-child__rating__white-theme .main-navbar__first-child__rating__text p:nth-child(1){
-    color:#000;
-    font-weight:400;
-}
-.main-navbar__first-child__rating__white-theme .main-navbar__first-child__rating__text p:nth-child(2){
-    color:#919090;
-    font-weight:600;
-}
+
 .sidebar{
     position:fixed;
     z-index:6;
@@ -160,15 +131,10 @@
     font-weight:400;
     font-size:18px;
 }
-.sidebar__menu__elements p,.sidebar__change-theme__white-theme p{
+.sidebar__menu__elements p{
     color: #8c8888;
 }
-.sidebar__menu__white-theme a,.sidebar__menu__white-theme p{
-    color: #A8A7A7;
-}
-.sidebar__menu__white-theme path{
-    stroke:#A8A7A7;
-}
+
 .sidebar__menu{
     margin:0 53px 0 22px;
 }
@@ -203,32 +169,7 @@
     right:5px;
     top: 5px;
 }
-.sidebar__change-theme__white-theme .sidebar__change-theme__button__dot{
-    right:20px;
-}
-.sidebar__services__white-theme a{
-    color:#000;
-}
-.sidebar__white-theme{
-    background:#fff;
-}
 
-.sidebar__services__white-theme path{
-    fill:#000;
-}
-.sidebar__services__white-theme,.sidebar__logo__white-theme .sidebar__logo_language {
-    border-bottom: none
-}
-.sidebar__logo__white-theme {
-    color:#000;
-    font-weight:600;
-}
-.sidebar__logo__white-theme .active__language {
-    background:#EEEEF2;;
-}
-.sidebar__logo__white-theme .sidebar__logo_language__us {
-    border-right: 1px solid rgba(0, 0, 0, 0.15);;
-}
 .catalog__normal-theme{
     background-image: url(../img/catalog-img/catalog-bck.png);
     background-repeat:no-repeat;
@@ -236,9 +177,7 @@
     min-height:1988px;
     position: relative;
 }
-.catalog__white-theme{
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),no-repeat, url(../img/catalog-img/catalog-bck.png);
-}
+
 .catalog,.product{
     margin:140px 0;
 }
@@ -263,9 +202,7 @@
     font-size:52px;
     color:#fff;
 }
-.catalog-description__white-theme h2{
-    color:#000;
-}
+
 .catalog-search{
     display:flex;
     justify-content:center;
@@ -358,19 +295,7 @@
     border:none;
     padding:9px;
 }
-.catalog-search__white-theme .menu-item__dropdown{
-    background: #FFFFFF;
-    border: 1px solid #EEEEF2;
-    color: #929090;
-}
-.catalog-search__white-theme .submenu{
-    background:rgba(238, 238, 242, 0.95);
-}
-.catalog-search__white-theme .catalog-search__input input{
-    background: #FFFFFF;
-    border: 1px solid #EEEEF2;
-    color: #929090;
-}
+
 .catalog-buttons{
     margin-top:67px;
     display:flex;
@@ -390,14 +315,7 @@
 .catalog-buttons__button:hover{
     background:#343435;
 }
-.catalog-buttons__button__white-theme{
-    color:#707070;
-    background:#fff;
-    border:1px solid #EEEEF2
-}
-.catalog-buttons__button__white-theme:hover{
-    background:#EEEEF2;
-}
+
 .catalog-cards{
     display:flex;
     justify-content:flex-start;
@@ -541,7 +459,6 @@
     border: 1px solid #939393;
     box-sizing: border-box;
     border-radius: 20px;
-    opacity:0.5;
     cursor:pointer;
 }
 .product-card__image__slider__nav svg{
@@ -684,6 +601,9 @@
     font-size:20px;
     color:#86C9D1;
 }
+.product-customization__platform__unit__button span{
+    color:#fff;
+}
 .product-customization__platform__unit__button{
     display:flex;
     flex-direction:column;
@@ -721,8 +641,9 @@
     margin:53px 0 40px 0;
 }
 .product-customization__quantity__range{
-    max-width:932px;
-    margin-left:13px;
+    width:932px;
+    margin: 0 20px 0 12px;
+    padding-right: 20px;
 }
 .product-customization__quantity__range__active{
     position:relative;
@@ -976,3 +897,4 @@
 .catalog-cards__unit__description a{
     text-decoration:none;
 }
+

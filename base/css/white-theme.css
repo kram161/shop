@@ -1,0 +1,148 @@
+.button-transparent__white-theme{
+    border:1px solid #86C9D1;
+    background: #fff;
+    color:#000;
+    font-weight: 600;
+}
+.button-transparent__white-theme path{
+    stroke:#000;
+}
+.button__white-theme{
+    color:#fff;
+}
+.button__white-theme:hover{
+    background: #fff;
+    color:#000;
+}
+.main-navbar__first-second__buttons__white-theme path{
+    stroke:#000;
+}
+.search-result__unit__white-theme {
+    border-bottom: 1px solid rgb(28, 26, 26);
+}
+.search-result__unit__white-theme h3,.search-result__unit__white-theme p{
+    color:#000;
+}
+.main-navbar__white-theme{
+    background-color:#F7F7F7;
+}
+.product-description__white-theme h2{
+    color:#000 !important;
+}
+.catalog-buttons__button__white-theme{
+    color:#707070;
+    background:#fff;
+    border:1px solid #EEEEF2
+}
+.catalog-buttons__button__white-theme:hover{
+    background:#EEEEF2;
+}
+.catalog-search__white-theme .menu-item__dropdown{
+    background: #FFFFFF;
+    border: 1px solid #EEEEF2;
+    color: #929090;
+}
+.catalog-search__white-theme .submenu{
+    background:rgba(238, 238, 242, 0.95);
+}
+.catalog-search__white-theme .catalog-search__input input{
+    background: #FFFFFF;
+    border: 1px solid #EEEEF2;
+    color: #929090;
+}
+.catalog-description__white-theme h2{
+    color:#000 !important;
+}
+.catalog__white-theme{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),no-repeat, url(../img/catalog-img/catalog-bck.png);
+}
+.sidebar__change-theme__white-theme .sidebar__change-theme__button__dot{
+    right:20px;
+}
+.sidebar__services__white-theme a{
+    color:#000;
+}
+.sidebar__white-theme{
+    background:#fff;
+}
+
+.sidebar__services__white-theme path{
+    fill:#000;
+}
+.sidebar__services__white-theme,.sidebar__logo__white-theme .sidebar__logo_language {
+    border-bottom: none
+}
+.sidebar__logo__white-theme {
+    color:#000;
+    font-weight:600;
+}
+.sidebar__logo__white-theme .active__language {
+    background:#EEEEF2;;
+}
+.sidebar__logo__white-theme .sidebar__logo_language__us {
+    border-right: 1px solid rgba(0, 0, 0, 0.15);;
+}
+.sidebar__menu__white-theme a,.sidebar__menu__white-theme p{
+    color: #A8A7A7;
+}
+.sidebar__menu__white-theme path{
+    stroke:#A8A7A7;
+}
+.sidebar__change-theme__white-theme p{
+    color: #8c8888;
+}
+.main-navbar__first-child__dropdown__white-theme a{
+    color:#000;
+}
+.main-navbar__first-child__dropdown__white-theme .dropdown-content{
+    background-color: rgba(63, 60, 60, 0.98);
+}
+.main-navbar__first-child__dropdown__white-theme .dropdown-content a{
+    color:#898989;
+}
+.main-navbar__first-child__dropdown__white-theme .dropdown-content a:hover{
+    color:#fff;
+}
+.main-navbar__first-child__dropdown__white-theme .dropdown-button path{
+    stroke:#000;
+}
+.main-navbar__first-child__dropdown__white-theme .dropdown-content__search input{
+    background: #3F3C3C;
+    color:#5F5F5F;
+}
+.main-navbar__first-child__rating__white-theme .main-navbar__first-child__rating__text p:nth-child(1){
+    color:#000;
+    font-weight:400;
+}
+.main-navbar__first-child__rating__white-theme .main-navbar__first-child__rating__text p:nth-child(2){
+    color:#919090;
+    font-weight:600;
+}
+.expand__sidebar--svg__white-theme path{
+    stroke:#C4C3C3;
+}
+.body__white-theme{
+    background-color:#F2F1F2;
+}
+.product-card__text__white-theme .product-card__text__description p,.product-card__text__white-theme .radio-text,.product-card__text__white-theme .checkbox-text{
+    color:#000;
+}
+.product-customization__platform__white-theme .product-customization__platform__unit{
+    background: #EEEEF2;
+}
+.product-customization__platform__white-theme .product-customization__platform__unit__price p,.product-customization__platform__white-theme .product-customization__platform__unit__button span,.product-quantity__white-theme .product-quantity__consider p,.product-quantity__white-theme .product-quantity__consider input,.product-quantity__white-theme .product-quantity__coast p,.product-quantity__white-theme .product-quantity__coast label,.product-quantity__white-theme .product-quantity__coast__value input,.product-quantity__white-theme .product-quantity__button,.product-information__white-theme .product-information__title h2,.product-information__white-theme .product-information__title p,.product-information__white-theme .product-information__text li{
+    color:#000;
+}
+.product-quantity__white-theme .product-quantity__consider__element{
+    background:#EEEEF2;
+}
+.product-footer__slider__white-theme .next__arrow{
+    border: 1px solid #000;
+}
+.product-footer__slider__white-theme .next__arrow:hover,.product-card__white-theme .next__arrow:hover{
+    border: 1px solid #000;
+    fill:#000;
+}
+.product-card__white-theme .next__arrow:hover{
+    background:#fff;
+}

@@ -79,9 +79,7 @@ body{
     min-width:100%;
     z-index: 5;
 }
-.main-navbar__white-theme{
-    background-color:#F7F7F7;
-}
+
 .main-navbar__wrapper{
     justify-content: space-between;
     width: 98%;
@@ -194,25 +192,9 @@ body{
     background: #86C9D1;
     color:#000;
 }
-.button-transparent__white-theme{
-    border:1px solid #86C9D1;
-    background: #fff;
-    color:#000;
-    font-weight: 600;
-}
-.button-transparent__white-theme path{
-    stroke:#000;
-}
-.button__white-theme{
-    color:#fff;
-}
 .button:hover{
     background: none;
     color:#fff;
-}
-.button__white-theme:hover{
-    background: #fff;
-    color:#000;
 }
 .button-dashed{
     font-size:13px;
@@ -236,9 +218,6 @@ body{
 .main-navbar__first-second__buttons a:nth-child(3){
     top:6px;
     margin-left:46px;
-}
-.main-navbar__first-second__buttons__white-theme path{
-    stroke:#000;
 }
 .log-in-button svg{
     position:relative;

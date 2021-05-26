@@ -341,9 +341,4 @@
     font-weight:400;
     margin:0 0 54px 0;
 }
-.search-result__unit__white-theme {
-    border-bottom: 1px solid rgb(28, 26, 26);
-}
-.search-result__unit__white-theme h3,.search-result__unit__white-theme p{
-    color:#000;
-}
+
