@@ -69,28 +69,28 @@ $(document).ready(function() {
         $('.product-information__hidden').toggleClass('product-information__hidden__active')
     })
     $('.profile-menu__personal').click(function(e){
-        $('.profile-menu__personal').toggleClass('profile-menu__active')
-        $('.profile-menu__purchase-history').removeClass('profile-menu__active')
-        $('.profile-menu__referral-system').removeClass('profile-menu__active')
-        $('.personal').toggleClass('personal-active')
-        $('.purchase-history').removeClass('personal-active')
-        $('.referral-system').removeClass('personal-active')
+        $('.profile-menu__personal').toggleClass('profile-menu__active',true)
+        $('.profile-menu__purchase-history').removeClass('profile-menu__active',false)
+        $('.profile-menu__referral-system').removeClass('profile-menu__active',false)
+        $('.personal').toggleClass('personal-active',true)
+        $('.purchase-history').removeClass('personal-active',false)
+        $('.referral-system').removeClass('personal-active',false)
     });
     $('.profile-menu__purchase-history').click(function(e){
-        $('.profile-menu__purchase-history').toggleClass('profile-menu__active')
-        $('.profile-menu__personal').removeClass('profile-menu__active')
-        $('.profile-menu__referral-system').removeClass('profile-menu__active')
-        $('.personal').removeClass('personal-active')
-        $('.purchase-history').toggleClass('personal-active')
-        $('.referral-system').removeClass('personal-active')
+        $('.profile-menu__purchase-history').toggleClass('profile-menu__active',true)
+        $('.profile-menu__personal').removeClass('profile-menu__active',false)
+        $('.profile-menu__referral-system').removeClass('profile-menu__active',false)
+        $('.personal').removeClass('personal-active',false)
+        $('.purchase-history').toggleClass('personal-active',true)
+        $('.referral-system').removeClass('personal-active',false)
     });
     $('.profile-menu__referral-system').click(function(e){
-        $('.profile-menu__referral-system').toggleClass('profile-menu__active')
-        $('.profile-menu__personal').removeClass('profile-menu__active')
-        $('.profile-menu__purchase-history').removeClass('profile-menu__active')
-        $('.personal').removeClass('personal-active')
-        $('.purchase-history').removeClass('personal-active')
-        $('.referral-system').toggleClass('personal-active')
+        $('.profile-menu__referral-system').toggleClass('profile-menu__active',true)
+        $('.profile-menu__personal').removeClass('profile-menu__active',false)
+        $('.profile-menu__purchase-history').removeClass('profile-menu__active',false)
+        $('.personal').removeClass('personal-active',false)
+        $('.purchase-history').removeClass('personal-active',false)
+        $('.referral-system').toggleClass('personal-active',true)
     });
     $('.change-login').click(function(e){
         $('.personal-login__box').attr('readonly',false);
@@ -186,6 +186,10 @@ $(document).ready(function() {
         $('.guarantees-safety__answer').toggleClass('guarantees-answers__units-active')
         $('.guarantees-payment__answer').removeClass('guarantees-answers__units-active')
         $('.guarantees-services__answer').removeClass('guarantees-answers__units-active')
+    });
+    $('.navbar-burger').click(function(e){
+        $('.navbar-burger').toggleClass('navbar-burger__active');
+        $('.sidebar').toggleClass('sidebar__active');
     });
 });
 $(document).ready(function() {
