@@ -33,7 +33,7 @@ $(document).ready(function() {
         $('.sidebar__services').toggleClass('sidebar__services__white-theme')
         $('.sidebar__menu').toggleClass('sidebar__menu__white-theme')
         $('.sidebar').toggleClass('sidebar__white-theme')
-        $('#Catalog').toggleClass('catalog__white-theme')
+        $('#Catalog, #Search').toggleClass('catalog__white-theme')
         $('.main-navbar').toggleClass('main-navbar__white-theme')
         $('.expand__sidebar').toggleClass('expand__sidebar__white-theme')
         $('.expand__sidebar svg').toggleClass('expand__sidebar--svg__white-theme')
@@ -45,6 +45,7 @@ $(document).ready(function() {
         $('.catalog-description').toggleClass('catalog-description__white-theme')
         $('.catalog-search').toggleClass('catalog-search__white-theme')
         $('.catalog-buttons__button').toggleClass('catalog-buttons__button__white-theme')
+        $('.search-result__unit').toggleClass('search-result__unit__white-theme')
     })
     $('.product-customization__platform__unit__activator').click(function(e){
         $('.product-customization__platform__unit').toggleClass('product-customization__platform__unit__active')
