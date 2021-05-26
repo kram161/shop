@@ -113,6 +113,10 @@
 
 }
 @media (max-width:426px){
+    .wrapper{
+        max-width:none;
+        width:95%;
+    }
     .main-navbar__first-child__rating{
         left:10px;
     }
@@ -128,12 +132,58 @@
         right:150px;
         z-index: 20;
     }
+    .main-navbar__first-child__dropdown{
+        position:relative;
+        left:0;
+    }
+    .main-navbar__first-child__dropdown__active{
+        left:-300px;
+    }
+    .profile-menu__personal, .profile-menu__purchase-history, .profile-menu__referral-system{
+        font-size:11px;
+        text-align: left;
+    }
+    .personal-information__personal-data__headlines{
+        margin:0;
+    }
+    .personal-information__personal-data__headlines p{
+        font-size:16px;
+    }
+    .personal-login, .personal-email, .personal-phone, .personal-telegram, .personal-discord, .personal-password{
+        margin:18px 0 18px 20px;
+    }
+
+    .personal-information__personal-data__units input,.personal-information__personal-data__units input::placeholder{
+        font-size:16px;
+    }
+    .purchase-history__unit__description{
+        flex-direction: column;
+    }
+    .purchase-history__unit__description__text {
+        width:auto;
+        margin: 0 0 0 0;
+    }
+    .purchase-history__unit__description__text h2 {
+        font-size: 25px;
+    }
+    .purchase-history__unit__description__text p{
+        font-size:14px;
+    }
 }
 @media (max-width:376px){
     .main-navbar__first-child__rating{
         display:none;
     }
-}
-@media (max-width:320px){
-
+    .persona-information__main__image {
+        margin-right: 6px;
+    }
+    .personal-information__personal-data__headlines p {
+        font-size: 12px;
+    }
+    .personal-information__personal-data__units input, .personal-information__personal-data__units input::placeholder {
+        font-size: 12px;
+    }
+    .personal-login, .personal-email, .personal-phone, .personal-telegram, .personal-discord, .personal-password {
+        margin: 15px 0 0 15px;
+    }
 }

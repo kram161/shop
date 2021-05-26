@@ -190,6 +190,8 @@ $(document).ready(function() {
     $('.navbar-burger').click(function(e){
         $('.navbar-burger').toggleClass('navbar-burger__active');
         $('.sidebar').toggleClass('sidebar__active');
+        $('.main-navbar__first-child__dropdown').toggleClass('main-navbar__first-child__dropdown__active');
+        $('.dropdown-button-mini').toggleClass('dropdown-button-mini__active');
     });
 });
 $(document).ready(function() {
