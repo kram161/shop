@@ -37,8 +37,24 @@
     position:relative;
     margin-right:86px;
 }
-.shopping-cart__basket-units__one,.shopping-cart__basket-units__one__first,.shopping-cart__basket-units__one__second{
+.shopping-cart__basket-units__one,.shopping-cart__basket-units__one__first,.shopping-cart__basket-units__one__second,.adaptive-shopping-cart__unit-quantity{
     display:flex;
+}
+.adaptive-shopping-cart__unit-total{
+    display:flex;
+    justify-content:space-between;
+}
+.adaptive-shopping-cart__unit-total p{
+    margin: 40px 0 40px 0;
+}
+.shopping-cart__basket-units__one__name-adaptive{
+    display:none;
+}
+.shopping-cart__basket-units__one__description{
+    display:none;
+    font-size: 15px;
+    color:#86C9D1;
+    font-weight:400;
 }
 .shopping-cart__basket-units__one{
     justify-content: space-between;
