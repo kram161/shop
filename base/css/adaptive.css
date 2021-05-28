@@ -110,7 +110,10 @@
         height: 2px;
         width:25px;
     }
-
+    .footer__rights{
+        flex-direction: column;
+        text-align:center;
+    }
 }
 @media (max-width:426px){
     .wrapper{
@@ -202,5 +205,29 @@
     }
     .personal-login, .personal-email, .personal-phone, .personal-telegram, .personal-discord, .personal-password {
         margin: 15px 0 0 15px;
+    }
+}
+@media (max-width:320px){
+    .navbar-burger__active {
+        right: 107px;
+    }
+    .sidebar{
+        width: 270px;
+    }
+    .purchase-history__unit__button{
+        width: 300px;
+    }
+    .footer__social-networks{
+        flex-direction: column;
+        text-align:center;
+    }
+    .footer__social-networks__logo{
+        margin-top:20px;
+    }
+    .dropdown-content{
+        width:312px;
+    }
+    .dropdown-content__search input{
+        min-width:260px;
     }
 }

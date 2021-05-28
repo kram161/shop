@@ -857,6 +857,9 @@ body{
 .footer__social-networks svg{
     margin:0 5px;
 }
+.footer__social-networks__logo a{
+    text-decoration:none;
+}
 .footer__description{
     display:flex;
     flex-direction:column;
@@ -871,7 +874,6 @@ body{
 .footer__rights{
     display:flex;
     justify-content:space-between;
-    height: 5em;
     line-height: 5em;
     margin-top: 15px;
 }
