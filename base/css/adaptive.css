@@ -141,7 +141,7 @@
     }
     .profile-menu__personal, .profile-menu__purchase-history, .profile-menu__referral-system{
         font-size:11px;
-        text-align: left;
+        text-align: center;
     }
     .personal-information__personal-data__headlines{
         margin:0;
@@ -169,6 +169,23 @@
     .purchase-history__unit__description__text p{
         font-size:14px;
     }
+    .main-navbar__first-child__rating{
+        display:none;
+    }
+    .sidebar__services{
+        padding-bottom: 40px;
+    }
+    .sidebar__change-theme__button{
+        top:-1px;
+    }
+    .sidebar__services__elements p,.sidebar__menu__elements p,.sidebar__change-theme p{
+        font-size:14px;
+    }
+    .sidebar__services__elements svg,.sidebar__menu__elements svg{
+        height:18px;
+        width:18px;
+    }
+
 }
 @media (max-width:376px){
     .main-navbar__first-child__rating{

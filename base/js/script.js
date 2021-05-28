@@ -59,6 +59,8 @@ $(document).ready(function() {
         $('.shopping-cart__basket__forms').toggleClass('shopping-cart__basket__forms__white-theme')
         $('.shopping-cart__basket__payment').toggleClass('shopping-cart__basket__payment__white-theme')
         $('.profile').toggleClass('profile__white-theme')
+        $('.navbar-burger').toggleClass('navbar-burger__white-theme')
+
     })
     $('.product-customization__platform__unit__activator').click(function(e){
         $('.product-customization__platform__unit').toggleClass('product-customization__platform__unit__active')

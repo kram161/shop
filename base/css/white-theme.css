@@ -168,4 +168,17 @@
     border: 1px solid #000;
     color:#000;
 }
-
+@media (max-width:768px){
+    .navbar-burger__white-theme{
+        background:#000;
+    }
+    .navbar-burger__white-theme::before{
+        background:#000;
+    }
+    .navbar-burger__white-theme::after{
+        background:#000;
+    }
+    .main-navbar__first-child__dropdown__white-theme .dropdown-button-mini path{
+        stroke:#000;
+    }
+}
