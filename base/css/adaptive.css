@@ -313,7 +313,7 @@
 }
 @media (max-width:320px){
     .navbar-burger__active {
-        right: 107px;
+        right: 110px;
     }
     .sidebar{
         width: 270px;
