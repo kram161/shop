@@ -104,7 +104,7 @@ $(document).ready(function(){
     });
     $('.product-card__image__nav').slick({
         slidesToShow: 3,
-        slidesToScroll: 3,
+        slidesToScroll: 1,
         asNavFor: '.product-card__image__slider',
         dots: false,
         focusOnSelect: true,

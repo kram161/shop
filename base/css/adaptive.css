@@ -181,6 +181,10 @@
     .product-footer__slider__unit {
         margin-right: 90px;
     }
+    .product-card__image__nav{
+        text-decoration:none;
+    }
+
 }
 @media (max-width:426px){
     .wrapper{
@@ -410,6 +414,13 @@
     }
     .product-customization__platform__unit__description {
         padding: 10px 20px 10px 20px;
+    }
+    .product-card__image__nav .next__arrow {
+        right: -7px;
+    }
+    .dropdown-content{
+        width:375px;
+        left: -5px;
     }
 
 }
