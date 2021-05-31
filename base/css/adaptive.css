@@ -537,7 +537,7 @@
     .choice__search {
         margin-top: 50px;
     }
-    .choice__game__description{
+    .choice__game__description,.hot-deals__description{
         flex-direction: column;
     }
     .choice__game__description__button, .hot-deals__description__button, .review__button{
@@ -610,6 +610,9 @@
     }
     .welcome__text__block{
         font-size:20px;
+    }
+    .hot-deals__button{
+        font-size:12px;
     }
 }
 @media (max-width:376px){
@@ -688,6 +691,28 @@
     }
     .authorization-form input {
         width: 265px;
+    }
+    .slick-track .slick-current .game__slider__slide, .slick-current img {
+        width: 316px;
+        height: 291px;
+    }
+    .hot-deals__cards__slider__slide img {
+        width: 330px;
+        height: 370px;
+    }
+    .slider__wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .hot-deals__cards__slider .slick-list {
+        left: 0;
+    }
+    .review__slider .slick-current {
+        width: 326px;
+        height: 330px;
+    }
+    .slick-current .review__slider__slide__description h5 {
+        margin: 50px 0;
     }
 }
 @media (max-width:320px){
@@ -785,5 +810,43 @@
     }
     .authorization-form input {
         width: 210px;
+    }
+    .main-info__description a:nth-child(3) {
+        margin-right: 0;
+    }
+    .main-info__scroll-button a {
+        left: 40%;
+    }
+    .slick-track .slick-current .game__slider__slide, .slick-current img {
+        width: 266px;
+        height: 241px;
+    }
+    .hot-deals__cards__slider__slide{
+        width: 275px;
+        height: 505px;
+    }
+
+    .slide__description {
+        padding: 10px 5px;
+    }
+    .slide__description__button a {
+        padding: 13px 80px;
+    }
+    .rating__stars {
+        top: 0;
+    }
+    .hot-deals__cards__slider__slide img {
+        width: 275px;
+        height: 320px;
+    }
+    .why-we {
+        margin-top: 50px;
+    }
+    .review__slider .slick-current {
+        width: 276px;
+        height: 280px;
+    }
+    .slick-current .review__slider__slide__description h5 {
+        margin: auto 0;
     }
 }
