@@ -104,11 +104,22 @@ $(document).ready(function(){
     });
     $('.product-card__image__nav').slick({
         slidesToShow: 3,
-        slidesToScroll: 1,
+        slidesToScroll: 3,
         asNavFor: '.product-card__image__slider',
         dots: false,
-        focusOnSelect: false,
+        focusOnSelect: true,
         nextArrow: nxtArrow,
+        prevArrow: false,
+        responsive:[
+            {
+                breakpoint: 321,
+                settings: {
+                    slidesToShow: 2,
+                    nextArrow:false,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
     });
     $('.product-footer__slider').slick({
         swipeToSlide: true,

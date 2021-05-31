@@ -184,6 +184,7 @@
 .catalog-way,.catalog-description,.product-way{
     display:flex;
     justify-content:center;
+    flex-wrap:wrap;
 }
 .catalog-way svg,.product-way svg,.trust-way svg{
     margin-top:6px;
