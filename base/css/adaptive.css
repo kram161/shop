@@ -83,6 +83,21 @@
     .review {
         margin-top: 50px;
     }
+    .guarantees-slider__wrapper {
+        max-width: 1150px;
+        width: 82%;
+        margin: 0 auto;
+    }
+    .guarantees-review__slider-slide {
+        margin: 0px 10px;
+    }
+    .guarantees-review__slider .next__arrow{
+        right: -80px;
+    }
+    .review__slider__slide {
+        Width: 265px;
+        Height: 285px;
+    }
 }
 @media (max-width:768px){
     .wrapper{
@@ -271,6 +286,59 @@
     .slick-current .review__slider__slide__description p{
         margin: 10px 0;
         max-height:100%;
+    }
+    .guarantees-review__slider .slick-arrow{
+        display:none !important;
+    }
+    .guarantees-review__slider-slide .review__slider__slide__description p {
+        max-height: 100%;
+    }
+    .guarantees-review__slider-slide {
+        Width: 300px;
+        Height: 251px;
+    }
+    .trust__description{
+        display:flex;
+        flex-wrap:wrap;
+        margin: 0 0 150px 0;
+    }
+    .trust__background__picture {
+        height: 100%;
+    }
+    .trust__description-unit{
+        margin: 0 0 50px 0;
+        width:100%;
+    }
+    .trust__description-unit__title{
+        display:flex;
+    }
+    .trust__description-unit__title img{
+        width:53px;
+        height:63px;
+    }
+    .trust__description-unit__title h5{
+        margin:20px 0 20px 15px;
+    }
+    .guarantees-review__slider-slide {
+        width: 340px;
+    }
+    .guarantees-payments__units {
+        margin-top: 50px;
+    }
+    .guarantees-review__description h5, .guarantees-payments__description h5, .guarantees-question__description h5 {
+        font-size: 20px;
+    }
+    .guarantees-review__description h2, .guarantees-payments__description h2, .guarantees-answers__description h2, .guarantees-question__description h2 {
+        font-size: 32px;
+    }
+    .guarantees-answers__description-buttons{
+        display:flex;
+    }
+    .guarantees-answers__description-buttons a {
+        margin: 0 5px;
+    }
+    .guarantees-answers__units-answer h5, .guarantees-answers__units-answer p {
+        font-size: 16px;
     }
 }
 @media (max-width:426px){
@@ -614,6 +682,11 @@
     .hot-deals__button{
         font-size:12px;
     }
+    .trust__description{
+        flex-direction: column;
+        justify-content: flex-start;
+        width:100%;
+    }
 }
 @media (max-width:376px){
     .main-navbar__first-child__rating{
@@ -713,6 +786,27 @@
     }
     .slick-current .review__slider__slide__description h5 {
         margin: 50px 0;
+    }
+    .main-info__scroll-button a {
+        left: 43%;
+    }
+    .guarantees-review__slider-slide {
+        width: 305px;
+    }
+    .guarantees-review__slider .review__slider__slide__description h5 {
+        margin: 10px 0;
+    }
+    .guarantees-answers__button {
+        padding: 10px 23px;
+        font-size: 13px;
+    }
+    .guarantees-answers__units-answer h5, .guarantees-answers__units-answer p {
+        font-size: 14px;
+    }
+    .answer-arrow {
+        position: absolute;
+        top: 18px;
+        right: 20px;
     }
 }
 @media (max-width:320px){
@@ -848,5 +942,22 @@
     }
     .slick-current .review__slider__slide__description h5 {
         margin: auto 0;
+    }
+    .guarantees-review__slider-slide {
+        width: 255px;
+    }
+    .review__slider__slide__description h5, .review__slider__slide__description p {
+        font-size: 14px;
+    }
+    .guarantees-answers__button {
+        padding: 10px 14px;
+    }
+    .guarantees-answers__units-answer h5, .guarantees-answers__units-answer p {
+        font-size: 12px;
+    }
+    .answer-arrow {
+        position: absolute;
+        top: 16px;
+        right: 10px;
     }
 }
