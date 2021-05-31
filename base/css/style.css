@@ -27,7 +27,9 @@
     font-weight: 600;
     font-style: normal;
 }
-
+#Authorization{
+    min-height:100vh;
+}
 body{
     font-family: 'Montserrat', sans-serif;
     color: #fff;
@@ -898,7 +900,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
 }
 .authorization-form{
     background:#000;
@@ -1034,4 +1035,7 @@ body{
     position:relative;
     margin:20px 0;
     top:20px;
+}
+.authorization-form__sign-in, .authorization-form__sign-in-gmail, .authorization-form__registration{
+    margin: 90px 0 0 0;
 }
