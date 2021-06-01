@@ -414,6 +414,23 @@
         width: 93%;
     }
 }
+@media (max-width:530px){
+    .shopping-cart__basket-units__one__second{
+        flex-direction: column;
+    }
+    .shopping-cart__basket-units__one__description {
+        display: block;
+        margin: 10px 0 40px 0 !important;
+    }
+    .adaptive-shopping-cart__unit-total p {
+        margin: 5px 35px 40px 0;
+    }
+    .shopping-cart__basket__payment__units {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+}
 @media (max-width:426px){
     .wrapper{
         max-width:none;

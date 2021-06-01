@@ -304,7 +304,8 @@
     cursor:pointer;
 }
 .jobs-form__button{
-    margin:70px 0 0 0;
+    display:flex;
+    margin:59px 0 0 0;
 }
 
 .jbsfrm__button{
