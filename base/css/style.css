@@ -665,10 +665,13 @@ body{
 }
 .welcome__text__block h5{
     font-weight:600;
+    font-size:32px;
+    margin:15px 0;
 }
 .welcome__text__block p{
     font-weight:200;
     color:#D3D0D0;
+    font-size:14px;
 }
 .welcome__button{
     margin-bottom: 20px;
