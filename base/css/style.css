@@ -29,6 +29,9 @@
 }
 #Authorization{
     min-height:100vh;
+    display: flex;
+    justify-content: center; /*Центрирование по горизонтали*/
+    align-items: center;
 }
 body{
     font-family: 'Montserrat', sans-serif;
@@ -901,9 +904,8 @@ body{
     display:block;
 }
 .authorization {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display:flex;
+    justify-content:center
 }
 .authorization-form{
     background:#000;
@@ -1040,9 +1042,7 @@ body{
     margin:20px 0;
     top:20px;
 }
-.authorization-form__sign-in, .authorization-form__sign-in-gmail, .authorization-form__registration{
-    margin: 90px 0 0 0;
-}
+
 .main-navbar__main-pages .main-navbar__first-second__buttons a:nth-child(3){
     margin-right:5px;
 }
