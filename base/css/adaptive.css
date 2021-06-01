@@ -450,6 +450,27 @@
     .faq-answers{
         margin:50px 0;
     }
+    .shopping-cart__basket-units__one__second{
+        flex-direction: column;
+    }
+    .shopping-cart__basket-units__one__description {
+        display: block;
+        margin: 10px 0 40px 0 !important;
+    }
+    .adaptive-shopping-cart__unit-total p {
+        margin: 5px 35px 40px 0;
+    }
+    .shopping-cart__basket__payment__units {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .shopping-cart__basket-description {
+        display: none;
+    }
+    .shopping-cart__basket-units__one {
+        border-bottom: 1px solid #30302F;
+    }
 }
 @media (max-width:530px){
     .shopping-cart__basket-units__one__second{
