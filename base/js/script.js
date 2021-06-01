@@ -60,6 +60,7 @@ $(document).ready(function() {
         $('.shopping-cart__basket__payment').toggleClass('shopping-cart__basket__payment__white-theme')
         $('.profile').toggleClass('profile__white-theme')
         $('.navbar-burger').toggleClass('navbar-burger__white-theme')
+        $('.referral-system__information').toggleClass('referral-system__information__white-theme')
 
     })
     $('.product-customization__platform__unit__activator').click(function(e){
@@ -73,7 +74,7 @@ $(document).ready(function() {
     $('.profile-menu__personal').click(function(e){
         $('.profile-menu__personal').toggleClass('profile-menu__active',true)
         $('.profile-menu__purchase-history').removeClass('profile-menu__active',false)
-        $('.profile-menu__referral-system').removeClass('profile-menu__active',false)
+        $('.profile-menu__referral-system').removeClass('profile-menu__active-history',false)
         $('.personal').toggleClass('personal-active',true)
         $('.purchase-history').removeClass('personal-active',false)
         $('.referral-system').removeClass('personal-active',false)
@@ -81,13 +82,13 @@ $(document).ready(function() {
     $('.profile-menu__purchase-history').click(function(e){
         $('.profile-menu__purchase-history').toggleClass('profile-menu__active',true)
         $('.profile-menu__personal').removeClass('profile-menu__active',false)
-        $('.profile-menu__referral-system').removeClass('profile-menu__active',false)
+        $('.profile-menu__referral-system').removeClass('profile-menu__active-history',false)
         $('.personal').removeClass('personal-active',false)
         $('.purchase-history').toggleClass('personal-active',true)
         $('.referral-system').removeClass('personal-active',false)
     });
     $('.profile-menu__referral-system').click(function(e){
-        $('.profile-menu__referral-system').toggleClass('profile-menu__active',true)
+        $('.profile-menu__referral-system').toggleClass('profile-menu__active-history',true)
         $('.profile-menu__personal').removeClass('profile-menu__active',false)
         $('.profile-menu__purchase-history').removeClass('profile-menu__active',false)
         $('.personal').removeClass('personal-active',false)

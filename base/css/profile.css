@@ -15,9 +15,13 @@
     font-size:20px;
     font-weight:400;
 }
-.profile-menu__personal:hover,.profile-menu__purchase-history:hover,.profile-menu__referral-system:hover{
+.profile-menu__personal:hover,.profile-menu__purchase-history:hover{
     color:#86C9D1;
     border-bottom:2px solid #86C9D1;
+}
+.profile-menu__referral-system:hover{
+    color:#D7669D;
+    border-bottom:2px solid #D7669D;
 }
 .profile-menu__purchase-history{
     text-align:center;
@@ -28,6 +32,10 @@
 .profile-menu__active{
     border-bottom:2px solid #86C9D1;
     color:#86C9D1;
+}
+.profile-menu__active-history{
+    color:#D7669D;
+    border-bottom:2px solid #D7669D;
 }
 .personal,.purchase-history,.referral-system{
     display:none;

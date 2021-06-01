@@ -168,6 +168,15 @@
     border: 1px solid #000;
     color:#000;
 }
+.referral-system__information__white-theme .referral-system__bonus-code p,.referral-system__information__white-theme .referral-system__your-code p,.referral-system__information__white-theme .referral-system__referrals p {
+    color: #000;
+}
+.referral-system__information__white-theme .referral-system__referrals span{
+    color:#D7669D;
+}
+.referral-system__information__white-theme .referral-system__bonus-code input{
+    color:#000;
+}
 @media (max-width:768px){
     .navbar-burger__white-theme{
         background:#000;
