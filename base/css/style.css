@@ -907,7 +907,7 @@ body{
 }
 .authorization-form{
     background:#000;
-    padding:65px 75px;
+    padding:30px 40px;
     text-align:center;
     border-radius: 60px;
     display:flex;
@@ -922,7 +922,7 @@ body{
 }
 
 .authorization-form__links a{
-    font-size:25px;
+    font-size:20px;
     font-weight:600;
     color:#fff;
     text-decoration:none;
@@ -949,7 +949,7 @@ body{
     border:1px solid #6B6B6B;
     border-radius:60px;
     outline: none;
-    padding:22px 24px;
+    padding: 15px 18px;
     width:324px;
     font-size:20px;
     color:#fff;
@@ -968,14 +968,14 @@ body{
     margin-top: 30px;
 }
 .authorization-form__buttons a{
-    background:#86C9D1;
+    background: #86C9D1;
     position: relative;
-    font-size: 25px;
-    color:#fff;
-    font-weight:600;
-    text-decoration:none;
-    width:100%;
-    padding:15px 0;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+    width: 100%;
+    padding: 15px 0;
 }
 .authorization-form__buttons a:nth-child(1){
     border:1px solid #86C9D1;
