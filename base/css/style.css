@@ -376,13 +376,7 @@ body{
     margin-top:52px;
     margin-bottom: 74px;
 }
-.game__slider{
-    position:relative;
-}
-.game__slider__elements{
-    margin-right: 5px;
-    margin-left: 5px;
-}
+
 .game__slider__slide{
     position:relative;
     color:#fff;
@@ -1054,7 +1048,72 @@ body{
 .main-navbar__main-pages .main-navbar__first-second__buttons a:nth-child(3){
     margin-right:5px;
 }
-.swiper-container {
-    width: 600px;
-    height: 300px;
+.mySwiper{
+    height:360px;
+    margin:80px 0;
+}
+.swiper-slide {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.swiper-wrapper{
+    height:auto !important;
+}
+.swiper-slide-active{
+    width: 396px !important;
+}
+.swiper-slide-active .game__slider__slide img{
+    width: 396px;
+    height: 355px;
+}
+.swiper-slide-active .game__slider__slide{
+    width: 396px;
+    height: 357px;
+}
+.swiper-button-next,.swiper-button-prev{
+    position:absolute;
+    top:310px;
+    left:420px;
+    background:#fff;
+    border:1px solid #fff;
+    border-radius:100%;
+    width:70px;
+    height:70px;
+}
+.swiper-button-next:hover,.swiper-button-prev:hover{
+    background:none;
+    border:1px solid #fff;
+}
+.swiper-button-prev:after,.swiper-button-next:after{
+    display:none;
+}
+.swiper-button-prev svg{
+    position:relative;
+    right:2px;
+}
+.swiper-button-next svg{
+    position:relative;
+    left:2px;
+}
+.swiper-button-next{
+    left:510px;
+}
+.game__slider__arrow{
+    width:25px;
+    height:25px;
+    fill:#000;
+}
+.swiper-button-next:hover .game__slider__arrow,.swiper-button-prev:hover .game__slider__arrow{
+    fill:#fff;
 }
