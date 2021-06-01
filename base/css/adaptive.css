@@ -127,6 +127,11 @@
         margin: 0 134px 0 0;
     }
 }
+@media(max-width:996px){
+    .main-navbar__first-child__rating{
+        display:none;
+    }
+}
 @media (max-width:768px){
     .wrapper{
         max-width:none;
