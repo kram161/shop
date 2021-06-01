@@ -3,6 +3,9 @@
         max-width:1050px;
         width:100%;
     }
+    .jbsfrm__button {
+        padding: 10px 30px;
+    }
 }
 @media (max-width:1024px){
     .wrapper{
@@ -408,7 +411,7 @@
         margin: 10px 20px;
     }
     .jbsfrm__button {
-        padding: 10px 48px;
+        padding: 10px 52px;
     }
     .jobs-form__box__text-area textarea {
         width: 93%;
