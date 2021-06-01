@@ -6,3 +6,11 @@ let mySlider = new rSlider({
     labels: true,
     set: [8],
 });
+let Slider = new rSlider({
+    target: '#referalSlider',
+    values: [0,5,10,15,20],
+    tooltip: true,
+    scale: true,
+    labels: true,
+    set: [10],
+});

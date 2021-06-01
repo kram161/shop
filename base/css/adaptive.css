@@ -120,6 +120,12 @@
     .jbsfrm__button {
         padding: 10px 92px;
     }
+    .referral-system__quantity__range{
+        width:600px;
+    }
+    .referral-system__quantity__range ins {
+        margin: 0 134px 0 0;
+    }
 }
 @media (max-width:768px){
     .wrapper{
@@ -416,6 +422,13 @@
     .jobs-form__box__text-area textarea {
         width: 93%;
     }
+    .referral-system__quantity__range{
+        width:660px;
+    }
+    .referral-system__quantity__range ins {
+        margin: 0 150px 0 0;
+    }
+
 }
 @media (max-width:530px){
     .shopping-cart__basket-units__one__second{
@@ -432,6 +445,28 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
+    }
+    .referral-system__information {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .referral-system__you-save{
+        margin:30px 0 50px 0;
+    }
+    .referral-system__quantity__range{
+        width:370px;
+    }
+    .referral-system__quantity__range ins {
+        margin: 0 77px 0 0;
+    }
+    .referral-system__description h4 {
+        font-size: 14px;
+    }
+    .referral-system__description p {
+        font-size: 10px;
+    }
+    .referral-system__bonus-code p, .referral-system__your-code p, .referral-system__referrals p {
+        font-size: 16px;
     }
 }
 @media (max-width:426px){
@@ -1017,6 +1052,12 @@
     .jobs-form__box__text-area textarea {
         width: 87%;
     }
+    .referral-system__quantity__range{
+        width:320px;
+    }
+    .referral-system__quantity__range ins {
+        margin: 0 63px 0 0;
+    }
 }
 @media (max-width:320px){
     .navbar-burger__active {
@@ -1168,5 +1209,14 @@
     }
     .jbsfrm__button {
         padding: 10px 68px;
+    }
+    .referral-system__quantity__range{
+        width:270px;
+    }
+    .referral-system__quantity__range ins {
+        margin: 0 51px 0 0;
+    }
+    .referral-system__bonus-code input {
+        max-width:162px;
     }
 }
