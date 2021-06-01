@@ -98,6 +98,25 @@
         Width: 265px;
         Height: 285px;
     }
+    .jobs-form__text{
+        display:flex;
+        flex-direction:column;
+    }
+    .jobs-form__box__text-inputs,.jobs-form__box__text-area{
+        width:100%;
+    }
+    .jobs-form__box__text-area textarea{
+        width:95%
+    }
+    .jobs-form__box__text-inputs {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin:0 0 100px 0;
+    }
+    .jbsfrm__button {
+        padding: 10px 92px;
+    }
 }
 @media (max-width:768px){
     .wrapper{
@@ -339,6 +358,21 @@
     }
     .guarantees-answers__units-answer h5, .guarantees-answers__units-answer p {
         font-size: 16px;
+    }
+    .jobs-form__choose-position__unit {
+        margin: 0 5px;
+    }
+    .chsposition {
+        padding: 12px 25px;
+    }
+    .jobs-form__choose-game__select {
+        flex-wrap: wrap;
+    }
+    .jobs-form__choose-game__select label {
+        margin: 10px 20px;
+    }
+    .jbsfrm__button {
+        padding: 10px 48px;
     }
 }
 @media (max-width:426px){
@@ -687,6 +721,54 @@
         justify-content: flex-start;
         width:100%;
     }
+    .jobs-form__choose-game__select label {
+        margin: 10px 17px;
+    }
+    .jobs-form__choose-game {
+        margin: 0 0 20px 0;
+    }
+    .jobs-form__choose-position{
+        flex-wrap: wrap;
+        justify-content:space-between;
+    }
+    .chsposition {
+        padding: 12px 50px;
+        margin: 10px 0;
+    }
+    .chsposition-promoter{
+        padding: 12px 44px;
+    }
+    .jobs-form__description h4 {
+        width: 100%;
+    }
+    .slider__wrapper{
+        width:95%;
+    }
+    .trust__main-info h2 {
+        font-size: 32px;
+    }
+    .trust__main-info p {
+        font-size: 20px;
+    }
+    .main-info__scroll-button a {
+        left: 43%;
+    }
+    .jobs-form__box__text-area textarea {
+        width: 90%;
+    }
+    .jobs-form__box__text-area p{
+        font-size:16px;
+    }
+    .jobs-form__box__text-inputs span{
+        font-size: 16px;
+    }
+    .jobs-form__box__text-inputs label {
+        width: 100%;
+        margin:30px 0 0 0;
+    }
+    .jbsfrm__button {
+        padding: 10px 117px;
+    }
 }
 @media (max-width:376px){
     .main-navbar__first-child__rating{
@@ -807,6 +889,20 @@
     .game__slider__elements img,.slick-track .slick-current .game__slider__slide {
         width: 336px;
         height: 321px;
+    }
+    .chsposition {
+        padding: 12px 46px;
+        margin: 10px 0;
+    }
+    .chsposition-promoter {
+        padding: 12px 39px;
+        margin: 10px 0;
+    }
+    .jbsfrm__button {
+        padding: 10px 83px;
+    }
+    .trust-way svg {
+        margin-top: 4px;
     }
 }
 @media (max-width:320px){
@@ -959,5 +1055,17 @@
         position: absolute;
         top: 16px;
         right: 10px;
+    }
+    .chsposition {
+        padding: 12px 34px;
+    }
+    .chsposition-promoter{
+        padding: 12px 27px;
+    }
+    .jobs-form__box__text-area textarea {
+        width: 87%;
+    }
+    .jbsfrm__button {
+        padding: 10px 58px;
     }
 }

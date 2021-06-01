@@ -195,6 +195,12 @@ $(document).ready(function() {
         $('.main-navbar__first-child__dropdown').toggleClass('main-navbar__first-child__dropdown__active');
         $('.dropdown-button-mini').toggleClass('dropdown-button-mini__active');
     });
+    $('.chsposition').click(function(e){
+        $(this).toggleClass('chsposition-active');
+    });
+    $('.chsgame').click(function(e){
+        $(this).toggleClass('chsgame-active');
+    });
 });
 $(document).ready(function() {
     $('.down').click(function () {

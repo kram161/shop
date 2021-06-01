@@ -103,7 +103,7 @@
     position:absolute;
     top:110px;
     left:-80px;
-    z-index:2;
+    z-index: 2;
     color:#000;
     width:56px;
     height:56px;
@@ -250,7 +250,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 100%;
     flex-direction:column;
 }
 .jobs-form__box{
@@ -276,7 +276,7 @@
     display:flex;
     flex-direction:column;
     width: 40%;
-    height: 40%;
+    height: 39%;
     margin-bottom: -16px;
 }
 .jobs-form__box__text-area textarea{
@@ -305,10 +305,11 @@
     cursor:pointer;
 }
 .jobs-form__button{
-    margin:0 0 132px 0;
+    margin:75px 0 0 0;
 }
+
 .jbsfrm__button{
-    padding:10px 86px;
+    padding:10px 50px;
     font-size:25px;
     font-weight:600;
     color:#000;
@@ -341,5 +342,80 @@
     font-size:18px;
     font-weight:400;
     margin:0 0 54px 0;
+}
+.jobs-form__choose-position{
+    display:flex;
+    justify-content:center;
+}
+.jobs-form__choose-position__unit{
+    margin:0 10px;
+}
+.jobs-form__choose-position__unit label{
+    position:relative;
+    display:flex;
+    justify-content:center;
+}
+.jobs-form__choose-position input{
+    display:none;
+    position: relative;
+}
+.chsposition {
+    background: none;
+    border: 1px solid #86C9D1;
+    box-sizing: border-box;
+    border-radius: 100px;
+    position: relative;
+    font-size:13px;
+    padding:12px 50px;
+    color:#86C9D1;
+    font-weight:600;
+    cursor:pointer;
+}
+.chsposition-active {
+    background:#86C9D1;
+    color:#000;
+}
+.jobs-form__description h4{
+    font-size:18px;
+    font-weight:400;
+    color:#767575;
+    text-align:center;
+    width:900px;
+    margin:40px auto;
+}
+.jobs-form__choose-game h3{
+    font-size:30px;
+    font-weight:600;
+    text-align:center;
+}
+.jobs-form__choose-game__select{
+    display:flex;
+    justify-content:center;
+}
+.jobs-form__choose-game__select label{
+    margin:0 7px;
+    cursor:pointer;
+}
+.jobs-form__choose-game__select input{
+    display:none;
+}
+.chsgame img,.chsgame svg{
+    width:26px;
+    height:26px;
+    margin:0;
+}
+.chsgame{
+    padding:12px 12px 8px 12px;
+    background: #343435;
+    border: 1px solid #939393;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+.chsgame-active{
+    background: rgba(205, 200, 209, 0.6);
+    border: 1px solid #86C9D1
+}
+.jobs-form__choose-game{
+    margin: 0 0 80px 0;
 }
 
