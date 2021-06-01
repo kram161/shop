@@ -319,7 +319,7 @@
 
 .catalog-cards{
     display:flex;
-    justify-content:space-between;
+    justify-content:flex-start;
     flex-wrap:wrap;
     margin-bottom: 100px;
 }
@@ -380,7 +380,7 @@
 .catalog-cards__offer-of-the-day__information,.catalog-cards__discount__information{
     position: absolute;
     background:rgba(32, 135, 255, 0.24);
-    top:-30px;
+    top:-26px;
     width:209px;
     display:flex;
     justify-content:center;
@@ -388,7 +388,7 @@
 }
 .catalog-cards__offer-of-the-day__information p,.catalog-cards__discount__information p{
     font-weight:400;
-    font-size: 12px;
+    font-size: 10px;
     margin: 7px 8px;
 }
 .catalog-cards__discount__information{

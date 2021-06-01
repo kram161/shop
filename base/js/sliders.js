@@ -13,7 +13,7 @@ $(document).ready(function(){
 
     $('.game__slider').slick({
         swipeToSlide: true,
-        infinite:false,
+        infinite:true,
         slidesToShow: 4,
         slidesToScroll: 1,
         variableHeight: true,
@@ -33,7 +33,7 @@ $(document).ready(function(){
             //if (!$(that.$slides[slideIndex]).hasClass('slick-current')) {
             direction = 0;
             //console.log('updated');
-            left += 110;
+            left += 115;
         }
         //console.log(left);
         return left;
