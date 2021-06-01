@@ -11,6 +11,9 @@
 .jobs__background__picture{
     background-image:url('../img/jobs/jobs.png');
 }
+.faq__background__picture{
+    background-image:url('../img/faq/faq.png');
+}
 .trust__scroll-button a{
     position:absolute;
     left:138px;
@@ -421,4 +424,27 @@
 .jobs-form__choose-game{
     margin: 0 0 80px 0;
 }
-
+.faq__main-info{
+    font-weight:600;
+    font-size:25px;
+}
+.faq__description-unit svg{
+    width:60px;
+    height:60px;
+}
+.faq__description-unit__title{
+    margin:80px 0 0 0;
+    text-align:center;
+}
+.faq-way{
+    margin:85px 0 0 0;
+}
+.faq-answers__description h2{
+    margin:0 0 63px 0;
+}
+.faq-answers__description-buttons{
+    margin:0 0 150px 0;
+}
+.faq-answers{
+    margin:100px 0;
+}

@@ -397,6 +397,7 @@
     }
     .guarantees-answers__description-buttons{
         display:flex;
+        justify-content:center;
     }
     .guarantees-answers__description-buttons a {
         margin: 0 5px;
@@ -428,7 +429,12 @@
     .referral-system__quantity__range ins {
         margin: 0 150px 0 0;
     }
-
+    .faq-answers__description-buttons{
+        margin:0 0 50px 0;
+    }
+    .faq-answers{
+        margin:50px 0;
+    }
 }
 @media (max-width:530px){
     .shopping-cart__basket-units__one__second{
