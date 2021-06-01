@@ -33,9 +33,17 @@
 .shopping-cart__basket-description__first p{
     margin-left:104px;
 }
-.shopping-cart__basket-description__second p{
+.shopping-cart__basket-description__second p:nth-child(1){
     position:relative;
-    margin-right:86px;
+    margin-right:95px;
+}
+.shopping-cart__basket-description__second p:nth-child(2){
+    position:relative;
+    margin-right:85px;
+}
+.shopping-cart__basket-description__second p:nth-child(3){
+    position:relative;
+    margin-right:210px;
 }
 .shopping-cart__basket-units__one,.shopping-cart__basket-units__one__first,.shopping-cart__basket-units__one__second,.adaptive-shopping-cart__unit-quantity{
     display:flex;
