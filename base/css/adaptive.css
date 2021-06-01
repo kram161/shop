@@ -24,6 +24,12 @@
     .shopping-cart__basket-description__second p {
         margin-right: 80px;
     }
+    .shopping-cart__basket-description__second p {
+        margin-right: 80px;
+    }
+    .shopping-cart__basket-description__second p {
+        margin-right: 80px;
+    }
     .shopping-cart__basket-units__one__name, .shopping-cart__basket-units__one__price, .shopping-cart__basket-units__one__total,.shopping-cart__basket-units__one__name-adaptive {
         font-size: 16px;
         font-weight:400;
@@ -753,8 +759,8 @@
         margin:0 0 10px 0;
     }
     .game__slider__elements img,.slick-track .slick-current .game__slider__slide {
-        width: 386px;
-        height: 371px;
+        width: 500px;
+        height: 479px;
     }
     .slick-track .slick-current .game__slider__slide{
         margin: 0 5px 0 0;
@@ -766,7 +772,7 @@
         overflow: hidden;
     }
     .game__slider .slick-list {
-        height: 373px;
+        height: 480px;
     }
     .why-we {
         margin-top: 50px;
@@ -974,7 +980,7 @@
         flex-direction: column;
     }
     .choice__block__unit {
-        max-width: 400px;
+        max-width: 432px;
         margin:10px 0;
     }
     .choice__game__description, .hot-deals__description {
