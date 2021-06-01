@@ -189,8 +189,8 @@ $(document).ready(function() {
         $('.guarantees-payment__answer').removeClass('guarantees-answers__units-active')
         $('.guarantees-services__answer').removeClass('guarantees-answers__units-active')
     });
-    $('.navbar-burger').click(function(e){
-        $('.navbar-burger').toggleClass('navbar-burger__active');
+    $('.burger-mini').click(function(e){
+        $('.burger-mini').toggleClass('burger-mini__active');
         $('.sidebar').toggleClass('sidebar__active');
         $('.main-navbar__first-child__dropdown').toggleClass('main-navbar__first-child__dropdown__active');
         $('.dropdown-button-mini').toggleClass('dropdown-button-mini__active');
