@@ -102,8 +102,8 @@
     margin:9px 9px 9px 9px;
 }
 .sidebar__services{
-    margin:35px 53px 36px 22px;
-    padding-bottom:71px;
+    margin:35px 22px 25px 22px;
+    padding-bottom:22px;
     border-bottom:1px solid rgba(255, 255, 255, 0.15);
 }
 .sidebar__services a:hover path{
@@ -124,7 +124,7 @@
 }
 .sidebar__services__elements,.sidebar__menu__elements{
     display:flex;
-    padding:15px 0;
+    padding:10px 0;
 }
 .sidebar__services__elements p,.sidebar__menu__elements p,.sidebar__change-theme p{
     margin:3px 15px;
