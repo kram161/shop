@@ -759,24 +759,14 @@
         margin:0 0 10px 0;
     }
     .game__slider__elements img,.slick-track .slick-current .game__slider__slide {
-        width: 500px;
-        height: 479px;
-    }
-    .game__slider__slide, .game__slider__slide img {
-        width: 500px;
-        height: 479px;
-    }
-    .slick-track .slick-current .game__slider__slide{
-        margin: 0 5px 0 0;
-    }
-    .game__slider{
-        overflow: hidden;
-    }
-    .game__slider__elements{
-        overflow: hidden;
+        width: 386px;
+        height: 370px;
     }
     .game__slider .slick-list {
-        height: 480px;
+        height: 372px;
+    }
+    .slick-track .slick-current .game__slider__slide{
+        margin: 0 60px;
     }
     .why-we {
         margin-top: 50px;
@@ -1267,25 +1257,18 @@
         left: auto;
         margin:0 0 10px 0;
     }
-    .game__slider__elements img,.slick-track .slick-current .game__slider__slide {
-        width: 386px;
-        height: 371px;
-    }
-    .game__slider__slide, .game__slider__slide img {
-        width: 386px;
-        height: 371px;
-    }
     .slick-track .slick-current .game__slider__slide{
         margin: 0 5px 0 0;
     }
-    .game__slider{
-        overflow: hidden;
-    }
-    .game__slider__elements{
-        overflow: hidden;
+    .game__slider__elements img,.slick-track .slick-current .game__slider__slide {
+        width: 346px;
+        height: 330px;
     }
     .game__slider .slick-list {
-        height: 373px;
+        height: 332px;
+    }
+    .slick-track .slick-current .game__slider__slide{
+        margin: 0 36px;
     }
     .why-we {
         margin-top: 50px;
@@ -1293,12 +1276,6 @@
     .hot-deals__cards {
         margin-top: 60px;
         height: 350px;
-    }
-    .game__slider__elements {
-        margin-left: 8px;
-    }
-    .game__slider .slick-arrow{
-        display:none !important;
     }
     .hot-deals__cards__slider__slide {
         width: 194px;
@@ -1562,16 +1539,14 @@
         right: 20px;
     }
     .game__slider__elements img,.slick-track .slick-current .game__slider__slide {
-        width: 336px;
-        height: 321px;
+        width: 300px;
+        height: 280px;
     }
-    .game__slider__slide, .game__slider__slide img {
-        width: 336px;
-        height: 321px;
+    .game__slider .slick-list {
+        height: 282px;
     }
-    .game__slider__slide, .game__slider__slide img {
-        width: 336px;
-        height: 321px;
+    .slick-track .slick-current .game__slider__slide{
+        margin: 0 22px;
     }
     .chsposition {
         padding: 12px 46px;
@@ -1703,9 +1678,11 @@
         width: 286px;
         height: 266px;
     }
-    .game__slider__slide, .game__slider__slide img {
-        width: 286px;
-        height: 266px;
+    .game__slider .slick-list {
+        height: 268px;
+    }
+    .slick-track .slick-current .game__slider__slide{
+        margin: 0;
     }
     .slide__description {
         padding: 10px 5px;
