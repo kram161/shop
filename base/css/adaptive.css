@@ -596,10 +596,10 @@
         justify-content: center;
     }
     .shopping-cart__basket__payment__button {
-        margin-right: 0;
+        margin-right: 10px;
     }
     .product-customization__quantity__range {
-        width: 380px;
+        width: 485px;
         padding:0;
     }
     .product-card{
@@ -664,7 +664,7 @@
         width: 91%;
     }
     .catalog-search__input button {
-        right: 10px;
+        right: 20px;
     }
     .catalog-buttons__button {
         font-size: 10px;
@@ -918,7 +918,7 @@
         margin:30px 0 0 0;
     }
     .jbsfrm__button {
-        padding: 10px 123px;
+        padding: 10px 182px;
     }
     .shopping-cart__basket-units__one__second{
         flex-direction: column;
@@ -943,10 +943,10 @@
         margin:30px 0 50px 0;
     }
     .referral-system__quantity__range{
-        width:370px;
+        width:485px;
     }
     .referral-system__quantity__range ins {
-        margin: 0 77px 0 0;
+        margin: 0 105px 0 0;
     }
     .referral-system__description h4 {
         font-size: 18px;
