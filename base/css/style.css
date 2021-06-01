@@ -905,7 +905,8 @@ body{
 }
 .authorization {
     display:flex;
-    justify-content:center
+    justify-content:center;
+    margin:140px 0 70px 0;
 }
 .authorization-form{
     background:#000;
