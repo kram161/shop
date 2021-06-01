@@ -1054,3 +1054,7 @@ body{
 .main-navbar__main-pages .main-navbar__first-second__buttons a:nth-child(3){
     margin-right:5px;
 }
+.swiper-container {
+    width: 600px;
+    height: 300px;
+}
