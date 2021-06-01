@@ -37,6 +37,9 @@ body{
     font-weight:200;
     background-color:#1C1B1D;
 }
+.disable{
+    pointer-events: none !important;
+}
 .main-navbar__wrapper,.main-navbar__first-child,.main-navbar__first-second,.choice__blocks,.choice__game__description,.hot-deals,.hot-deals__description{
     display:flex;
 }
@@ -245,7 +248,6 @@ body{
     background-position: center;
     position: relative;
     z-index:3;
-    top:70px;
 }
 .main-info__background__picture{
     background-image:url('../img/buy-bust.png');
@@ -253,7 +255,6 @@ body{
     background-size: cover;
     position: relative;
     z-index:4;
-    min-height: 868px;
     height:100vh;
     width:90%;
     margin-left: auto;
@@ -1041,4 +1042,7 @@ body{
 }
 .authorization-form__sign-in, .authorization-form__sign-in-gmail, .authorization-form__registration{
     margin: 90px 0 0 0;
+}
+.main-navbar__main-pages .main-navbar__first-second__buttons a:nth-child(3){
+    margin-right:5px;
 }

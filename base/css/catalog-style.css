@@ -127,9 +127,9 @@
     padding:15px 0;
 }
 .sidebar__services__elements p,.sidebar__menu__elements p,.sidebar__change-theme p{
-    margin:1px 15px;
+    margin:3px 15px;
     font-weight:400;
-    font-size:18px;
+    font-size:16px;
 }
 .sidebar__menu__elements p{
     color: #8c8888;

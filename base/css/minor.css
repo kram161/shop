@@ -4,7 +4,6 @@
     background-size: cover;
     position: relative;
     z-index:4;
-    min-height: 868px;
     height:100vh;
     margin-left: auto;
     box-shadow: inset 81px 0 80px 0 #000;
@@ -33,11 +32,11 @@
     margin-top:53px;
 }
 .trust-way svg{
-    margin-top:6px;
+    margin-top:4px;
 }
 .trust-way a{
     margin:0 15px;
-    font-size:20px;
+    font-size:16px;
     color:#6B6B6B;
     font-weight:400;
     text-decoration:none;
@@ -48,7 +47,7 @@
 .trust__main-info h2{
     font-size:50px;
     font-weight:900;
-    margin:138px 0 77px 0;
+    margin:77px 0;
 }
 .trust__description{
     display:flex;
@@ -261,11 +260,11 @@
     justify-content: space-between;
 }
 .jobs-form__text{
-    font-size:20px;
+    font-size:16px;
     font-weight:400;
 }
 .jobs-form__box__text-area,.jobs-form__box__text-inputs{
-    width:50%;
+    width:47%;
 }
 .jobs-form__box__text-inputs{
     display:flex;
@@ -281,14 +280,14 @@
 }
 .jobs-form__box__text-area textarea{
     resize:none;
-    width:577px;
+    width:400px;
     height:169px;
     border:1px solid #939393;
     border-radius:30px;
     background:#343435;
     outline: none;
     padding:13px 20px;
-    font-size:20px;
+    font-size:16px;
     color:#fff;
 }
 .jobs-form__box__text-inputs span{
@@ -299,18 +298,18 @@
     border-radius:30px;
     background:#343435;
     padding:13px 20px;
-    font-size:20px;
+    font-size:16px;
     outline: none;
     color:#fff;
     cursor:pointer;
 }
 .jobs-form__button{
-    margin:75px 0 0 0;
+    margin:70px 0 0 0;
 }
 
 .jbsfrm__button{
-    padding:10px 50px;
-    font-size:25px;
+    padding:10px 30px;
+    font-size:20px;
     font-weight:600;
     color:#000;
 }

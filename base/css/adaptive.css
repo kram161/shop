@@ -106,7 +106,7 @@
         width:100%;
     }
     .jobs-form__box__text-area textarea{
-        width:95%
+        width:94%
     }
     .jobs-form__box__text-inputs {
         flex-direction: row;
@@ -373,6 +373,9 @@
     }
     .jbsfrm__button {
         padding: 10px 48px;
+    }
+    .jobs-form__box__text-area textarea {
+        width: 93%;
     }
 }
 @media (max-width:426px){
@@ -754,7 +757,7 @@
         left: 43%;
     }
     .jobs-form__box__text-area textarea {
-        width: 90%;
+        width: 89%;
     }
     .jobs-form__box__text-area p{
         font-size:16px;
@@ -767,7 +770,7 @@
         margin:30px 0 0 0;
     }
     .jbsfrm__button {
-        padding: 10px 117px;
+        padding: 10px 123px;
     }
 }
 @media (max-width:376px){
@@ -899,10 +902,13 @@
         margin: 10px 0;
     }
     .jbsfrm__button {
-        padding: 10px 83px;
+        padding: 10px 92px;
     }
     .trust-way svg {
         margin-top: 4px;
+    }
+    .jobs-form__box__text-area textarea {
+        width: 87%;
     }
 }
 @media (max-width:320px){
@@ -1063,9 +1069,9 @@
         padding: 12px 27px;
     }
     .jobs-form__box__text-area textarea {
-        width: 87%;
+        width: 84%;
     }
     .jbsfrm__button {
-        padding: 10px 58px;
+        padding: 10px 68px;
     }
 }

@@ -201,6 +201,13 @@ $(document).ready(function() {
     $('.chsgame').click(function(e){
         $(this).toggleClass('chsgame-active');
     });
+    $('.game__slider,.review__slider').click(function(e){
+        $(this).toggleClass('disable');
+        window.setTimeout(function() {
+            $('.game__slider').removeClass('disable');
+            $('.review__slider').removeClass('disable');
+        }, 500 /* 0.5 sec */);
+    });
 });
 $(document).ready(function() {
     $('.down').click(function () {
@@ -218,3 +225,4 @@ $(document).ready(function() {
         return false;
     });
 });
+

@@ -10,6 +10,7 @@ $(document).ready(function(){
         '<polygon points="138.331,0 114.331,18 252.427,202.129 114.331,386.258 138.331,404.258 289.927,202.129 "/>\n' +
         '</svg>' +
         '</span>'
+
     $('.game__slider').slick({
         swipeToSlide: true,
         infinite:false,
@@ -19,8 +20,8 @@ $(document).ready(function(){
         variableWidth: true,
         prevArrow: prvArrow,
         nextArrow: nxtArrow,
-    })
-
+        speed: 500,
+    });
     var slick = $('.game__slider').slick("getSlick");
     var getLeftOld = slick.getLeft;
     slick.getLeft = function(slideIndex) {
