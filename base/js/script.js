@@ -207,7 +207,7 @@ $(document).ready(function() {
         window.setTimeout(function() {
             $('.game__slider').removeClass('disable');
             $('.review__slider').removeClass('disable');
-        }, 500 /* 0.5 sec */);
+        }, 1000 /* 0.5 sec */);
     });
 });
 $(document).ready(function() {

@@ -10,18 +10,17 @@ $(document).ready(function(){
         '<polygon points="138.331,0 114.331,18 252.427,202.129 114.331,386.258 138.331,404.258 289.927,202.129 "/>\n' +
         '</svg>' +
         '</span>'
-
     $('.game__slider').slick({
         swipeToSlide: true,
-        infinite:true,
+        infinite:false,
         slidesToShow: 4,
         slidesToScroll: 1,
         variableHeight: true,
         variableWidth: true,
         prevArrow: prvArrow,
         nextArrow: nxtArrow,
-        speed: 500,
-    });
+        speed: 1000,
+    })
     if ($(document).width() >= 768){
         var slick = $('.game__slider').slick("getSlick");
         var getLeftOld = slick.getLeft;
@@ -167,6 +166,9 @@ $(document).ready(function(){
             return slideHandlerOld.call(this, index, sync, dontAnimate);
         };
     }
+
+
+
     $('.hot-deals__cards__slider').slick({
         swipeToSlide: true,
         infinite: true,
@@ -214,6 +216,7 @@ $(document).ready(function(){
         }
         return slideHandlerOld.call(this, index, sync, dontAnimate);
     };
+
     $('.product-card__image__slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -260,4 +263,5 @@ $(document).ready(function(){
         prevArrow: prvArrow,
         nextArrow: nxtArrow,
     });
+
 })
