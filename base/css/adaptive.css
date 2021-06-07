@@ -8,6 +8,10 @@
     }
 }
 @media (max-width:1024px){
+    .sidebar {
+        height:100%;
+        overflow-y: auto;
+    }
     .game__slider__slide{
         margin:0 10px 0 0;
     }

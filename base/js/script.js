@@ -202,6 +202,20 @@ $(document).ready(function() {
     $('.chsgame').click(function(e){
         $(this).toggleClass('chsgame-active');
     });
+    $('.sidebar__logo_language__us').click(function(e){
+        $(this).toggleClass('active__language',true);
+        $(this).toggleClass('active__language__us',true);
+        $(this).removeClass('inactive__language',true);
+        $('.sidebar__logo_language__eu').toggleClass('inactive__language',true)
+        $('.sidebar__logo_language__eu').removeClass('active__language',true)
+    });
+    $('.sidebar__logo_language__eu').click(function(e){
+        $(this).toggleClass('active__language',true);
+        $(this).removeClass('inactive__language',true);
+        $('.sidebar__logo_language__us').toggleClass('inactive__language',true)
+        $('.sidebar__logo_language__us').removeClass('active__language',true)
+        $('.sidebar__logo_language__us').removeClass('active__language__us',true)
+    });
     $('.game__slider,.review__slider').click(function(e){
         $(this).toggleClass('disable');
         window.setTimeout(function() {

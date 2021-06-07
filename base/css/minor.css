@@ -193,7 +193,8 @@
     margin:7px 0;
 }
 .guarantees-answers__units-answer h5{
-    background:#fff;
+    border-radius:100px;
+    background:#86C9D1;
 }
 .guarantees-answers__units-answer h5,.guarantees-answers__units-answer p{
     margin:0;
@@ -204,10 +205,17 @@
     position:relative;
     user-select: none;
 }
+.answer-activate h5{
+    border-radius:30px 30px 0 0;
+}
 .answer-arrow{
     position:absolute;
     top:21px;
     right:20px;
+    stroke:#000;
+}
+.answer-arrow path{
+    stroke:#000;
 }
 .answer-hidden {
     padding:0;
@@ -218,6 +226,8 @@
     opacity:0;
     transition:all 0.2s linear;
     background:none;
+    border-radius:0 0 30px 30px;
+
 }
 .answer-activate .answer-hidden__active{
     padding: 12px 17px;
@@ -227,13 +237,12 @@
     opacity:1;
     background:#fff;
     margin: 0 0 30px 0;
+    border-radius:0 0 30px 30px;
 }
 .answer-activate .answer-arrow__active{
     transform: rotate(180deg)
 }
-.answer-activate .answer-arrow__active path{
-    stroke:#000;
-}
+
 .guarantees-question{
     margin: 80px 0 200px 0;
 }
