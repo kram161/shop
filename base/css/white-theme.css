@@ -54,7 +54,7 @@
     color:#000 !important;
 }
 .catalog__white-theme{
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6)),no-repeat, url(../img/catalog-img/catalog-bck.png);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.6), rgba(255, 255, 255, 0.6));
 }
 .sidebar__change-theme__white-theme .sidebar__change-theme__button__dot{
     right:20px;
@@ -216,6 +216,7 @@
 .product-quantity__white-theme .product__region__active__language{
     background:#c0c0c3;
 }
+
 @media (max-width:768px){
     .navbar-burger__white-theme{
         background:#000;
