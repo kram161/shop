@@ -186,7 +186,7 @@
 .profile__white-theme .persona-information__main__full-name path,.profile__white-theme .personal-information__personal-data__units path{
     stroke:#00b8ff;
 }
-.body__white-theme .sidebar__logo_language__us:hover,.body__white-theme .sidebar__logo_language__eu:hover,.body__white-theme .prdctradio::before,.product-card__text__white-theme .stlradio:before{
+.body__white-theme .product__region__language__us:hover,.body__white-theme .product__region__language__eu:hover,.body__white-theme .sidebar__logo_language__us:hover,.body__white-theme .sidebar__logo_language__eu:hover,.body__white-theme .prdctradio::before,.product-card__text__white-theme .stlradio:before{
     background:#00b8ff;
 }
 .profile__white-theme .profile-menu__active{
@@ -214,7 +214,7 @@
     font-weight:400;
 }
 .product-quantity__white-theme .product__region__active__language{
-    background:#EEEEF2;
+    background:#c0c0c3;
 }
 @media (max-width:768px){
     .navbar-burger__white-theme{
