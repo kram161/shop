@@ -138,13 +138,13 @@
     padding:5px 0;
 }
 .sidebar__services__elements p,.sidebar__menu__elements p,.sidebar__change-theme p{
-    margin:3px 15px;
+    margin:4px 15px;
     font-weight:400;
     font-size:14px;
 }
 .sidebar__services__elements svg,.sidebar__menu__elements svg{
-    height:20px;
-    width:20px;
+    height:24px;
+    width:24px;
 }
 .sidebar__menu__elements p{
     color: #8c8888;
@@ -154,7 +154,7 @@
     margin:0 53px 0 22px;
 }
 .sidebar__change-theme{
-    margin:40px 53px 50px 22px;
+    margin:20px 53px 50px 22px;
     display:flex;
 }
 .sidebar__change-theme p{
