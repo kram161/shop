@@ -249,7 +249,6 @@
                         <p>PvP</p>
                     </div>
                 </a>
-
             </div>
             <div class="sidebar__menu">
                 <a href="#">
@@ -563,9 +562,10 @@
                         </div>
                     </div>
                     <form class="product-quantity">
-                        <div class="product-quantity__consider">
-                            <p>Quantity:</p>
-                            <div class="product-quantity__consider__element">
+                        <div class="product-quantity__main-inf">
+                            <div class="product-quantity__consider">
+                                <p>Quantity:</p>
+                                <div class="product-quantity__consider__element">
                             <span class="down">
                                 <svg width="17" height="2" viewBox="0 0 17 2" fill="none"
                                      xmlns="http://www.w3.org/2000/svg">
@@ -573,30 +573,161 @@
                                           stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </span>
-                                <input type="text" value="1"/>
-                                <span class="up">
+                                    <input type="text" value="1"/>
+                                    <span class="up">
                                 <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
                                      xmlns="http://www.w3.org/2000/svg">
                                     <path d="M8.60352 1V15M1.60352 8H15.6035" stroke="#939393" stroke-width="2"
                                           stroke-linecap="round" stroke-linejoin="round"/>
                                 </svg>
                             </span>
+                                </div>
                             </div>
+                            <div class="product__region_language">
+                                <div class="product__region__language__us product__region__inactive__language">
+                                    <svg width="31" height="31" viewBox="0 0 31 31" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M23.25 3.19687C20.9734 1.79219 18.3578 0.96875 15.5 0.96875V3.19687H23.25Z"
+                                              fill="#ED4C5C"/>
+                                        <path d="M15.5 5.42502H25.9625C25.1391 4.60159 24.2188 3.82659 23.25 3.1969H15.5V5.42502Z"
+                                              fill="white"/>
+                                        <path d="M15.5 7.65317H27.7547C27.2219 6.82974 26.6406 6.10317 26.0109 5.42505H15.5V7.65317Z"
+                                              fill="#ED4C5C"/>
+                                        <path d="M15.5 9.8812H28.9172C28.5781 9.1062 28.1906 8.3312 27.7547 7.65308H15.5V9.8812Z"
+                                              fill="white"/>
+                                        <path d="M15.5 12.1094H29.6438C29.45 11.3344 29.2078 10.6078 28.9172 9.88123H15.5V12.1094Z"
+                                              fill="#ED4C5C"/>
+                                        <path d="M15.5 14.386H29.9828C29.9344 13.611 29.7891 12.8844 29.6438 12.1578H15.5V14.386Z"
+                                              fill="white"/>
+                                        <path d="M29.9828 14.386H15.5V15.5H0.96875C0.96875 15.8875 0.96875 16.2266 1.01719 16.6141H29.9828C30.0312 16.2266 30.0312 15.8875 30.0312 15.5C30.0312 15.1125 30.0312 14.725 29.9828 14.386Z"
+                                              fill="#ED4C5C"/>
+                                        <path d="M1.35615 18.8421H29.6437C29.8374 18.1156 29.9343 17.389 29.9827 16.614H1.01709C1.06553 17.3406 1.1624 18.1156 1.35615 18.8421Z"
+                                              fill="white"/>
+                                        <path d="M2.08301 21.0703H28.9174C29.208 20.3437 29.4502 19.6172 29.6439 18.8422H1.35645C1.5502 19.6172 1.79238 20.3437 2.08301 21.0703Z"
+                                              fill="#ED4C5C"/>
+                                        <path d="M3.24551 23.2984H27.7549C28.1908 22.5719 28.5783 21.8453 28.9174 21.0703H2.08301C2.42207 21.8453 2.80957 22.5719 3.24551 23.2984Z"
+                                              fill="white"/>
+                                        <path d="M4.98887 25.5266H26.0107C26.6404 24.8485 27.2701 24.0735 27.7545 23.2985H3.24512C3.72949 24.1219 4.35918 24.8485 4.98887 25.5266Z"
+                                              fill="#ED4C5C"/>
+                                        <path d="M7.70176 27.7547H23.2986C24.3158 27.125 25.1877 26.35 26.0111 25.5266H4.98926C5.8127 26.3985 6.73301 27.125 7.70176 27.7547Z"
+                                              fill="white"/>
+                                        <path d="M15.5001 30.0312C18.3579 30.0312 21.022 29.2078 23.2985 27.7546H7.70166C9.97822 29.2078 12.6423 30.0312 15.5001 30.0312Z"
+                                              fill="#ED4C5C"/>
+                                        <path d="M7.75 3.19687C6.73281 3.82656 5.8125 4.60156 4.98906 5.425C4.31094 6.10313 3.72969 6.87813 3.24531 7.65313C2.80937 8.37969 2.37344 9.10625 2.08281 9.88125C1.79219 10.6078 1.55 11.3344 1.35625 12.1094C1.1625 12.8359 1.06562 13.5625 1.01719 14.3375C0.96875 14.725 0.96875 15.1125 0.96875 15.5H15.5V0.96875C12.6422 0.96875 10.0266 1.79219 7.75 3.19687Z"
+                                              fill="#428BC1"/>
+                                        <path d="M12.1094 1.45312L12.3516 2.17969H13.0781L12.4969 2.66406L12.6906 3.39062L12.1094 2.95469L11.5281 3.39062L11.7219 2.66406L11.1406 2.17969H11.8672L12.1094 1.45312Z"
+                                              fill="white"/>
+                                        <path d="M14.0469 4.35938L14.2891 5.08594H15.0156L14.4344 5.57031L14.6281 6.29688L14.0469 5.86094L13.4656 6.29688L13.6594 5.57031L13.0781 5.08594H13.8047L14.0469 4.35938Z"
+                                              fill="white"/>
+                                        <path d="M10.1719 4.35938L10.4141 5.08594H11.1406L10.5594 5.57031L10.7531 6.29688L10.1719 5.86094L9.59062 6.29688L9.78438 5.57031L9.20312 5.08594H9.92969L10.1719 4.35938Z"
+                                              fill="white"/>
+                                        <path d="M12.1094 7.26562L12.3516 7.99219H13.0781L12.4969 8.47656L12.6906 9.20312L12.1094 8.76719L11.5281 9.20312L11.7219 8.47656L11.1406 7.99219H11.8672L12.1094 7.26562Z"
+                                              fill="white"/>
+                                        <path d="M8.23438 7.26562L8.47656 7.99219H9.20312L8.62187 8.47656L8.81563 9.20312L8.23438 8.76719L7.65313 9.20312L7.84688 8.47656L7.26562 7.99219H7.99219L8.23438 7.26562Z"
+                                              fill="white"/>
+                                        <path d="M4.35938 7.26562L4.60156 7.99219H5.32812L4.74688 8.47656L4.94062 9.20312L4.35938 8.76719L3.77813 9.20312L3.97187 8.47656L3.39062 7.99219H4.11719L4.35938 7.26562Z"
+                                              fill="white"/>
+                                        <path d="M14.0469 10.1719L14.2891 10.8984H15.0156L14.4344 11.3828L14.6281 12.1094L14.0469 11.6734L13.4656 12.1094L13.6594 11.3828L13.0781 10.8984H13.8047L14.0469 10.1719Z"
+                                              fill="white"/>
+                                        <path d="M10.1719 10.1719L10.4141 10.8984H11.1406L10.5594 11.3828L10.7531 12.1094L10.1719 11.6734L9.59062 12.1094L9.78438 11.3828L9.20312 10.8984H9.92969L10.1719 10.1719Z"
+                                              fill="white"/>
+                                        <path d="M6.29688 10.1719L6.53906 10.8984H7.26562L6.68438 11.3828L6.87812 12.1094L6.29688 11.6734L5.71563 12.1094L5.90937 11.3828L5.32812 10.8984H6.05469L6.29688 10.1719Z"
+                                              fill="white"/>
+                                        <path d="M12.1094 13.0781L12.3516 13.8047H13.0781L12.4969 14.2891L12.6906 15.0156L12.1094 14.5797L11.5281 15.0156L11.7219 14.2891L11.1406 13.8047H11.8672L12.1094 13.0781Z"
+                                              fill="white"/>
+                                        <path d="M8.23438 13.0781L8.47656 13.8047H9.20312L8.62187 14.2891L8.81563 15.0156L8.23438 14.5797L7.65313 15.0156L7.84688 14.2891L7.26562 13.8047H7.99219L8.23438 13.0781Z"
+                                              fill="white"/>
+                                        <path d="M4.35938 13.0781L4.60156 13.8047H5.32812L4.74688 14.2891L4.94062 15.0156L4.35938 14.5797L3.77813 15.0156L3.97187 14.2891L3.39062 13.8047H4.11719L4.35938 13.0781Z"
+                                              fill="white"/>
+                                        <path d="M5.71553 6.29688L6.29678 5.86094L6.87803 6.29688L6.63584 5.57031L7.21709 5.08594H6.49053L6.29678 4.35938L6.05459 5.08594H5.37646L5.95771 5.52187L5.71553 6.29688Z"
+                                              fill="white"/>
+                                        <path d="M1.84072 12.1094L2.42197 11.6734L3.00322 12.1094L2.76103 11.3828L3.34229 10.8984H2.66416L2.42197 10.1719L2.17979 10.8984H1.69541C1.69541 10.9469 1.64697 10.9953 1.64697 11.0437L2.03447 11.3344L1.84072 12.1094Z"
+                                              fill="white"/>
+                                    </svg>
+                                    <p>US</p>
+                                </div>
+                                <div class="product__region__language__eu product__region__active__language">
+                                    <svg width="29" height="29" viewBox="0 0 29 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.5 29C22.5081 29 29 22.5081 29 14.5C29 6.49187 22.5081 0 14.5 0C6.49187 0 0 6.49187 0 14.5C0 22.5081 6.49187 29 14.5 29Z"
+                                              fill="#2A5F9E"/>
+                                        <path d="M14.4998 4.73657L14.8381 5.79991H15.9498L15.0798 6.47657L15.4181 7.53991L14.4998 6.86324L13.5815 7.53991L13.9198 6.47657L13.0498 5.79991H14.1615L14.4998 4.73657Z"
+                                              fill="#FFCE31"/>
+                                        <path d="M14.4998 21.1699L14.8381 22.2333H15.9498L15.0798 22.8616L15.4181 23.9733L14.4998 23.2966L13.5815 23.9733L13.9198 22.8616L13.0498 22.2333H14.1615L14.4998 21.1699Z"
+                                              fill="#FFCE31"/>
+                                        <path d="M18.5599 19.8167L18.8982 20.88H20.0582L19.1399 21.5566L19.4782 22.62L18.5599 21.9433L17.6415 22.62L18.0282 21.5566L17.1099 20.88H18.2215L18.5599 19.8167Z"
+                                              fill="#FFCE31"/>
+                                        <path d="M21.3631 17.0133L21.7014 18.0766H22.8614L21.9431 18.7533L22.2814 19.8166L21.3631 19.14L20.4448 19.8166L20.8314 18.7533L19.9131 18.0766H21.0248L21.3631 17.0133Z"
+                                              fill="#FFCE31"/>
+                                        <path d="M22.7166 12.9531L23.0549 14.0165H24.1666L23.2483 14.6931L23.5866 15.7565L22.7166 15.0798L21.7983 15.7565L22.1366 14.6931L21.2183 14.0165H22.3299L22.7166 12.9531Z"
+                                              fill="#FFCE31"/>
+                                        <path d="M21.3631 8.84485L21.7014 9.95652H22.8614L21.9431 10.5848L22.2814 11.6482L21.3631 11.0198L20.4448 11.6482L20.8314 10.5848L19.9131 9.95652H21.0248L21.3631 8.84485Z"
+                                              fill="#FFCE31"/>
+                                        <path d="M18.5599 6.04163L18.8982 7.15329H20.0582L19.1399 7.78163L19.4782 8.84496L18.5599 8.21663L17.6415 8.84496L18.0282 7.78163L17.1099 7.15329H18.2215L18.5599 6.04163Z"
+                                              fill="#FFCE31"/>
+                                        <path d="M10.4397 19.8167L10.1014 20.88H8.94141L9.85974 21.5566L9.52141 22.62L10.4397 21.9433L11.3581 22.62L10.9714 21.5566L11.8897 20.88H10.7781L10.4397 19.8167Z"
+                                              fill="#FFCE31"/>
+                                        <path d="M7.63603 17.0133L7.2977 18.0766H6.1377L7.05603 18.7533L6.7177 19.8166L7.63603 19.14L8.55436 19.8166L8.1677 18.7533L9.08603 18.0766H7.97436L7.63603 17.0133Z"
+                                              fill="#FFCE31"/>
+                                        <path d="M6.28301 12.9531L5.94467 14.0165H4.83301L5.75134 14.6931L5.41301 15.7565L6.28301 15.0798L7.20134 15.7565L6.86301 14.6931L7.78134 14.0165H6.66967L6.28301 12.9531Z"
+                                              fill="#FFCE31"/>
+                                        <path d="M7.63603 8.84485L7.2977 9.95652H6.1377L7.05603 10.5848L6.7177 11.6482L7.63603 11.0198L8.55436 11.6482L8.1677 10.5848L9.08603 9.95652H7.97436L7.63603 8.84485Z"
+                                              fill="#FFCE31"/>
+                                        <path d="M10.4397 6.04163L10.1014 7.15329H8.94141L9.85974 7.78163L9.52141 8.84496L10.4397 8.21663L11.3581 8.84496L10.9714 7.78163L11.8897 7.15329H10.7781L10.4397 6.04163Z"
+                                              fill="#FFCE31"/>
+                                    </svg>
+                                    <p>EU</p>
+                                </div>
+                            </div>
+                            <div class="product-quantity__coast">
+                                <div class="product-quantity__coast__name">
+                                    <p>Grand total:</p>
+                                </div>
+                                <div class="product-quantity__coast__value">
+                                    <label>
+                                        <input readonly="readonly" type="text" value="39,00"/>
+                                        <span>€</span>
+                                    </label>
+                                </div>
+                            </div>
+                            <button class="product-quantity__button button">
+                                ADD TO CART
+                            </button>
                         </div>
-                        <div class="product-quantity__coast">
-                            <div class="product-quantity__coast__name">
-                                <p>Grand total:</p>
-                            </div>
-                            <div class="product-quantity__coast__value">
+                        <div class="product-quantity__additional-options">
+                            <h3>Add additional options</h3>
+                            <div class="product-quantity__additional-options__weekly product-customization__platform__unit__button">
                                 <label>
-                                    <input readonly="readonly" type="text" value="39,00"/>
-                                    <span>€</span>
+                                    <input type="checkbox" name="platform" value="1" >
+                                    <div class="stlradio"></div>
+                                    <span>Mythic +10 in time instead of weekly</span>
+                                </label>
+                                <div class="product-quantity__additional-options__weekly__coast">
+                                    <span>+2.4$</span>
+                                    <p>+2.16$</p>
+                                </div>
+                            </div>
+                            <div class="product-quantity__select">
+                                <label>
+                                    <span>Add traders</span>
+                                    <input type = "text" list = "AddTraders" placeholder="0 options selected">
+                                    <datalist id = "AddTraders">
+                                        <option value = "Option">
+                                        <option value = "Option">
+                                        <option value = "Option">
+                                    </datalist>
+                                </label>
+                            </div>
+                            <div class="product-quantity__select">
+                                <label>
+                                    <span>Add specific dungeon</span>
+                                    <input type = "text" list = "AddSpecificDungeon" placeholder="0 options selected">
+                                    <datalist id = "AddSpecificDungeon">
+                                        <option value = "Option">
+                                        <option value = "Option">
+                                        <option value = "Option">
+                                    </datalist>
                                 </label>
                             </div>
                         </div>
-                        <button class="product-quantity__button button">
-                            ADD TO CART
-                        </button>
                     </form>
                     <div class="product-information">
                         <div class="product-information__title">

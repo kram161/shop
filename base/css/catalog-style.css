@@ -717,11 +717,16 @@
     display:none;
 }
 .product-quantity{
+    width:50%;
+    display:flex;
+    flex-direction:column;
+    border-top:1px solid rgba(255, 255, 255, 0.15);
+}
+.product-quantity__main-inf{
     width:349px;
     display:flex;
     flex-direction:column;
     justify-content: flex-start;
-    border-top:1px solid rgba(255, 255, 255, 0.15);
 }
 .product-quantity__consider{
     display:flex;
@@ -910,4 +915,116 @@
 .catalog-cards__unit__description a{
     text-decoration:none;
 }
-
+.product__region_language{
+    display:flex;
+    margin:10px 22px 0 22px;
+    padding:0 0 20px 0;
+    justify-content:flex-start;
+    border:none;
+}
+.product__region__language__us{
+    border-right:1px solid rgba(255, 255, 255, 0.15);
+    padding-right: 8px;
+}
+.product__region__language__eu{
+    border-left:1px solid rgba(255, 255, 255, 0.15);
+    padding-left: 8px;
+}
+.product__region__language__us,.product__region__language__eu{
+    display:flex;
+    cursor:pointer;
+}
+.product__region__language__us:hover,.product__region__language__eu:hover{
+    background:#86C9D1;
+    border-radius:5px;
+}
+.product__region__language__us p,.product__region__language__eu p{
+    margin:5px 10px;
+}
+.product__region__active__language{
+    background: #0e0d0d;
+    padding:9px 0 9px 9px;
+    border:none;
+    border-radius:5px;
+}
+.product__region__active__language__us{
+    margin: 0 10px 0 0;
+}
+.product__region__inactive__language{
+    margin:0 9px 0 0;
+    padding:9px;
+}
+.product-quantity__additional-options{
+    border-top:1px solid rgba(255, 255, 255, 0.15);
+    margin:40px 0 0 0;
+    display: flex;
+    flex-direction:column;
+}
+.product-quantity__additional-options h3{
+    font-size:24px;
+    margin:30px 0;
+    font-weight:400;
+}
+.product-quantity__additional-options__weekly{
+    display:flex;
+    justify-content:space-between;
+    flex-direction:row;
+}
+.product-quantity__additional-options__weekly__coast{
+    display:flex;
+}
+.product-quantity__additional-options__weekly span{
+    font-size:18px;
+    font-weight:400;
+}
+.product-quantity__additional-options__weekly__coast span{
+    text-decoration:line-through;
+    font-size:14px;
+    color:#86C9D1;
+    font-weight:400;
+    margin:auto 0;
+}
+.product-quantity__additional-options__weekly__coast p{
+    font-size:18px;
+    font-weight:400;
+    margin:auto 0 auto 5px;
+}
+.product-quantity-dropdown-content{
+    opacity:0;
+    pointer-events: none;
+}
+.product-quantity-dropdown-content__active{
+    opacity:1;
+    pointer-events: auto;
+}
+.product-quantity__additional-options__traders{
+    position:relative;
+}
+.product-quantity__select{
+    margin: 10px 0 20px 0;
+}
+.product-quantity__select label{
+    display:flex;
+    flex-direction:column;
+    width:349px;
+}
+.product-quantity__select input{
+    cursor:pointer;
+    background:none;
+    font-size:16px;
+    font-weight:400;
+    padding:8px 5px 8px 15px;
+    outline: none;
+    border:1px solid rgba(255, 255, 255, 0.15);
+    color:#fff;
+    border-radius:10px;
+}
+.product-quantity__select input::placeholder{
+    color:#fff;
+}
+.product-quantity__select span{
+    font-size:16px;
+    color:#86C9D1;
+    margin:10px 0;
+    font-weight:400;
+}

@@ -91,7 +91,7 @@
 .sidebar__change-theme__white-theme p{
     color: #8c8888;
 }
-.main-navbar__first-child__dropdown__white-theme a{
+.main-navbar__first-child__dropdown__white-theme a,.product-quantity__white-theme .product-quantity__additional-options h3,.product-quantity__white-theme .product-quantity__additional-options__weekly span,.product-quantity__white-theme .product-quantity__additional-options__weekly__coast{
     color:#000;
 }
 .main-navbar__first-child__dropdown__white-theme .dropdown-content{
@@ -174,8 +174,38 @@
 .referral-system__information__white-theme .referral-system__referrals span{
     color:#D7669D;
 }
-.referral-system__information__white-theme .referral-system__bonus-code input{
+.body__white-theme .shopping-cart__basket-units__one__total,.product-quantity__white-theme .product-quantity__select input,.product-quantity__white-theme .product-quantity__select input::placeholder,.referral-system__information__white-theme .referral-system__bonus-code input{
     color:#000;
+}
+.shopping-cart__basket__forms__white-theme .shopping-cart__basket-total__amount p:nth-child(4),.body__white-theme .shopping-cart__basket-description p,.profile__white-theme .change-password p,.profile__white-theme .persona-information__main__full-name h4,.product-footer__slider__white-theme .catalog-cards__unit__description__information__button,.product-customization__quantity__white-theme p,.product-quantity__white-theme .product-quantity__select span,.product-quantity__white-theme .product-quantity__additional-options__weekly__coast span,.product-card__text__white-theme .product-card__text__options__unit__first p,.product-card__text__white-theme .product-card__text__options__unit__second p,.product-customization__platform__white-theme .product-customization__platform__unit__activator,.product-customization__platform__white-theme .product-customization__quantity p{
+    color:#00b8ff;
+}
+.profile__white-theme .persona-information__main__image circle{
+    fill:#00b8ff;
+}
+.profile__white-theme .persona-information__main__full-name path,.profile__white-theme .personal-information__personal-data__units path{
+    stroke:#00b8ff;
+}
+.product-card__text__white-theme .stlradio:before{
+    background:#00b8ff;
+}
+.profile__white-theme .profile-menu__active{
+    border-bottom: 2px solid #00b8ff;
+    color:#00b8ff;
+}
+.profile__white-theme .profile-menu__personal:hover, .profile__white-theme .profile-menu__purchase-history:hover{
+    border-bottom: 2px solid #00b8ff;
+    color:#00b8ff;
+}
+.product-quantity__white-theme .product-quantity__select input{
+    border:1px solid #000;
+}
+.product-quantity__white-theme .product__region_language p{
+    color:#000;
+    font-weight:400;
+}
+.product-quantity__white-theme .product__region__active__language{
+    background:#EEEEF2;
 }
 @media (max-width:768px){
     .navbar-burger__white-theme{

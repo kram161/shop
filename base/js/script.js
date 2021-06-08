@@ -61,6 +61,7 @@ $(document).ready(function() {
         $('.profile').toggleClass('profile__white-theme')
         $('.navbar-burger').toggleClass('navbar-burger__white-theme')
         $('.referral-system__information').toggleClass('referral-system__information__white-theme')
+        $('.product-customization__quantity').toggleClass('product-customization__quantity__white-theme')
 
     })
     $('.product-customization__platform__unit__activator').click(function(e){
@@ -215,6 +216,23 @@ $(document).ready(function() {
         $('.sidebar__logo_language__us').toggleClass('inactive__language',true)
         $('.sidebar__logo_language__us').removeClass('active__language',true)
         $('.sidebar__logo_language__us').removeClass('active__language__us',true)
+    });
+    $('.product__region__language__us').click(function(e){
+        $(this).toggleClass('product__region__active__language',true);
+        $(this).toggleClass('product__region__active__language__us',true);
+        $(this).removeClass('product__region__inactive__language',true);
+        $('.product__region__language__eu').toggleClass('product__region__inactive__language',true)
+        $('.product__region__language__eu').removeClass('product__region__active__language',true)
+    });
+    $('.product__region__language__eu').click(function(e){
+        $(this).toggleClass('product__region__active__language',true);
+        $(this).removeClass('inactive__language',true);
+        $('.product__region__language__us').toggleClass('product__region__inactive__language',true)
+        $('.product__region__language__us').removeClass('product__region__active__language',true)
+        $('.product__region__language__us').removeClass('product__region__active__language__us',true)
+    });
+    $('.product-quantity-dropbtn').click(function(e){
+        $('.product-quantity-dropdown-content').toggleClass('product-quantity-dropdown-content__active');
     });
     $('.game__slider,.review__slider').click(function(e){
         $(this).toggleClass('disable');
