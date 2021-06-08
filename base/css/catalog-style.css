@@ -336,7 +336,7 @@
     margin-bottom: 100px;
 }
 .catalog-cards__unit{
-    Width:209px;
+    Width:210px;
     border-radius:20px;
     color:#000;
     font-size:15px;
@@ -345,9 +345,10 @@
     margin-right: 19px;
 }
 .catalog-cards__unit img{
-    Width:209px;
+    Width:208px;
     Height:234px;
     border-radius:18px 18px 0 0;
+    margin:0 1px 0 1px;
 }
 .catalog-cards__unit__description{
     background:#fff;
@@ -409,12 +410,10 @@
 .catalog-cards__discount__information p{
     color:#fff;
 }
-.catalog-cards__discount{
-    border:1px solid rgba(250, 10, 125, 0.24);
+.catalog-cards__discount img{
+    box-shadow: 0 0 0 2px rgba(250, 10, 125, 0.24);
 }
-.catalog-cards__discount .catalog-cards__discount__description{
-    border:1px solid rgba(250, 10, 125, 0.24);
-}
+
 .catalog-cards__discount span{
     position:absolute;
     font-size:10px;
@@ -435,7 +434,9 @@
 }
 .catalog-cards__new,.catalog-cards__new__description{
     color:#fff;
-    border:1px solid #387768;
+}
+.catalog-cards__new,.catalog-cards__new__description img{
+    box-shadow: 0 0 0 2px #387768;
 }
 .catalog-cards__new .catalog-cards__unit__description__information a{
     color:#fff;
@@ -913,8 +914,8 @@
 .item-use{
     color:#86C9D1;
 }
-.catalog-cards__offer-of-the-day{
-    border: 1px solid #47689AFF;
+.catalog-cards__offer-of-the-day img{
+    box-shadow: 0 0 0 1px #47689AFF;
 }
 .catalog-cards__offer-of-the-day .catalog-cards__unit__description{
     background:#47689AFF;
