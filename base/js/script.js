@@ -19,6 +19,19 @@ $(document).ready(function() {
         $('.main-content').toggleClass('Main-content__active')
         $('.main-navbar').toggleClass('main-navbar__active')
         $('.product-customization__quantity__range').toggleClass('product-customization__quantity__range__active')
+        window.setTimeout(function() {
+            $('.rs-container').remove();
+        }, 200 /* 0.5 sec */);
+        window.setTimeout(function() {
+            let mySlider = new rSlider({
+                target: '#sampleSlider',
+                values: [1, 2, 3, 4, 5, 6, 7, 8,9,10,11,12,13,14,15],
+                tooltip: true,
+                scale: true,
+                labels: true,
+                set: [8],
+            });
+        }, 200 /* 0.5 sec */);
     })
     $('.expand__sidebar__active').click(function(e){
         $('.sidebar').removeClass('sidebar__active');
