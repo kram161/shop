@@ -140,7 +140,7 @@
 .sidebar__services__elements p,.sidebar__menu__elements p,.sidebar__change-theme p{
     margin:3px 15px;
     font-weight:400;
-    font-size:12px;
+    font-size:14px;
 }
 .sidebar__services__elements svg,.sidebar__menu__elements svg{
     height:20px;
@@ -739,7 +739,7 @@
 .product-quantity__consider{
     display:flex;
     justify-content:space-between;
-    margin:46px 0 10px 0;
+    margin:10px 0;
 }
 .product-quantity__consider p,.product-quantity__name p{
     font-weight:400;
@@ -931,7 +931,7 @@
 }
 .product__region_language{
     display:flex;
-    margin:10px 22px 0 22px;
+    margin:35px 22px 0 22px;
     padding:0 0 20px 0;
     justify-content:flex-start;
     border:none;
