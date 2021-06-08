@@ -180,6 +180,13 @@
     }
 }
 @media (max-width:768px){
+    .product-customization__quantity__range{
+        width:650px;
+    }
+    .product-card {
+        display: flex;
+        flex-direction: column;
+    }
     .game__slider__slide{
         margin:0 5px 0 0;
     }
