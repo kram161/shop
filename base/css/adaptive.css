@@ -180,6 +180,16 @@
     }
 }
 @media (max-width:768px){
+    .product-stlcheckbox {
+        top: 4px;
+        margin-left:5px;
+    }
+    .product-quantity__additional-options__weekly__coast p {
+        margin: -1px 0 0 5px;
+    }
+    .product-quantity__additional-options__weekly__coast span {
+        margin: 3px 0 0 5px;
+    }
     .product-customization__quantity__range{
         width:650px;
     }
