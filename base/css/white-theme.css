@@ -186,7 +186,7 @@
 .profile__white-theme .persona-information__main__full-name path,.profile__white-theme .personal-information__personal-data__units path{
     stroke:#00b8ff;
 }
-.body__white-theme .prdctradio::before,.product-card__text__white-theme .stlradio:before{
+.body__white-theme .sidebar__logo_language__us:hover,.body__white-theme .sidebar__logo_language__eu:hover,.body__white-theme .prdctradio::before,.product-card__text__white-theme .stlradio:before{
     background:#00b8ff;
 }
 .profile__white-theme .profile-menu__active{
