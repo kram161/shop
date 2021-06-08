@@ -479,47 +479,6 @@
                                 </p>
                             </div>
                             <div class="product-card__text__options">
-                                <div class="product-customization">
-                                    <div class="product-customization__platform">
-                                        <div class="product-customization__platform__unit">
-                                            <p class="product-customization__platform__unit__activator">
-                                                Choose platform
-                                            </p>
-                                            <div class="product-customization__platform__unit__description">
-                                                <div class="product-customization__platform__unit__button">
-                                                    <label>
-                                                        <input type="radio" name="platform" value="1" checked="">
-                                                        <div class="stlradio cstmradio"></div>
-                                                        <span>PS</span>
-                                                    </label>
-                                                    <label>
-                                                        <input type="radio" name="platform" value="1" checked="">
-                                                        <div class="stlradio cstmradio"></div>
-                                                        <span>Xbox</span>
-                                                    </label>
-                                                </div>
-                                                <div>
-                                                    <div class="product-customization__platform__unit__price">
-                                                        <p>+ 0,00</p>
-                                                        <p>EUR</p>
-                                                    </div>
-                                                    <div class="product-customization__platform__unit__price">
-                                                        <p>+ 29,99</p>
-                                                        <p>EUR</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="product-customization__quantity">
-                                        <p>
-                                            Quantity:
-                                        </p>
-                                        <div class="product-customization__quantity__range">
-                                            <input type="text" id="sampleSlider"/>
-                                        </div>
-                                    </div>
-                                </div>
                                 <form class="product-quantity">
                                     <div class="product-quantity__main-inf">
                                         <div class="product-quantity__consider">
@@ -651,59 +610,72 @@
                                             ADD TO CART
                                         </button>
                                     </div>
-                                    <div class="product-quantity__additional-options">
-                                        <h3>Add additional options</h3>
-                                        <div class="product-quantity__additional-options__weekly product-customization__platform__unit__button">
-                                            <label>
-                                                <input type="checkbox" name="platform" value="1" >
-                                                <div class="stlradio"></div>
-                                                <span>Mythic +10 in time instead of weekly</span>
-                                            </label>
-                                            <div class="product-quantity__additional-options__weekly__coast">
-                                                <span>+2.4$</span>
-                                                <p>+2.16$</p>
+                                </form>
+                                <div class="product-customization">
+                                    <div class="product-customization__platform">
+                                        <div class="product-customization__platform__unit">
+                                            <p class="product-customization__platform__unit__activator">
+                                                Choose platform
+                                            </p>
+                                            <div class="product-customization__platform__unit__description">
+                                                <div class="product-customization__platform__unit__button">
+                                                    <label>
+                                                        <input type="radio" name="platform" value="1" checked="">
+                                                        <div class="stlradio cstmradio"></div>
+                                                        <span>PS</span>
+                                                    </label>
+                                                    <label>
+                                                        <input type="radio" name="platform" value="1" checked="">
+                                                        <div class="stlradio cstmradio"></div>
+                                                        <span>Xbox</span>
+                                                    </label>
+                                                </div>
+                                                <div>
+                                                    <div class="product-customization__platform__unit__price">
+                                                        <p>+ 0,00</p>
+                                                        <p>EUR</p>
+                                                    </div>
+                                                    <div class="product-customization__platform__unit__price">
+                                                        <p>+ 29,99</p>
+                                                        <p>EUR</p>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="product-quantity__select">
-                                            <label>
-                                                <span>Add traders</span>
-                                                <input type = "text" list = "AddTraders" placeholder="0 options selected">
-                                                <datalist id = "AddTraders">
-                                                    <option value = "Option">
-                                                    <option value = "Option">
-                                                    <option value = "Option">
-                                                </datalist>
-                                            </label>
-                                        </div>
-                                        <div class="product-quantity__select">
-                                            <label>
-                                                <span>Add specific dungeon</span>
-                                                <input type = "text" list = "AddSpecificDungeon" placeholder="0 options selected">
-                                                <datalist id = "AddSpecificDungeon">
-                                                    <option value = "Option">
-                                                    <option value = "Option">
-                                                    <option value = "Option">
-                                                </datalist>
-                                            </label>
+                                    </div>
+                                    <div class="product-customization__quantity">
+                                        <p>
+                                            Quantity:
+                                        </p>
+                                        <div class="product-customization__quantity__range">
+                                            <input type="text" id="sampleSlider"/>
                                         </div>
                                     </div>
-                                </form>
+                                </div>
                                 <div class="product-card__text__options__unit__first">
                                     <p>
                                         Advanced options:
                                     </p>
                                     <div>
-                                        <label>
+                                        <label class="product-card__text__options__unit__first__labels">
                                             <input type="checkbox" name="advance-options" value="1">
                                             <div class="stlcheckbox"></div>
-                                            <span class="checkbox-text">50-60 (~12-48 hours) (+39,00€)</span>
+                                            <span class="product-stlcheckbox checkbox-text">50-60 (~12-48 hours) (+39,00€)</span>
+                                            <div class="product-quantity__additional-options__weekly__coast">
+                                                <span>+2.4$</span>
+                                                <p>+2.16$</p>
+                                            </div>
                                         </label>
                                     </div>
                                     <div>
-                                        <label>
+                                        <label class="product-card__text__options__unit__first__labels">
                                             <input type="checkbox" name="advance-options" value="1">
                                             <div class="stlcheckbox"></div>
-                                            <span class="checkbox-text">Stream (+0,00€)</span>
+                                            <span class="product-stlcheckbox checkbox-text">Stream (+0,00€)</span>
+                                            <div class="product-quantity__additional-options__weekly__coast">
+                                                <span>+2.4$</span>
+                                                <p>+2.16$</p>
+                                            </div>
                                         </label>
                                     </div>
                                 </div>

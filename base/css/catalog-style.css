@@ -512,6 +512,9 @@
 .product-card__text{
     max-width:650px;
 }
+.product-card__text__description{
+    margin: 0 0 50px 0;
+}
 .product-card__text__description p{
     font-size:20px;
     font-weight:400;
@@ -722,6 +725,7 @@
     flex-direction:column;
     border-top:1px solid rgba(255, 255, 255, 0.15);
 }
+
 .product-quantity__main-inf{
     width:349px;
     display:flex;
@@ -814,7 +818,13 @@
     width:90%;
     margin-top:64px;
 }
-
+.product-card__text__options__unit__first__labels{
+    display:flex;
+    margin:8px 0;
+}
+.product-stlcheckbox{
+    top:-2px;
+}
 .product-information__title h2{
     font-weight:900;
     font-size: 30px;
@@ -982,12 +992,13 @@
     font-size:14px;
     color:#86C9D1;
     font-weight:400;
-    margin:auto 0;
+    margin:2px 0 0 5px;
 }
 .product-quantity__additional-options__weekly__coast p{
     font-size:18px;
     font-weight:400;
-    margin:auto 0 auto 5px;
+    margin:-2px 0 0 5px;
+    color:#fff;
 }
 .product-quantity-dropdown-content{
     opacity:0;
