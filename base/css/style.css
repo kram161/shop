@@ -1117,3 +1117,41 @@ datalist,.active__language__us,.inactive__language,.product__region__active__lan
 .swiper-button-next:hover .game__slider__arrow,.swiper-button-prev:hover .game__slider__arrow{
     fill:#fff;
 }
+.error,.success{
+    background:#FF0000;
+    position:absolute;
+    display:block;
+    border-radius:10px;
+}
+.success{
+    right:0;
+    background:#07B904;
+}
+.error__first,.error__second,.error__third,.success__first,.success__second,.success__third{
+    display:flex;
+    justify-content:space-between;
+    padding: 10px 23px;
+    cursor: default;
+}
+.error__third,.success__third{
+    justify-content: center;
+}
+.error__first h4,.error__second p,.error__third p,.success__first h4,.success__second p,.success__third p{
+    font-size:15px;
+    font-weight:600;
+    margin:0;
+}
+.error__first span,.success__first span{
+    font-size:18px;
+    font-weight:600;
+    margin:0;
+    cursor:pointer;
+}
+.error__second p,.success__second p{
+    font-weight: 400;
+    width:90%;
+}
+.error__third p,.success__third p{
+    font-weight:300;
+    font-size:10px;
+}

@@ -221,6 +221,12 @@ $(document).ready(function() {
             $('.review__slider').removeClass('disable');
         }, 1000 /* 0.5 sec */);
     });
+    $('.error__button').click(function(e){
+        $('.error').css('display', 'none');
+    })
+    $('.success__button').click(function(e){
+        $('.success').css('display', 'none');
+    })
 });
 $(document).ready(function() {
     $('.down').click(function () {
