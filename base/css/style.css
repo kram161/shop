@@ -931,6 +931,7 @@ datalist,.active__language__us,.inactive__language,.product__region__active__lan
     color:#fff;
     text-decoration:none;
     position: relative;
+    border-bottom:2px dashed #fff;
 }
 .authorization-form__links a:nth-child(1)::after{
     content:'';
@@ -946,7 +947,7 @@ datalist,.active__language__us,.inactive__language,.product__region__active__lan
 }
 .authorization-form__active-link{
     color:#86C9D1 !important;
-    border-bottom:2px dashed #86C9D1;
+    border-bottom:none !important;
 }
 .authorization-form input{
     background:#121212;
@@ -984,15 +985,13 @@ datalist,.active__language__us,.inactive__language,.product__region__active__lan
 .authorization-form__buttons a:nth-child(1){
     border:1px solid #86C9D1;
     border-radius: 60px 0 0 60px;
-    text-align: left;
-    padding-left:40px;
+    text-align: center;
     margin-right: 1px;
 }
 .authorization-form__buttons a:nth-child(2){
     border:1px solid #86C9D1;
     border-radius: 0 60px 60px 0;
-    text-align: right;
-    padding-right:40px;
+    text-align: center;
     color:#5B5B5B;
 }
 .authorization-form__buttons a:nth-child(1):hover{
@@ -1005,7 +1004,8 @@ datalist,.active__language__us,.inactive__language,.product__region__active__lan
 }
 .authorization-form__buttons svg{
     position: absolute;
-    left:20px;
+    left:12px;
+    top:10px;
 }
 .authorization-form__quest{
     margin-top:15px;

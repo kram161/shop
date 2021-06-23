@@ -57,6 +57,7 @@
     height:100vh;
     margin:0 auto;
     left:0;
+    overflow:auto;
 }
 .sidebar::-webkit-scrollbar {
     width: 0;
