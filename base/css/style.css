@@ -50,7 +50,7 @@ body{
 .main-navbar__wrapper,.main-navbar__first-child,.main-navbar__first-second,.choice__blocks,.choice__game__description,.hot-deals,.hot-deals__description{
     display:flex;
 }
-.answer-arrow,.answer-arrow__active,.answer-hidden,.answer-hidden__active,.authorization-form input,.authorization-form input:focus,.authorization-form__buttons a,.authorization-form__sign-in-gmail__buttons a,.authorization-form__sign-in-gmail__buttons a:hover,.authorization-form__buttons a:nth-child(2):hover,.authorization-form__buttons a:nth-child(1):hover,.dropdown-content a,.main-info__scroll-button a,.main-info__scroll-button a:hover{
+.body__white-theme .main-info__scroll-button a,.body__white-theme .main-info__scroll-button a:hover,.answer-arrow,.answer-arrow__active,.answer-hidden,.answer-hidden__active,.authorization-form input,.authorization-form input:focus,.authorization-form__buttons a,.authorization-form__sign-in-gmail__buttons a,.authorization-form__sign-in-gmail__buttons a:hover,.authorization-form__buttons a:nth-child(2):hover,.authorization-form__buttons a:nth-child(1):hover,.dropdown-content a,.main-info__scroll-button a,.main-info__scroll-button a:hover{
     -webkit-transition: all 300ms linear ;
     -moz-transition: all 300ms linear ;
     -o-transition: all 300ms linear ;

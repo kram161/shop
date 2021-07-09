@@ -100,14 +100,14 @@
 .body__white-theme .dropdown-content a{
     color:#898989;
 }
-.body__white-theme .dropdown-content a:hover{
+.body__white-theme .game__slider__slide p,.body__white-theme .dropdown-content a:hover{
     color:#fff;
 }
 .body__white-theme .dropdown-button path{
     stroke:#000;
 }
 .body__white-theme .dropdown-content__search input{
-    background: #3F3C3C;
+    background: #fff;
     color:#5F5F5F;
 }
 .body__white-theme .main-navbar__first-child__rating__text p:nth-child(1){
@@ -137,12 +137,13 @@
 .body__white-theme .product-quantity__consider__element{
     background:#EEEEF2;
 }
-.body__white-theme .next__arrow{
+.body__white-theme .prev__arrow,.body__white-theme .next__arrow{
     border: 1px solid #000;
 }
-.body__white-theme .next__arrow:hover,.body__white-theme .next__arrow:hover{
+.body__white-theme .prev__arrow:hover,.body__white-theme .next__arrow:hover{
     border: 1px solid #000;
     fill:#000;
+    background:none !important;
 }
 .body__white-theme .next__arrow:hover{
     background:#fff;
@@ -172,7 +173,7 @@
     border: 1px solid #000;
     color:#000;
 }
-.body__white-theme .referral-system__bonus-code p,.body__white-theme .referral-system__your-code p,.body__white-theme .referral-system__referrals p {
+.body__white-theme .why-we__block__unit__title h5,.body__white-theme .section__description h2,.body__white-theme .main-info__description h4,.body__white-theme .main-info__logo h1,.body__white-theme .referral-system__bonus-code p,.body__white-theme .referral-system__your-code p,.body__white-theme .referral-system__referrals p {
     color: #000;
 }
 .body__white-theme .referral-system__referrals span{
@@ -204,10 +205,24 @@
 .body__white-theme .button,.body__white-theme .button-transparent{
     background:#00b8ff;
 }
+.body__white-theme .button-dashed{
+    border-bottom:2px dashed #00b8ff;
+}
+.body__white-theme .main-info__scroll-button a{
+    background-color: #00b8ff !important;
+    border: 2px solid #00b8ff !important;
+}
+.body__white-theme .main-info__scroll-button a:hover {
+    background: none !important;
+    color: #00b8ff !important;
+}
+.body__white-theme .main-info__scroll-button:hover #styled-element{
+    stroke: #000;
+}
 .body__white-theme .button:hover,.body__white-theme .button-transparent:hover{
     background:none;
 }
-.body__white-theme .product-quantity__additional-options__weekly__coast p,.body__white-theme .shopping-cart__basket-units__one__total,.product-quantity__white-theme .product-quantity__select input,.product-quantity__white-theme .product-quantity__select input::placeholder,.referral-system__information__white-theme .referral-system__bonus-code input{
+.body__white-theme .welcome__text__block h5,.body__white-theme .product-quantity__additional-options__weekly__coast p,.body__white-theme .shopping-cart__basket-units__one__total,.product-quantity__white-theme .product-quantity__select input,.product-quantity__white-theme .product-quantity__select input::placeholder,.referral-system__information__white-theme .referral-system__bonus-code input{
     color:#000;
 }
 .body__white-theme .product-quantity__select input{
@@ -220,7 +235,16 @@
 .body__white-theme .product__region__active__language{
     background:#c0c0c3;
 }
-
+.body__white-theme .main-info__background{
+    background:rgb(140 150 155 / 78%);
+}
+.body__white-theme .main-info__background__picture{
+    background-image:linear-gradient(rgba(171, 180, 186, 0.78), rgba(171, 180, 186, 0.78)),url('../img/buy-bust.png');
+    box-shadow: inset 81px 0 80px 0 rgba(171, 180, 186, 0.78);
+}
+.body__white-theme .why-we__block__unit p,.body__white-theme .welcome__text__block p{
+    color: #7d7d7d;
+}
 @media (max-width:768px){
     .navbar-burger__white-theme{
         background:#000;
