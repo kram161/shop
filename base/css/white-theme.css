@@ -95,7 +95,7 @@
     color:#000;
 }
 .body__white-theme .dropdown-content{
-    background-color: rgba(63, 60, 60, 0.98);
+    background-color: rgb(255 255 255 / 98%);
 }
 .body__white-theme .dropdown-content a{
     color:#898989;
