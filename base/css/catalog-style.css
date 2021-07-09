@@ -72,7 +72,7 @@
 }
 .sidebar__logo img{
     height:100px;
-    width:100px;
+    width:auto;
 }
 .sidebar__logo_language{
     display:flex;
