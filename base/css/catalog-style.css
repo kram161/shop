@@ -912,7 +912,8 @@
     visibility:hidden;
     display:flex;
     position:absolute;
-    left:350px;
+    left:50%;
+    transform:translate(-50%);
 }
 .product-information__hidden__active{
     visibility:visible;
