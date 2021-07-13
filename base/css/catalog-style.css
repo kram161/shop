@@ -363,7 +363,7 @@
     color:#000;
     text-decoration: none;
     word-wrap: break-word;
-    min-height:70px;
+    min-height:60px;
 }
 .catalog-cards__unit__description__information{
     display:flex;
