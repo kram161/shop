@@ -605,6 +605,7 @@
     width:240px;
 }
 .product-customization__platform__unit__activator{
+    margin:30px 0 0 0;
     cursor:pointer;
     padding:19px 0 19px 32px;
 }
