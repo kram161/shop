@@ -614,9 +614,7 @@
     cursor: auto;
     height:160px;
 }
-.product-customization__platform__unit__button{
-    height:0;
-}
+
 .product-customization__platform__unit__button input{
     display:none;
 }
@@ -666,6 +664,20 @@
 }
 .product-customization__platform__unit{
     margin-right: 21px;
+}
+.product-customization__platform__unit__prc{
+    opacity:0;
+}
+.product-customization__platform__unit__description__active .product-customization__platform__unit__prc{
+    opacity:1;
+    transition:1s;
+}
+.product-customization__platform__unit__button__label{
+    opacity:0;
+}
+.product-customization__platform__unit__description__active .product-customization__platform__unit__button__label{
+    opacity:1;
+    transition:1s;
 }
 .product-customization__quantity p{
     color:#86C9D1;
@@ -1056,3 +1068,4 @@
     margin:10px 0;
     font-weight:400;
 }
+
