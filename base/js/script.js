@@ -10,6 +10,9 @@ $(document).ready(function(){
         else if($('section').is('#Jobs')){
             $('html,body').stop().animate({ scrollTop: $('#Jobs-form').offset().top }, 1000);
         }
+        else if($('section').is('#Feedback')){
+            $('html,body').stop().animate({ scrollTop: $('#Feedback-form').offset().top }, 1000);
+        }
     });
 });
 $(document).ready(function() {

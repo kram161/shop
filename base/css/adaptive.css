@@ -180,6 +180,30 @@
     }
 }
 @media (max-width:768px){
+    .feedback-links{
+        flex-direction: column;
+    }
+    .feedback-links__block{
+        margin:auto auto;
+    }
+    .feedback-links__unit{
+        margin:12px 0;
+    }
+    .feedback-form__inputs{
+        flex-direction: column;
+    }
+    .feedback-form__inputs__contacts input{
+        width:95%;
+        height: 47px;
+        padding:10px 15px 10px 15px;
+    }
+    .feedback-form__inputs__text textarea{
+        width:95%;
+        height: 47px;
+    }
+    .feedback-form__inputs__contacts__name{
+        margin: 20px 0;
+    }
     .product-stlcheckbox {
         top: 4px;
         margin-left:5px;
@@ -543,6 +567,12 @@
     }
 }
 @media (max-width:541px){
+    .feedback-form__inputs__contacts input{
+        width:91%;
+    }
+    .feedback-form__inputs__text textarea{
+        width:91%;
+    }
     .game__slider__slide{
         margin:0 5px 0 0;
     }
@@ -1487,6 +1517,21 @@
     }
 }
 @media (max-width:376px){
+    .feedback-links__unit{
+        width: 350px;
+    }
+    .trust__main-info p {
+        font-size: 16px;
+    }
+    .feedback-form__inputs__contacts p, .feedback-form__inputs__text p {
+        font-size: 16px;
+    }
+    .feedback-form__inputs__contacts input {
+        height: 30px;
+    }
+    .feedback-form__inputs__text textarea {
+        height: 30px;
+    }
     .swiper-slide-active{
         width: 300px !important;
         margin:0 20px;
@@ -1627,6 +1672,18 @@
     }
 }
 @media (max-width:320px){
+    .feedback-form__button a {
+        padding: 10px 50px;
+    }
+    .feedback-form__inputs__text textarea {
+        width: 89%;
+    }
+    .feedback-form__inputs__contacts input {
+        width: 89%;
+    }
+    .feedback-links__unit {
+        width: 300px;
+    }
     .mySwiper {
         height: 232px;
         margin: 30px 0;

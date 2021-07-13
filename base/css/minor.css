@@ -15,6 +15,9 @@
 .faq__background__picture{
     background-image:url('../img/faq/faq.png');
 }
+.feedback__background__picture{
+    background-image:url('../img/jobs/jobs.png');
+}
 .trust__scroll-button a{
     position:absolute;
     left:138px;
@@ -457,4 +460,92 @@
 }
 .faq-answers{
     margin:100px 0;
+}
+.feedback__main-info h2{
+    margin:15px 0;
+}
+.feedback__main-info p{
+    margin: 10px 0;
+}
+.feedback-form__description{
+    text-align:center;
+}
+.feedback-form__description h3{
+    font-weight:600;
+    font-size:25px;
+    margin:77px 0 91px 0;
+}
+.feedback-form__inputs{
+    display:flex;
+    justify-content:space-evenly;
+}
+.feedback-form__inputs__contacts p,.feedback-form__inputs__text p{
+    font-weight:400;
+    font-size:20px;
+    margin:12px 0;
+}
+.feedback-form__inputs__contacts input{
+    border-radius:30px;
+    border:1px solid #939393;
+    background:none;
+    outline: none;
+    font-size:20px;
+    padding:10px 0 10px 15px;
+    color:#fff;
+    width:100%;
+}
+.feedback-form__inputs__text textarea{
+    border-radius:30px;
+    border:1px solid #939393;
+    background:none;
+    outline: none;
+    font-size:20px;
+    padding:10px 15px 10px 15px;
+    color:#fff;
+    resize:none;
+    max-height:169px;
+}
+.feedback-form__inputs__contacts__name{
+    margin:65px 0 0 0;
+}
+.feedback-form__button{
+    text-align:center;
+    margin:80px 0;
+}
+.feedback-form__button a{
+    padding:10px 60px;
+    font-size:25px;
+    font-weight:600;
+}
+.feedback-links{
+    display:flex;
+    justify-content:space-evenly;
+}
+.feedback-links__block{
+    display:flex;
+    flex-direction:column;
+    margin:auto 0;
+}
+.feedback-links__unit{
+    display:flex;
+    border: 1px solid #CDC8D1;
+    box-sizing: border-box;
+    border-radius: 100px;
+    padding:16px 0 16px 28px;
+    width:361px;
+    color:#929090;
+    text-decoration:none;
+    font-weight:400;
+    font-size:20px;
+    margin:22px 0;
+    background: rgba(78, 78, 78, 0.2);
+}
+.feedback-links__unit:hover{
+    background: none;
+}
+.feedback-links__unit svg{
+    margin:auto 0;
+}
+.feedback-links__unit p{
+    margin:auto 0 auto 13px;
 }
