@@ -903,6 +903,9 @@
     background:none;
     border:1px solid #fff;
 }
+.product-information__cloud{
+    position: relative;
+}
 .product-information__visible{
     cursor:pointer;
     color:#BD5A98;
@@ -913,7 +916,6 @@
     display:flex;
     position:absolute;
     left:50%;
-    transform:translate(-50%);
 }
 .product-information__hidden__active{
     visibility:visible;
