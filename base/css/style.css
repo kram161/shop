@@ -225,7 +225,7 @@ datalist,.active__language__us,.inactive__language,.product__region__active__lan
 .section__description h2{
     margin:0;
     font-weight:600;
-    font-size:60px;
+    font-size:45px;
 }
 .main-navbar__first-second__buttons,.main-navbar__first-second__buttons a:nth-child(3){
     position:relative;
@@ -659,7 +659,7 @@ datalist,.active__language__us,.inactive__language,.product__region__active__lan
 }
 .welcome__text__block h5{
     font-weight:600;
-    font-size:32px;
+    font-size:28px;
     margin:15px 0;
 }
 .welcome__text__block p{

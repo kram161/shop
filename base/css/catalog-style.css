@@ -17,7 +17,6 @@
 .expand__sidebar{
     position:absolute;
     z-index:7;
-    background:#000;
     width:34px;
     height:34px;
     border:2px solid #3F3C3C;
@@ -26,6 +25,7 @@
     left:0;
     top:15px;
     cursor:pointer;
+    background-color:#121212
 }
 .expand__sidebar__white-theme{
     background:#fff;
@@ -52,7 +52,7 @@
 .sidebar{
     position:fixed;
     z-index:6;
-    background:#000;
+    background:#121212;
     width:312px;
     height:100vh;
     margin:0 auto;
@@ -511,6 +511,7 @@
     width:20px;
 }
 .main-navbar{
+    background-color:#121212;
     min-width:calc(100% - 312px);
 }
 .main-navbar__active{
@@ -521,6 +522,8 @@
 }
 .product-card__text__description{
     margin: 0 0 50px 0;
+    width: 100vw;
+    max-width: 100%;
 }
 .product-card__text__description p{
     font-size:20px;
