@@ -337,7 +337,7 @@
     margin-bottom: 100px;
 }
 .catalog-cards__unit{
-    Width:210px;
+    width:210px;
     border-radius:20px;
     color:#000;
     font-size:15px;
@@ -362,6 +362,8 @@
     padding:5px 12px;
     color:#000;
     text-decoration: none;
+    word-wrap: break-word;
+    min-height:70px;
 }
 .catalog-cards__unit__description__information{
     display:flex;
@@ -439,8 +441,8 @@
 .catalog-cards__new,.catalog-cards__new__description{
     color:#fff;
 }
-.catalog-cards__new,.catalog-cards__new__description img{
-    box-shadow: 0 0 0 2px #387768;
+.catalog-cards__new__image img{
+    box-shadow: 0 0 0 1px #387768;
 }
 .catalog-cards__new .catalog-cards__unit__description__information a{
     color:#fff;
