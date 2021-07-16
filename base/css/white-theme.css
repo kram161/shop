@@ -20,7 +20,7 @@
 .body__white-theme .search-result {
     border-bottom: 1px solid rgb(28, 26, 26);
 }
-.body__white-theme .search-result__unit h3,.body__white-theme .search-result__unit p{
+.body__white-theme .catalog-description h1,.body__white-theme .search-result__unit h3,.body__white-theme .search-result__unit p{
     color:#000;
 }
 .body__white-theme .main-navbar{

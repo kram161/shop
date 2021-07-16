@@ -274,9 +274,9 @@ datalist,.active__language__us,.inactive__language,.product__region__active__lan
     position:relative;
     padding-top:180px;
 }
-.main-info__logo svg{
-    position:relative;
-    top:5px;
+.main-info__logo img{
+    height:155px;
+    width:auto;
 }
 .main-info__logo h1{
     font-family: 'Montserrat', sans-serif;
