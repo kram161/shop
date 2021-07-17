@@ -179,6 +179,15 @@
 .body__white-theme .referral-system__referrals span{
     color:#D7669D;
 }
+.body__white-theme .sidebar-menu-arrow {
+    fill:#000;
+}
+.body__white-theme .sub-menu a:hover {
+    color: #00b8ff;
+}
+.body__white-theme .sidebar__services__elements__description:hover .sidebar-menu-arrow{
+    fill:#00b8ff;
+}
 .body__white-theme .product-customization__quantity__range .rs-pointer::after,.body__white-theme .product-customization__quantity__range .rs-container .rs-selected,.body__white-theme .product-customization__quantity__range .rs-pointer{
     background-color: #00b8ff !important;
 }

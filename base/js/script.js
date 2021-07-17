@@ -248,5 +248,9 @@ $(document).ready(function() {
     });
 
 });
-
+$(document).ready(function() {
+    $('.sidebar__services__elements').click(function(e){
+        $(this).find('> ul').slideToggle();
+    })
+});
 
