@@ -255,7 +255,7 @@ $(document).ready(function() {
 });
 
 $(".main-navbar__first-child__dropdown").hover(function () {
-    $(".dropdown-content").stop().slideDown("slow");
+    $(".dropdown-content").stop().slideDown(300);
 }, function(){
-    $(".dropdown-content").stop().slideUp("slow");
+    $(".dropdown-content").stop().slideUp(300);
 });
