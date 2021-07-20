@@ -254,7 +254,10 @@ $(document).ready(function() {
     })
 });
 $(document).ready(function() {
+
     $('.main-navbar__first-child__dropdown').hover(function(e){
-        $('.dropdown-content').slideToggle();
+        window.setTimeout(function() {
+            $('.dropdown-content').slideToggle();
+        }, 500 /* 0.5 sec */);
     })
 });
