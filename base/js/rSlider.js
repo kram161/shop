@@ -2,10 +2,11 @@
 let mySlider = new rSlider({
     target: '#sampleSlider',
     values: [1, 2, 3, 4, 5, 6, 7, 8,9,10,11,12,13,14,15],
+    range: true,
     tooltip: true,
     scale: true,
     labels: true,
-    set: [8],
+    set: [5, 11]
 });
 let Slider = new rSlider({
     target: '#referalSlider',

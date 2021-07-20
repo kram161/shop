@@ -742,7 +742,12 @@
     border:none !important;
     z-index:4 !important;
     position:relative !important;
+}
+[data-dir="left"]{
     top:-5px !important;
+}
+[data-dir="right"]{
+    top:-32px !important;
 }
 .product-customization__quantity__range .rs-pointer::after{
     width:19px !important;
@@ -772,6 +777,7 @@
     width: 100%;
     border-radius: 0 !important;
 }
+
 .product-customization__quantity__range  .rs-container .rs-selected {
     background-color: #86C9D1 !important;
     border: none !important;
