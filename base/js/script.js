@@ -246,11 +246,14 @@ $(document).ready(function() {
         $input.change();
         return false;
     });
-
 });
 $(document).ready(function() {
     $('.sidebar-menu-arrow').click(function(e){
         $(this).parents('.sidebar__services__elements').find('> ul').slideToggle();
     })
 });
-
+$(document).ready(function() {
+    $('.main-navbar__first-child__dropdown').hover(function(e){
+        $('.dropdown-content').slideToggle();
+    })
+});

@@ -170,9 +170,7 @@ datalist,.active__language__us,.inactive__language,.product__region__active__lan
     color:#fff;
 }
 
-.main-navbar__first-child__dropdown:hover .dropdown-content {
-    display: block;
-}
+
 .main-navbar__first-child__rating{
     font-weight: 400;
     position: relative;
@@ -482,7 +480,6 @@ datalist,.active__language__us,.inactive__language,.product__region__active__lan
     border:1px solid #fff;
     border-radius:30px;
     width:260px ;
-    height:450px ;
     font-weight:600;
     margin:0 70px 0 0;
 }
@@ -496,6 +493,9 @@ datalist,.active__language__us,.inactive__language,.product__region__active__lan
 }
 .hot-deals__cards__slider__slide p{
     margin:0;
+}
+.slide__description__name{
+    height:80px;
 }
 .slide__description__name p{
     margin:0 0 15px 0;
@@ -579,7 +579,7 @@ datalist,.active__language__us,.inactive__language,.product__region__active__lan
     color:#fff !important;
 }
 .hot-deals__cards__slider .slick-list{
-    height:452px;
+    height:auto;
 }
 
 .hot-deals__cards__slider .next__arrow{
