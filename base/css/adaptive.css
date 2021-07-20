@@ -566,6 +566,9 @@
     }
 }
 @media (max-width:541px){
+    .woocommerce-order {
+        max-width: 400px;
+    }
     .feedback-form__inputs__contacts input{
         width:91%;
     }
@@ -1512,6 +1515,21 @@
     }
 }
 @media (max-width:376px){
+    .custom-fields {
+        font-size: 18px;
+    }
+    .woocommerce-order {
+        max-width: 340px;
+    }
+    .woocommerce-notice, .upon-delivery {
+        font-size: 18px;
+    }
+    .woocommerce-order li {
+        font-size: 16px;
+    }
+    .woocommerce-order-details h2{
+        font-size:18px;
+    }
     .feedback-links__unit{
         width: 350px;
     }
@@ -1667,6 +1685,9 @@
     }
 }
 @media (max-width:320px){
+    .woocommerce-order {
+        max-width: 300px;
+    }
     .feedback-form__button a {
         padding: 10px 50px;
     }

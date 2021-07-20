@@ -48,6 +48,9 @@
 .shopping-cart__basket-units__one,.shopping-cart__basket-units__one__first,.shopping-cart__basket-units__one__second,.adaptive-shopping-cart__unit-quantity{
     display:flex;
 }
+.shopping-cart__basket-units__one__second{
+    margin:0 130px 0 0;
+}
 .adaptive-shopping-cart__unit-total{
     display:flex;
     justify-content:space-between;
@@ -57,6 +60,10 @@
 }
 .shopping-cart__basket-units__one__name-adaptive{
     display:none;
+}
+.shopping-cart__basket-units__one__name a{
+    text-decoration:none;
+    color:#fff;
 }
 .shopping-cart__basket-units__one__description{
     display:none;
@@ -111,13 +118,12 @@
 .shopping-cart__basket-total{
     display:flex;
     justify-content: space-between;
-    width:278px;
+    width:350px;
     background:#FFFFFF;
     color:#000;
     border-radius:15px;
-    height:194px;
+    height: auto;
     position:relative;
-    bottom:-32px;
 }
 .shopping-cart__basket-total__description p,.shopping-cart__basket-total__amount p{
     margin:10px 0 10px 0;
@@ -166,7 +172,7 @@
     background:#232224;
     border:1px solid #343435;
     border-radius:15px;
-    width:411px;
+    width:400px;
     height:172px;
     position:relative;
     bottom: -53px;
@@ -265,6 +271,68 @@
     width:66px;
     height:21px;
 }
-.shopping-cart__basket__forms__chat__logo
-
-
+.woocommerce-order{
+    margin:200px auto 150px auto;
+    display: flex;
+    flex-direction:column;
+    text-align:center;
+    max-width:500px;
+    background: #fff;
+    border-radius:30px;
+    border:1px solid #000;
+    color:#000;
+}
+.woocommerce-notice,.upon-delivery{
+    font-weight:600;
+    font-size:22px;
+}
+.woocommerce-order ul{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.woocommerce-order li{
+    display:flex;
+    justify-content:center;
+    font-size:18px;
+    font-weight:400;
+}
+.woocommerce-order strong{
+    margin:0 0 0 5px;
+    font-weight:600;
+}
+.woocommerce-order-overview{
+    padding:0;
+}
+.woocommerce-table{
+    margin:0 auto;
+    justify-content:space-between;
+    text-align:left;
+}
+.woocommerce-table__product-name{
+    display:flex;
+}
+.woocommerce-table__product-name a{
+    width:auto;
+    text-align:left;
+    max-width:250px;
+    text-decoration:none;
+    color:#D7669D;
+    font-weight:600;
+}
+.product-quantity {
+    width: 0;
+    display: flex;
+    flex-direction: column;
+}
+.woocommerce-table th{
+    margin: 0 100px 0 0;
+}
+.custom-fields{
+    font-size:22px;
+    font-weight:600;
+    margin:15px auto;
+}
+.custom-fields td{
+    color:#86C9D1;
+}
