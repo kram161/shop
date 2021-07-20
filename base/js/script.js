@@ -253,11 +253,9 @@ $(document).ready(function() {
         $(this).parents('.sidebar__services__elements').find('> ul').slideToggle();
     })
 });
-$(document).ready(function() {
 
-    $('.main-navbar__first-child__dropdown').hover(function(e){
-        window.setTimeout(function() {
-            $('.dropdown-content').slideToggle();
-        }, 500 /* 0.5 sec */);
-    })
+$(".main-navbar__first-child__dropdown").hover(function () {
+    $(".dropdown-content").stop().slideDown("slow");
+}, function(){
+    $(".dropdown-content").stop().slideUp("slow");
 });
