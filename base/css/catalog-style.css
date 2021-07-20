@@ -9,7 +9,7 @@
     padding-left:0;
 }
 
-.sub-menu a:hover,.sub-menu li,.sidebar__services path,.sidebar__services p,.sidebar__services a,.sidebar-menu-arrow,.sidebar__services__elements__description:hover .sidebar-menu-arrow,.profile-menu__personal:hover,.profile-menu__purchase-history:hover,.profile-menu__referral-system:hover,.sidebar__services a:hover path,.sidebar__services a:hover p,.sidebar__menu a:hover path,.sidebar__menu a:hover p,.main-navbar,.main-navbar__active,.main-content,.expand__sidebar,.expand__sidebar__active,.sidebar,.sidebar__active,.expand__sidebar__active .expand__sidebar__button,.expand__sidebar__button,.catalog-buttons__button:hover,.catalog-buttons__button,.sidebar__change-theme__button__dot,.sidebar__change-theme__button__dot__active{
+.rewardsAndDescriptionTab,.rewardsAndDescriptionTab:hover,.sub-menu a:hover,.sub-menu li,.sidebar__services path,.sidebar__services p,.sidebar__services a,.sidebar-menu-arrow,.sidebar__services__elements__description:hover .sidebar-menu-arrow,.profile-menu__personal:hover,.profile-menu__purchase-history:hover,.profile-menu__referral-system:hover,.sidebar__services a:hover path,.sidebar__services a:hover p,.sidebar__menu a:hover path,.sidebar__menu a:hover p,.main-navbar,.main-navbar__active,.main-content,.expand__sidebar,.expand__sidebar__active,.sidebar,.sidebar__active,.expand__sidebar__active .expand__sidebar__button,.expand__sidebar__button,.catalog-buttons__button:hover,.catalog-buttons__button,.sidebar__change-theme__button__dot,.sidebar__change-theme__button__dot__active{
     -webkit-transition: all 200ms linear ;
     -moz-transition: all 200ms linear ;
     -o-transition: all 200ms linear ;
@@ -922,6 +922,13 @@
 .product-information__text li::marker{
     color:#86C9D1;
 }
+.rewardsAndDescriptionTab{
+    text-decoration:none;
+    color: #86C9D1;
+}
+.rewardsAndDescriptionTab:hover{
+    color: #00b8ff;
+}
 .product-footer__slider{
     display:flex;
     justify-content:space-between;
@@ -1117,4 +1124,8 @@
 }
 .sub-menu {
     display: none;
+}
+.rewardsAndDescriptionTabTopicItem{
+    font-weight:600;
+    color:#FFCE31;
 }

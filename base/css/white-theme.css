@@ -185,6 +185,13 @@
 .body__white-theme .sub-menu a:hover {
     color: #00b8ff;
 }
+.body__white-theme .rewardsAndDescriptionTab{
+    text-decoration:none;
+    color: #00b8ff;
+}
+.body__white-theme .rewardsAndDescriptionTab:hover{
+    color: #09438c;
+}
 .body__white-theme .sidebar__services__elements__description:hover .sidebar-menu-arrow{
     fill:#00b8ff;
 }
