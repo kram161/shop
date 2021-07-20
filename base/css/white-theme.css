@@ -1,3 +1,9 @@
+.scrollbar__white-theme ::-webkit-scrollbar-track{
+    background:#fff;
+}
+.scrollbar__white-theme ::-webkit-scrollbar-thumb{
+    background:#00b8ff;
+}
 .body__white-theme .button-transparent{
     border:1px solid #86C9D1;
     background: #fff;

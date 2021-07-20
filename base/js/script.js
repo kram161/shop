@@ -45,6 +45,7 @@ $(document).ready(function() {
     })
     $('.sidebar__change-theme__button').click(function(e){
         $('body').toggleClass('body__white-theme')
+        $('html').toggleClass('scrollbar__white-theme')
 
     })
     $('.product-customization__platform__unit__activator').click(function(e){
