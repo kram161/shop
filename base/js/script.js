@@ -249,8 +249,8 @@ $(document).ready(function() {
 
 });
 $(document).ready(function() {
-    $('.sidebar__services__elements').click(function(e){
-        $(this).find('> ul').slideToggle();
+    $('.sidebar-menu-arrow').click(function(e){
+        $(this).parents('.sidebar__services__elements').find('> ul').slideToggle();
     })
 });
 
