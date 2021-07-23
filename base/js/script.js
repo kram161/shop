@@ -250,6 +250,7 @@ $(document).ready(function() {
 });
 $(document).ready(function() {
     $('.sidebar-menu-arrow').click(function(e){
+        e.preventDefault()
         $(this).parents('.sidebar__services__elements').find('> ul').slideToggle();
     })
 });

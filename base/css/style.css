@@ -421,7 +421,11 @@ datalist,.active__language__us,.inactive__language,.product__region__active__lan
     background-repeat:no-repeat;
     background-size: cover;
 }
-
+.game__slider__slide__none-active{
+    pointer-events: none;
+    opacity: 0.5;
+    background: #CCC;
+}
 .game__slider .prev__arrow,.next__arrow{
     position:absolute;
     bottom:0;
