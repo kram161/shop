@@ -673,17 +673,24 @@ datalist,.active__language__us,.inactive__language,.product__region__active__lan
 }
 .welcome__text__block{
     font-size:25px;
-    margin-bottom:56px;
+    padding:0 0 36px 0;
+}
+.welcome__text__block-hidden{
+    display:none;
+}
+.welcome__text__block-hidden p{
+    margin:15px 0;
 }
 .welcome__text__block h5{
     font-weight:600;
     font-size:28px;
-    margin:15px 0;
+    margin:0;
 }
 .welcome__text__block p{
     font-weight:200;
     color:#D3D0D0;
     font-size:14px;
+    padding:15px 0;
 }
 .welcome__button{
     margin-bottom: 20px;
