@@ -1685,6 +1685,17 @@
     }
 }
 @media (max-width:320px){
+    .product-quantity__consider__element, .shopping-cart__consider{
+        position:relative;
+        left:-45px;
+    }
+    .product-quantity__coast__value label{
+        position: relative;
+        left:-55px;
+    }
+    .product-quantity__button{
+        width:300px;
+    }
     .woocommerce-order {
         max-width: 300px;
     }

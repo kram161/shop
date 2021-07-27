@@ -266,3 +266,9 @@ $(".main-navbar__first-child__dropdown").hover(function () {
 }, function(){
     $(".dropdown-content").stop().slideUp(300);
 });
+$(document).ready(function(){
+    $('.clear-button').on('click', function(){
+        $('input[type="radio"]').prop('checked', false);
+        $('input[type="checkbox"]').prop('checked', false);
+    });
+});
