@@ -9,7 +9,7 @@
     padding-left:0;
 }
 
-.rewardsAndDescriptionTab,.rewardsAndDescriptionTab:hover,.sub-menu a:hover,.sub-menu li,.sidebar__services path,.sidebar__services p,.sidebar__services a,.sidebar-menu-arrow,.sidebar__services__elements__description:hover .sidebar-menu-arrow,.profile-menu__personal:hover,.profile-menu__purchase-history:hover,.profile-menu__referral-system:hover,.sidebar__services a:hover path,.sidebar__services a:hover p,.sidebar__menu a:hover path,.sidebar__menu a:hover p,.main-navbar,.main-navbar__active,.main-content,.expand__sidebar,.expand__sidebar__active,.sidebar,.sidebar__active,.expand__sidebar__active .expand__sidebar__button,.expand__sidebar__button,.catalog-buttons__button:hover,.catalog-buttons__button,.sidebar__change-theme__button__dot,.sidebar__change-theme__button__dot__active{
+.stlcheckbox::before,.stlradio::before,.cstmradio::before,.rewardsAndDescriptionTab,.rewardsAndDescriptionTab:hover,.sub-menu a:hover,.sub-menu li,.sidebar__services path,.sidebar__services p,.sidebar__services a,.sidebar-menu-arrow,.sidebar__services__elements__description:hover .sidebar-menu-arrow,.profile-menu__personal:hover,.profile-menu__purchase-history:hover,.profile-menu__referral-system:hover,.sidebar__services a:hover path,.sidebar__services a:hover p,.sidebar__menu a:hover path,.sidebar__menu a:hover p,.main-navbar,.main-navbar__active,.main-content,.expand__sidebar,.expand__sidebar__active,.sidebar,.sidebar__active,.expand__sidebar__active .expand__sidebar__button,.expand__sidebar__button,.catalog-buttons__button:hover,.catalog-buttons__button,.sidebar__change-theme__button__dot,.sidebar__change-theme__button__dot__active{
     -webkit-transition: all 200ms linear ;
     -moz-transition: all 200ms linear ;
     -o-transition: all 200ms linear ;
@@ -371,14 +371,13 @@
     color:#000;
     font-size:15px;
     font-weight:600;
-    margin:25px 20px 0 0;
+    margin:25px auto 0 auto;
 }
 .catalog-cards__unit img{
     width:calc(100% - 2px);
-    margin:0 0 0 1px;
     Height:234px;
     border-radius:18px 18px 0 0;
-    box-shadow:0 0 0 1px #fff;
+    border:1px solid #fff;
 }
 .catalog-cards__unit__description{
     background:#fff;
@@ -443,10 +442,9 @@
     color:#fff;
 }
 .catalog-cards__discount img{
-    box-shadow: 0 0 0 2px rgba(250, 10, 125, 0.5);
+    border: 1px solid rgba(250, 10, 125, 0.5);
 }
 .catalog-cards__discount .catalog-cards__unit__description {
-
     box-shadow: 0 0 0 1px rgba(250, 10, 125, 0.5);
 }
 .catalog-cards__discount span{
@@ -471,7 +469,7 @@
     color:#fff;
 }
 .catalog-cards__new__image img{
-    box-shadow: 0 0 0 1px #387768;
+    border: 1px solid #387768;
 }
 .catalog-cards__new .catalog-cards__unit__description__information a{
     color:#fff;
@@ -997,7 +995,7 @@
     color:#86C9D1;
 }
 .catalog-cards__offer-of-the-day img{
-    box-shadow: 0 0 0 1px #47689AFF;
+    border: 1px solid #47689AFF;
 }
 .catalog-cards__offer-of-the-day .catalog-cards__unit__description{
     background:#47689AFF;
