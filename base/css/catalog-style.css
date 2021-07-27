@@ -9,7 +9,7 @@
     padding-left:0;
 }
 
-.stlcheckbox::before,.stlradio::before,.cstmradio::before,.rewardsAndDescriptionTab,.rewardsAndDescriptionTab:hover,.sub-menu a:hover,.sub-menu li,.sidebar__services path,.sidebar__services p,.sidebar__services a,.sidebar-menu-arrow,.sidebar__services__elements__description:hover .sidebar-menu-arrow,.profile-menu__personal:hover,.profile-menu__purchase-history:hover,.profile-menu__referral-system:hover,.sidebar__services a:hover path,.sidebar__services a:hover p,.sidebar__menu a:hover path,.sidebar__menu a:hover p,.main-navbar,.main-navbar__active,.main-content,.expand__sidebar,.expand__sidebar__active,.sidebar,.sidebar__active,.expand__sidebar__active .expand__sidebar__button,.expand__sidebar__button,.catalog-buttons__button:hover,.catalog-buttons__button,.sidebar__change-theme__button__dot,.sidebar__change-theme__button__dot__active{
+.page-numbers a,.page-numbers span,.page-numbers a:hover,.page-numbers span:hover,.stlcheckbox::before,.stlradio::before,.cstmradio::before,.rewardsAndDescriptionTab,.rewardsAndDescriptionTab:hover,.sub-menu a:hover,.sub-menu li,.sidebar__services path,.sidebar__services p,.sidebar__services a,.sidebar-menu-arrow,.sidebar__services__elements__description:hover .sidebar-menu-arrow,.profile-menu__personal:hover,.profile-menu__purchase-history:hover,.profile-menu__referral-system:hover,.sidebar__services a:hover path,.sidebar__services a:hover p,.sidebar__menu a:hover path,.sidebar__menu a:hover p,.main-navbar,.main-navbar__active,.main-content,.expand__sidebar,.expand__sidebar__active,.sidebar,.sidebar__active,.expand__sidebar__active .expand__sidebar__button,.expand__sidebar__button,.catalog-buttons__button:hover,.catalog-buttons__button,.sidebar__change-theme__button__dot,.sidebar__change-theme__button__dot__active{
     -webkit-transition: all 200ms linear ;
     -moz-transition: all 200ms linear ;
     -o-transition: all 200ms linear ;
@@ -1138,4 +1138,30 @@
     font-size:18px;
     text-transform:uppercase;
     margin:20px 0 0 0;
+}
+.page-numbers{
+    display:flex;
+    justify-content:center;
+}
+.page-numbers li{
+    display:flex;
+}
+.page-numbers span,.page-numbers a{
+    text-decoration:none;
+    font-size:18px;
+    color:#fff;
+    padding: 7px 10px 5px 10px;
+    margin: 0 3px;
+    cursor:pointer;
+}
+.page-numbers .current{
+    background:#86C9D1;
+    border-radius:6px;
+}
+.page-numbers a:hover,.page-numbers span:hover{
+    background:#86C9D1;
+    border-radius:6px;
+}
+.page-numbers .next{
+    padding: 6px 10px 0 10px;
 }
