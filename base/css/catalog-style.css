@@ -487,7 +487,7 @@
     display:flex;
 }
 .product-card__image__slider__slide,.product-card__image__slider__slide img{
-    Width:339px;
+    Width:100%;
     Height:345px;
 }
 .product-card__image__slider__slide img{
@@ -1001,6 +1001,9 @@
 }
 .catalog-cards__offer-of-the-day .catalog-cards__unit__description{
     background:#47689AFF;
+}
+.catalog-cards__offer-of-the-day .catalog-cards__unit__description p,.catalog-cards__new .catalog-cards__unit__description p{
+    color:#fff;
 }
 .catalog-cards__new .catalog-cards__unit__description{
     background:#387768;

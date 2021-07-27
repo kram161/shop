@@ -401,9 +401,11 @@ datalist,.active__language__us,.inactive__language,.product__region__active__lan
     height: 274px;
     overflow: hidden;
     border-radius: 45px;
-    border:1px solid #fff;
     background-repeat:no-repeat;
     background-size: cover;
+}
+.game__slider__slide {
+    border:1px solid #fff;
 }
 .game__slider__slide p{
     position:absolute;
