@@ -119,8 +119,6 @@
     padding-bottom:20px;
     border-bottom:1px solid rgba(255, 255, 255, 0.15);
 }
-
-
 .sidebar__services a:hover path{
     fill: #86C9D1;
 }
@@ -373,15 +371,14 @@
     color:#000;
     font-size:15px;
     font-weight:600;
-    margin-top:25px;
-    margin-right: 19px;
+    margin:25px 20px 0 0;
 }
 .catalog-cards__unit img{
-    Width:208px;
+    width:calc(100% - 2px);
+    margin:0 0 0 1px;
     Height:234px;
     border-radius:18px 18px 0 0;
-    margin:0 1px 0 1px;
-    box-shadow: 0 0 0 1px #fff;
+    box-shadow:0 0 0 1px #fff;
 }
 .catalog-cards__unit__description{
     background:#fff;
@@ -446,11 +443,11 @@
     color:#fff;
 }
 .catalog-cards__discount img{
-    box-shadow: 0 0 0 2px rgba(250, 10, 125, 0.24);
+    box-shadow: 0 0 0 2px rgba(250, 10, 125, 0.5);
 }
 .catalog-cards__discount .catalog-cards__unit__description {
 
-    box-shadow: 0 0 0 1px rgba(250, 10, 125, 0.24);
+    box-shadow: 0 0 0 1px rgba(250, 10, 125, 0.5);
 }
 .catalog-cards__discount span{
     position:absolute;
@@ -883,8 +880,8 @@
     position: relative;
     font-weight:600;
     color:#fff;
-    text-align:center;
-    width:80px;
+    text-align:right;
+    width:150px;
     margin:3px 0;
 }
 .product-quantity__button{

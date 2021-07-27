@@ -104,7 +104,12 @@
     background-color: rgb(255 255 255 / 98%);
 }
 .body__white-theme .dropdown-content a{
-    color:#898989;
+    color:#000;
+}
+.body__white-theme .dropdown-content a:nth-child(n+4){
+    pointer-events: none;
+    cursor: default;
+    color: #888888;
 }
 .body__white-theme .game__slider__slide p,.body__white-theme .dropdown-content a:hover{
     color:#fff;
