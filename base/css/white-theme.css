@@ -97,13 +97,13 @@
 .body__white-theme .sidebar__change-theme p{
     color: #8c8888;
 }
-.body__white-theme .page-numbers span,.page-numbers a{
+.body__white-theme .page-numbers span,.body__white-theme .page-numbers a{
     color:#000;
 }
 .body__white-theme .page-numbers .current{
     background:#00b8ff;
 }
-.body__white-theme .page-numbers a:hover,.page-numbers span:hover{
+.body__white-theme .page-numbers a:hover,.body__white-theme .page-numbers span:hover{
     background:#00b8ff;
 }
 .body__white-theme .shopping-cart__empty p,.body__white-theme a,.body__white-theme .product-quantity__additional-options h3,.body__white-theme .product-quantity__additional-options__weekly span,.body__white-theme .product-quantity__additional-options__weekly__coast{

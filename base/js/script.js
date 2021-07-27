@@ -268,7 +268,7 @@ $(".main-navbar__first-child__dropdown").hover(function () {
 });
 $(document).ready(function(){
     $('.clear-button').on('click', function(){
-        $('input[type="radio"]').prop('checked', false);
-        $('input[type="checkbox"]').prop('checked', false);
+        $(this).parent().find('input[type="radio"]').prop('checked', false);
+        $('.product-card__text__options__unit__first').find('input[type="checkbox"]').prop('checked', false);
     });
 });

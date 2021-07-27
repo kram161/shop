@@ -371,7 +371,7 @@
     color:#000;
     font-size:15px;
     font-weight:600;
-    margin:25px auto 0 auto;
+    margin:25px 10px 0 10px;
 }
 .catalog-cards__unit img{
     width:calc(100% - 2px);
@@ -446,6 +446,7 @@
 }
 .catalog-cards__discount .catalog-cards__unit__description {
     box-shadow: 0 0 0 1px rgba(250, 10, 125, 0.5);
+    margin:-5px 1px 0 1px;
 }
 .catalog-cards__discount span{
     position:absolute;
@@ -1145,6 +1146,7 @@
 }
 .page-numbers li{
     display:flex;
+    color:#fff;
 }
 .page-numbers span,.page-numbers a{
     text-decoration:none;
