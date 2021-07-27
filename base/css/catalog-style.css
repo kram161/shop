@@ -492,6 +492,7 @@
     border: 1px solid #939393;
     box-sizing: border-box;
     border-radius: 20px;
+    object-fit: cover;
 }
 .product-card__image__nav{
     width:340px;
@@ -507,6 +508,7 @@
     box-sizing: border-box;
     border-radius: 20px;
     cursor:pointer;
+    object-fit: cover;
 }
 .product-card__image__slider__nav svg{
     top:11px;
