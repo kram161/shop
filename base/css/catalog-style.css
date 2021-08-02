@@ -82,14 +82,6 @@
     padding:0 0 20px 0;
     border-bottom:1px solid rgba(255, 255, 255, 0.15);
 }
-.sidebar__logo_language__us{
-    border-right:1px solid rgba(255, 255, 255, 0.15);
-    padding-right: 8px;
-}
-.sidebar__logo_language__eu{
-    border-left:1px solid rgba(255, 255, 255, 0.15);
-    padding-left: 8px;
-}
 .sidebar__logo_language__us,.sidebar__logo_language__eu{
     display:flex;
     cursor:pointer;
@@ -103,16 +95,20 @@
 }
 .active__language{
     background:#1E1D1F;
-    padding:9px 0 9px 9px;
     border:none;
+    padding:9px;
     border-radius:5px;
 }
-.active__language__us{
-    margin: 0 10px 0 0;
-}
 .inactive__language{
-    margin:0 9px 0 0;
     padding:9px;
+}
+.sidebar__logo__language__stick{
+    position:relative;
+    content:"";
+    width:1px;
+    height:50px;
+    margin:0 10px 0 10px;
+    background:rgba(255, 255, 255, 0.15);
 }
 .sidebar__services{
     margin:10px 22px 10px 22px;
@@ -445,8 +441,8 @@
     border: 1px solid rgba(250, 10, 125, 0.5);
 }
 .catalog-cards__discount .catalog-cards__unit__description {
-    box-shadow: 0 0 0 1px rgba(250, 10, 125, 0.5);
-    margin:-5px 1px 0 1px;
+    border: 1px solid rgba(250, 10, 125, 0.5);
+    margin:-5px 0 0 0;
 }
 .catalog-cards__discount span{
     position:absolute;
@@ -1012,20 +1008,20 @@
 .catalog-cards__unit__description a{
     text-decoration:none;
 }
-.product__region_language{
+.product__region__language{
     display:flex;
     margin:35px 22px 0 22px;
     padding:0 0 20px 0;
     justify-content:flex-start;
     border:none;
 }
-.product__region__language__us{
-    border-right:1px solid rgba(255, 255, 255, 0.15);
-    padding-right: 8px;
-}
-.product__region__language__eu{
-    border-left:1px solid rgba(255, 255, 255, 0.15);
-    padding-left: 8px;
+.product__region__stick{
+    position:relative;
+    content:"";
+    width:1px;
+    height:50px;
+    margin:0 10px 0 10px;
+    background:rgba(255, 255, 255, 0.15);
 }
 .product__region__language__us,.product__region__language__eu{
     display:flex;
@@ -1040,15 +1036,11 @@
 }
 .product__region__active__language{
     background: #0e0d0d;
-    padding:9px 0 9px 9px;
+    padding:9px;
     border:none;
     border-radius:5px;
 }
-.product__region__active__language__us{
-    margin: 0 10px 0 0;
-}
 .product__region__inactive__language{
-    margin:0 9px 0 0;
     padding:9px;
 }
 .product-quantity__additional-options{

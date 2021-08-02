@@ -83,10 +83,10 @@
     font-weight:600;
 }
 .body__white-theme .active__language {
-    background:#EEEEF2;;
+    background:#00b8ff;
 }
-.body__white-theme .sidebar__logo_language__us {
-    border-right: 1px solid rgba(0, 0, 0, 0.15);;
+.body__white-theme .sidebar__logo__language__stick,.body__white-theme .product__region__stick{
+    background: #00000035;
 }
 .body__white-theme a,.body__white-theme .sidebar__menu p{
     color: #A8A7A7;
@@ -203,7 +203,7 @@
 .body__white-theme .sidebar-menu-arrow {
     fill:#000;
 }
-.body__white-theme .sub-menu a:hover {
+.body__white-theme .product-card__text__options__unit__first p,.body__white-theme .product-card__text__options__unit__second p,.body__white-theme .product-customization__quantity p,.body__white-theme .sub-menu a:hover,.body__white-theme .product-customization__platform__unit p,.body__white-theme .product-customization__platform__unit__button span {
     color: #00b8ff;
 }
 .body__white-theme .rewardsAndDescriptionTab{
@@ -265,7 +265,7 @@
 .body__white-theme .product-quantity__select input{
     border:1px solid #000;
 }
-.body__white-theme .product__region_language p{
+.body__white-theme .product__region__language p{
     color:#000;
     font-weight:400;
 }
