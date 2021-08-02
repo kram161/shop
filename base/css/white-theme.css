@@ -4,8 +4,10 @@
 .scrollbar__white-theme ::-webkit-scrollbar-thumb{
     background:#00b8ff;
 }
+.body__white-theme .button,.body__white-theme .button-transparent{
+    border:1px solid #00b8ff;
+}
 .body__white-theme .button-transparent{
-    border:1px solid #86C9D1;
     background: #fff;
     color:#000;
     font-weight: 600;
@@ -203,7 +205,7 @@
 .body__white-theme .sidebar-menu-arrow {
     fill:#000;
 }
-.body__white-theme .product-card__text__options__unit__first p,.body__white-theme .product-card__text__options__unit__second p,.body__white-theme .product-customization__quantity p,.body__white-theme .sub-menu a:hover,.body__white-theme .product-customization__platform__unit p,.body__white-theme .product-customization__platform__unit__button span {
+.body__white-theme .persona-information__main__full-name h4,.body__white-theme .change-password p,.body__white-theme .product-card__text__options__unit__first p,.body__white-theme .product-card__text__options__unit__second p,.body__white-theme .product-customization__quantity p,.body__white-theme .sub-menu a:hover,.body__white-theme .product-customization__platform__unit p,.body__white-theme .product-customization__platform__unit__button span {
     color: #00b8ff;
 }
 .body__white-theme .rewardsAndDescriptionTab{
@@ -213,7 +215,7 @@
 .body__white-theme .rewardsAndDescriptionTab:hover{
     color: #09438c;
 }
-.body__white-theme .sidebar__services__elements__description:hover .sidebar-menu-arrow{
+.body__white-theme .persona-information__main__image circle,.body__white-theme .sidebar__services__elements__description:hover .sidebar-menu-arrow{
     fill:#00b8ff;
 }
 .body__white-theme .product-customization__quantity__range .rs-pointer::after,.body__white-theme .product-customization__quantity__range .rs-container .rs-selected,.body__white-theme .product-customization__quantity__range .rs-pointer{
