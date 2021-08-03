@@ -195,14 +195,20 @@ datalist,.active__language__us,.inactive__language,.product__region__active__lan
     margin-top: 17px;
     margin-right: 10px;
 }
+.main-navbar__first-child__rating{
+    text-decoration:none;
+}
 .main-navbar__first-child__rating__text p:nth-child(1){
     font-size:15px;
     margin-bottom:5px;
+    color:#fff;
+    text-decoration: none;
 }
 .main-navbar__first-child__rating__text p:nth-child(2){
     font-size:12px;
     color:#929090;
     margin-top:5px;
+    text-decoration: none;
 }
 .button,.button-transparent {
     border:1px solid #86C9D1;
@@ -1100,6 +1106,9 @@ datalist,.active__language__us,.inactive__language,.product__region__active__lan
 .swiper-slide-active{
     width: 396px !important;
 }
+.swiper-slide-next,.swiper-slide-active{
+    margin:0 20px;
+}
 .swiper-slide-active .game__slider__slide img{
     width: 396px;
     height: 355px;
@@ -1182,3 +1191,4 @@ datalist,.active__language__us,.inactive__language,.product__region__active__lan
     font-weight:300;
     font-size:10px;
 }
+
