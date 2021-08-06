@@ -919,12 +919,12 @@
 .product-information__text li::marker{
     color:#86C9D1;
 }
-.rewardsAndDescriptionTab{
-    text-decoration:none;
-    color: #86C9D1;
+.product-information__text a {
+    text-decoration: none;
+    color:#00b8ff
 }
-.rewardsAndDescriptionTab:hover{
-    color: #00b8ff;
+.product-information__text a:hover{
+    color:#00b8ff
 }
 .product-footer__slider{
     display:flex;
@@ -1165,3 +1165,4 @@
 .custom-2 {
     fill: #ff7f00;
 }
+

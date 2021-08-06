@@ -214,11 +214,11 @@ body.body__white-theme .next__arrow:hover{
 .body__white-theme .persona-information__main__full-name h4,.body__white-theme .change-password p,.body__white-theme .product-card__text__options__unit__first p,.body__white-theme .product-card__text__options__unit__second p,.body__white-theme .product-customization__quantity p,.body__white-theme .sub-menu a:hover,.body__white-theme .product-customization__platform__unit p,.body__white-theme .product-customization__platform__unit__button span {
     color: #00b8ff;
 }
-.body__white-theme .rewardsAndDescriptionTab{
+.body__white-theme .product-information__text a{
     text-decoration:none;
     color: #00b8ff;
 }
-.body__white-theme .rewardsAndDescriptionTab:hover{
+.body__white-theme .product-information__text a:hover{
     color: #09438c;
 }
 .body__white-theme .persona-information__main__image circle,.body__white-theme .sidebar__services__elements__description:hover .sidebar-menu-arrow{
