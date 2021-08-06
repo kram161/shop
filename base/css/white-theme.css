@@ -76,8 +76,12 @@
 .body__white-theme .sidebar__services path{
     fill:#000;
 }
-.body__white-theme .hot-offers__logo path{
-    fill:initial;
+
+.body__white-theme .custom-1 {
+    fill: #ff4200 !important;
+}
+.body__white-theme .custom-2 {
+    fill: #ff7f00 !important;
 }
 .body__white-theme .sidebar__services,.body__white-theme .sidebar__logo_language {
     border-bottom: none
@@ -227,7 +231,7 @@ body.body__white-theme .next__arrow:hover{
     color:#00b8ff;
 }
 .body__white-theme .sidebar__services a:hover path,.body__white-theme.persona-information__main__image circle{
-    fill:#00b8ff;
+    fill:#00b8ff !important;
 }
 .body__white-theme .persona-information__main__full-name path,.body__white-theme .personal-information__personal-data__units path{
     stroke:#00b8ff;

@@ -1159,6 +1159,9 @@
 .page-numbers .next{
     padding: 6px 10px 0 10px;
 }
-.hot-offers__logo path{
-    fill:initial;
+.custom-1 {
+    fill: #ff4200;
+}
+.custom-2 {
+    fill: #ff7f00;
 }
