@@ -73,9 +73,11 @@
 .body__white-theme .sidebar{
     background:#fff;
 }
-
 .body__white-theme .sidebar__services path{
     fill:#000;
+}
+.body__white-theme .hot-offers__logo path{
+    fill:initial;
 }
 .body__white-theme .sidebar__services,.body__white-theme .sidebar__logo_language {
     border-bottom: none
@@ -160,15 +162,15 @@
 .body__white-theme .product-quantity__consider__element{
     background:#EEEEF2;
 }
-.body__white-theme .prev__arrow,.body__white-theme .next__arrow{
+body.body__white-theme .prev__arrow,body.body__white-theme .next__arrow{
     border: 1px solid #000;
 }
-.body__white-theme .prev__arrow:hover,.body__white-theme .next__arrow:hover{
+body.body__white-theme .prev__arrow:hover,body.body__white-theme .next__arrow:hover{
     border: 1px solid #000;
     fill:#000;
     background:none !important;
 }
-.body__white-theme .next__arrow:hover{
+body.body__white-theme .next__arrow:hover{
     background:#fff;
 }
 .body__white-theme .product-quantity__consider__element{
