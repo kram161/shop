@@ -261,8 +261,11 @@ body.body__white-theme .next__arrow:hover{
     background: none !important;
     color: #00b8ff !important;
 }
-.body__white-theme .active-way{
+.body__white-theme .active-way p{
     color: #00b8ff !important;
+}
+.body__white-theme .active-way path{
+    fill: #00b8ff !important;
 }
 .body__white-theme .main-info__scroll-button:hover #styled-element{
     stroke: #000;
@@ -294,22 +297,22 @@ body.body__white-theme .next__arrow:hover{
     color: #7d7d7d;
 }
 .body__white-theme .catalog-cards__unit{
-    border:1px solid #000;
+    box-shadow: 0 0 0 1px #000;
 }
 .body__white-theme .catalog-cards__offer-of-the-day{
-    border:1px solid #47689AFF;
+    box-shadow: 0 0 0 1px #47689AFF;
 }
 .body__white-theme .catalog-cards__discount{
-    border:1px solid rgba(250, 10, 125, 0.5);
+    box-shadow: 0 0 0 1px rgba(250, 10, 125, 0.5);
 }
 .body__white-theme .catalog-cards__new{
-    border:1px solid #387768;
+    box-shadow: 0 0 0 1px #387768;
 }
 .body__white-theme .catalog-cards__hot{
-    border:1px solid rgb(164, 75, 75);
+    box-shadow: 0 0 0 1px rgb(164, 75, 75);
 }
 .body__white-theme .scroller-block{
-    border: 1px solid #00b8ff;
+    box-shadow: 0 0 0 1px #00b8ff;
     background: #00b8ff;
 }
 .body__white-theme .description__list li::marker{

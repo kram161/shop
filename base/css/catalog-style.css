@@ -372,21 +372,21 @@
     margin:25px 8px 10px 8px;
     overflow: hidden;
     box-sizing: border-box;
-    box-shadow: 0 0 0 1pt #fff;
+    box-shadow: 0 0 0 1px #fff;
     border: none;
     border-radius: 20px;
 }
 .catalog-cards__offer-of-the-day{
-    box-shadow: 0 0 0 1pt #47689AFF;
+    box-shadow: 0 0 0 1px #47689AFF;
 }
 .catalog-cards__discount{
-    box-shadow: 0 0 0 1pt rgba(250, 10, 125, 0.24);
+    box-shadow: 0 0 0 1px rgba(250, 10, 125, 0.24);
 }
 .catalog-cards__new{
-    box-shadow: 0 0 0 1pt #387768;
+    box-shadow: 0 0 0 1px #387768;
 }
 .catalog-cards__hot{
-    box-shadow: 0 0 0 1pt rgb(164, 75, 75);
+    box-shadow: 0 0 0 1px rgb(164, 75, 75);
 }
 .catalog-cards__unit img{
     width:100%;
@@ -1174,8 +1174,11 @@
 .custom-2 {
     fill: #ff7f00;
 }
-.active-way{
+.active-way p{
     color: #86C9D1 !important;
+}
+.active-way path{
+    fill: #86C9D1 !important;
 }
 .description{
     margin:40px 0;
