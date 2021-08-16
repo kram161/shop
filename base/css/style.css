@@ -251,6 +251,7 @@ datalist,.active__language__us,.inactive__language,.product__region__active__lan
 }
 .main-navbar__first-second__buttons a{
     margin:0 3px;
+    position:relative;
 }
 .main-navbar__first-second__buttons a:nth-child(3){
     top:6px;
@@ -1191,4 +1192,18 @@ datalist,.active__language__us,.inactive__language,.product__region__active__lan
     font-weight:300;
     font-size:10px;
 }
-
+.shopping-cart__counter{
+    position:absolute;
+    right:-15px;
+    top:-20px;
+    font-size:10px;
+    background:#fff;
+    border-radius:50%;
+    color:#000;
+    font-weight: 600;
+    height: 16px;
+    min-width: 10px;
+    padding: 0 4px;
+    line-height: 17px;
+    text-align:center;
+}

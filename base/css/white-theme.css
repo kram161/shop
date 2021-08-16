@@ -308,10 +308,10 @@ body.body__white-theme .next__arrow:hover{
 .body__white-theme .catalog-cards__hot{
     border:1px solid rgb(164, 75, 75);
 }
-.catalog-cards__unit img{
-    width:100%;
-    Height:234px;
-    border-radius:18px 18px 0 0;
+
+.body__white-theme .shopping-cart__counter{
+    background:#000;
+    color:#fff;
 }
 @media (max-width:768px){
     .navbar-burger__white-theme{
