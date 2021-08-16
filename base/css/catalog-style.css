@@ -367,13 +367,25 @@
     color:#000;
     font-size:15px;
     font-weight:600;
-    margin:25px 10px 0 10px;
+    margin:25px 8px 10px 8px;
+    border:1px solid #fff;
+}
+.catalog-cards__offer-of-the-day{
+    border:1px solid #47689AFF;
+}
+.catalog-cards__discount{
+    border:1px solid rgba(250, 10, 125, 0.24);
+}
+.catalog-cards__new{
+    border:1px solid #387768;
+}
+.catalog-cards__hot{
+    border:1px solid rgb(164, 75, 75);
 }
 .catalog-cards__unit img{
-    width:calc(100% - 2px);
+    width:100%;
     Height:234px;
     border-radius:18px 18px 0 0;
-    border:1px solid #fff;
 }
 .catalog-cards__unit__description{
     background:#fff;
@@ -421,7 +433,7 @@
     position: absolute;
     background:rgba(32, 135, 255, 0.24);
     top:-26px;
-    width:209px;
+    width:100%;
     display:flex;
     justify-content:center;
     color:#fff;
@@ -436,13 +448,6 @@
 }
 .catalog-cards__discount__information p{
     color:#fff;
-}
-.catalog-cards__discount img{
-    border: 1px solid rgba(250, 10, 125, 0.5);
-}
-.catalog-cards__discount .catalog-cards__unit__description {
-    border: 1px solid rgba(250, 10, 125, 0.5);
-    margin:-5px 0 0 0;
 }
 .catalog-cards__discount span{
     position:absolute;
@@ -464,9 +469,6 @@
 }
 .catalog-cards__new,.catalog-cards__new__description{
     color:#fff;
-}
-.catalog-cards__new__image img{
-    border: 1px solid #387768;
 }
 .catalog-cards__new .catalog-cards__unit__description__information a{
     color:#fff;
@@ -993,9 +995,7 @@
 .item-use{
     color:#86C9D1;
 }
-.catalog-cards__offer-of-the-day img{
-    border: 1px solid #47689AFF;
-}
+
 .catalog-cards__offer-of-the-day .catalog-cards__unit__description{
     background:#47689AFF;
 }
