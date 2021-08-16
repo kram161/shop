@@ -304,7 +304,6 @@
     border-bottom:2px dashed #1C1B1D;
 }
 .menu .menu-item:hover .submenu {
-    /* Show submenu */
     opacity: 1;
     visibility: visible;
 }
@@ -367,26 +366,27 @@
 .catalog-cards__unit{
     width:210px;
     height:364px;
-    border-radius:20px;
     color:#000;
     font-size:15px;
     font-weight:600;
     margin:25px 8px 10px 8px;
-    border:1px solid #fff;
     overflow: hidden;
     box-sizing: border-box;
+    box-shadow: 0 0 0 1pt #fff;
+    border: none;
+    border-radius: 20px;
 }
 .catalog-cards__offer-of-the-day{
-    border:1px solid #47689AFF;
+    box-shadow: 0 0 0 1pt #47689AFF;
 }
 .catalog-cards__discount{
-    border:1px solid rgba(250, 10, 125, 0.24);
+    box-shadow: 0 0 0 1pt rgba(250, 10, 125, 0.24);
 }
 .catalog-cards__new{
-    border:1px solid #387768;
+    box-shadow: 0 0 0 1pt #387768;
 }
 .catalog-cards__hot{
-    border:1px solid rgb(164, 75, 75);
+    box-shadow: 0 0 0 1pt rgb(164, 75, 75);
 }
 .catalog-cards__unit img{
     width:100%;
@@ -1128,6 +1128,7 @@
 }
 .sub-menu {
     display: none;
+    padding: 0;
 }
 .rewardsAndDescriptionTabTopicItem{
     font-weight:600;
@@ -1207,7 +1208,7 @@
     transform:rotate(0deg);
 }
 .description__drop-down__text{
-    max-height:100px;
+    max-height:90px;
     overflow: hidden;
     transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
 }
@@ -1240,4 +1241,10 @@
 }
 .description__table tr{
     border-bottom:1px solid #d5d7d7;
+}
+.description__list li::marker{
+    color:#86C9D1
+}
+.description__list li{
+    font-weight: 400;
 }

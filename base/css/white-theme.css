@@ -270,7 +270,7 @@ body.body__white-theme .next__arrow:hover{
 .body__white-theme .button:hover,.body__white-theme .button-transparent:hover{
     background:none;
 }
-.body__white-theme .description__drop-down h2,.body__white-theme .description__drop-down__text p,.body__white-theme .welcome__text__block h5,.body__white-theme .product-quantity__additional-options__weekly__coast p,.body__white-theme .shopping-cart__basket-units__one__total,.product-quantity__white-theme .product-quantity__select input,.product-quantity__white-theme .product-quantity__select input::placeholder,.referral-system__information__white-theme .referral-system__bonus-code input{
+.body__white-theme .description__list li,.body__white-theme .description__drop-down h2,.body__white-theme .description__drop-down__text p,.body__white-theme .welcome__text__block h5,.body__white-theme .product-quantity__additional-options__weekly__coast p,.body__white-theme .shopping-cart__basket-units__one__total,.product-quantity__white-theme .product-quantity__select input,.product-quantity__white-theme .product-quantity__select input::placeholder,.referral-system__information__white-theme .referral-system__bonus-code input{
     color:#000;
 }
 .body__white-theme .product-quantity__select input{
@@ -311,6 +311,9 @@ body.body__white-theme .next__arrow:hover{
 .body__white-theme .scroller-block{
     border: 1px solid #00b8ff;
     background: #00b8ff;
+}
+.body__white-theme .description__list li::marker{
+    color:#00b8ff
 }
 .body__white-theme .scroller-block:hover{
     border: 1px solid #000;

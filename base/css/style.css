@@ -1229,14 +1229,17 @@ datalist,.active__language__us,.inactive__language,.product__region__active__lan
     border-radius:20px;
     position:fixed;
     bottom:40px;
-    right:10px;
+    left:323px;
     margin:10px 0;
+}
+.scroller-block__sidebar__active{
+    left:10px;
 }
 .scroller-svg {
     height:20px;
     width:20px;
     fill:#fff;
-    margin:10px 0 10px 10px;
+    margin:10px;
 }
 .scroller-text{
     margin:auto 10px;

@@ -8,11 +8,8 @@
     }
 }
 @media (max-width:1024px){
-    .scroller-text{
-        display: none;
-    }
     .scroller-svg {
-        margin: 10px 10px 10px 10px;
+        margin: 10px;
     }
     .scroller-block {
         right: 3px;
@@ -580,6 +577,9 @@
     }
 }
 @media (max-width:541px){
+    .description__drop-down__text{
+        text-align: center;
+    }
     .woocommerce-order {
         max-width: 400px;
     }

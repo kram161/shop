@@ -18,6 +18,7 @@ jQuery(document).ready(function(){
 jQuery(document).ready(function() {
     jQuery('.expand__sidebar').click(function(e){
         jQuery('.sidebar').toggleClass('sidebar__active');
+        jQuery('.scroller-block').toggleClass('scroller-block__sidebar__active');
         jQuery('.expand__sidebar').toggleClass('expand__sidebar__active');
         jQuery('.main-content').toggleClass('Main-content__active')
         jQuery('.main-navbar').toggleClass('main-navbar__active')
