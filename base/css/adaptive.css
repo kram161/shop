@@ -176,6 +176,9 @@
     .referral-system__quantity__range ins {
         margin: 0 134px 0 0;
     }
+    .shopping-cart__counter {
+        right: -7px;
+    }
 }
 @media(max-width:996px){
     .main-navbar__first-child__rating{
