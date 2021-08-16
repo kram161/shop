@@ -180,6 +180,9 @@
     }
 }
 @media (max-width:768px){
+    .shopping-cart__counter{
+        right:-5px;
+    }
     .feedback-links{
         flex-direction: column;
     }
