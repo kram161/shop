@@ -270,7 +270,7 @@ body.body__white-theme .next__arrow:hover{
 .body__white-theme .button:hover,.body__white-theme .button-transparent:hover{
     background:none;
 }
-.body__white-theme .welcome__text__block h5,.body__white-theme .product-quantity__additional-options__weekly__coast p,.body__white-theme .shopping-cart__basket-units__one__total,.product-quantity__white-theme .product-quantity__select input,.product-quantity__white-theme .product-quantity__select input::placeholder,.referral-system__information__white-theme .referral-system__bonus-code input{
+.body__white-theme .description__drop-down h2,.body__white-theme .description__drop-down__text p,.body__white-theme .welcome__text__block h5,.body__white-theme .product-quantity__additional-options__weekly__coast p,.body__white-theme .shopping-cart__basket-units__one__total,.product-quantity__white-theme .product-quantity__select input,.product-quantity__white-theme .product-quantity__select input::placeholder,.referral-system__information__white-theme .referral-system__bonus-code input{
     color:#000;
 }
 .body__white-theme .product-quantity__select input{
@@ -319,9 +319,32 @@ body.body__white-theme .next__arrow:hover{
     background:#fff;
     color:#000;
 }
+.body__white-theme .description__drop-down__button span{
+    color:#00b8ff;
+}
+.body__white-theme .description__drop-down__button-arrow{
+    fill: #00b8ff;
+}
 .body__white-theme .shopping-cart__counter{
     background:#000;
     color:#fff;
+}
+.body__white-theme .description__link{
+    color:#00b8ff;
+}
+.body__white-theme .description__link:hover{
+    color:#000;
+}
+.body__white-theme .description__table{
+    color:#000;
+}
+.body__white-theme .description__table thead{
+    background: #d0d0d0;
+    font-weight:800;
+}
+.body__white-theme .description__table tbody{
+    background: #f2f1f2;
+    font-weight:400;
 }
 @media (max-width:768px){
     .navbar-burger__white-theme{

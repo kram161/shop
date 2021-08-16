@@ -9,7 +9,7 @@
     padding-left:0;
 }
 
-.page-numbers a,.page-numbers span,.page-numbers a:hover,.page-numbers span:hover,.stlcheckbox::before,.stlradio::before,.cstmradio::before,.rewardsAndDescriptionTab,.rewardsAndDescriptionTab:hover,.sub-menu a:hover,.sub-menu li,.sidebar__services path,.sidebar__services p,.sidebar__services a,.sidebar-menu-arrow,.sidebar__services__elements__description:hover .sidebar-menu-arrow,.profile-menu__personal:hover,.profile-menu__purchase-history:hover,.profile-menu__referral-system:hover,.sidebar__services a:hover path,.sidebar__services a:hover p,.sidebar__menu a:hover path,.sidebar__menu a:hover p,.main-navbar,.main-navbar__active,.main-content,.expand__sidebar,.expand__sidebar__active,.sidebar,.sidebar__active,.expand__sidebar__active .expand__sidebar__button,.expand__sidebar__button,.catalog-buttons__button:hover,.catalog-buttons__button,.sidebar__change-theme__button__dot,.sidebar__change-theme__button__dot__active{
+.description__link,.description__link:hover,.description__drop-down__button-arrow-active,.description__drop-down__button-arrow,.description__drop-down__text,.description__drop-down__text-active,.page-numbers a,.page-numbers span,.page-numbers a:hover,.page-numbers span:hover,.stlcheckbox::before,.stlradio::before,.cstmradio::before,.rewardsAndDescriptionTab,.rewardsAndDescriptionTab:hover,.sub-menu a:hover,.sub-menu li,.sidebar__services path,.sidebar__services p,.sidebar__services a,.sidebar-menu-arrow,.sidebar__services__elements__description:hover .sidebar-menu-arrow,.profile-menu__personal:hover,.profile-menu__purchase-history:hover,.profile-menu__referral-system:hover,.sidebar__services a:hover path,.sidebar__services a:hover p,.sidebar__menu a:hover path,.sidebar__menu a:hover p,.main-navbar,.main-navbar__active,.main-content,.expand__sidebar,.expand__sidebar__active,.sidebar,.sidebar__active,.expand__sidebar__active .expand__sidebar__button,.expand__sidebar__button,.catalog-buttons__button:hover,.catalog-buttons__button,.sidebar__change-theme__button__dot,.sidebar__change-theme__button__dot__active{
     -webkit-transition: all 200ms linear ;
     -moz-transition: all 200ms linear ;
     -o-transition: all 200ms linear ;
@@ -1171,6 +1171,68 @@
 .active-way{
     color: #86C9D1 !important;
 }
-
-
-
+.description{
+    margin:40px 0;
+}
+.description__drop-down h2{
+    font-weight:600;
+}
+.description__drop-down__text p{
+    font-weight:400;
+}
+.description__drop-down__button{
+    display:flex;
+    background:none;
+    border:none;
+    cursor:pointer;
+    color:#86C9D1;
+    margin:0 auto;
+}
+.description__drop-down__button span{
+    font-size:20px;
+    margin:auto 5px;
+}
+.description__drop-down__button-arrow{
+    fill:#86C9D1;
+    width:40px;
+    height:30px;
+    transform:rotate(180deg);
+}
+.description__drop-down__button-arrow-active{
+    transform:rotate(0deg);
+}
+.description__drop-down__text{
+    max-height:100px;
+    overflow: hidden;
+    transition: max-height 0.5s cubic-bezier(0, 1, 0, 1);
+}
+.description__drop-down__text-active{
+    max-height: 1000px;
+    transition: max-height 1s ease-in-out;
+}
+.description__link{
+    text-decoration:none;
+    color:#86C9D1;
+    font-weight:400;
+}
+.description__link:hover{
+    text-decoration:underline;
+    color:#fff;
+}
+.description__table{
+    margin:40px auto;
+    border-collapse: collapse;
+}
+.description__table thead{
+    background:#171718FF;
+}
+.description__table tbody{
+    background: #1c1b1d;
+}
+.description__table td,.description__table th{
+    padding:15px 10px;
+    font-size:14px;
+}
+.description__table tr{
+    border-bottom:1px solid #d5d7d7;
+}
