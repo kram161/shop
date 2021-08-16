@@ -8,6 +8,17 @@
     }
 }
 @media (max-width:1024px){
+    .scroller-text{
+        display: none;
+    }
+    .scroller-svg {
+        margin: 10px 10px 10px 10px;
+    }
+    .scroller-block {
+        right: 3px;
+        bottom: 5px;
+        margin: 0;
+    }
     .sidebar {
         height:100%;
         overflow-y: auto;

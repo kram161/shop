@@ -273,3 +273,16 @@ jQuery(document).ready(function(){
         jQuery('.product-card__text__options__unit__first').find('input[type="checkbox"]').prop('checked', false);
     });
 });
+jQuery(document).ready(function(){
+    jQuery(window).scroll(function(e) {
+        if(jQuery(window).scrollTop()>=200) {
+            jQuery('.scroller').fadeIn(200);
+        } else {
+            jQuery('.scroller').fadeOut(200);
+        }
+    });
+    jQuery('.scroller-block').click(function(e){
+        window.scrollTo({top: 0,behavior: 'smooth'});
+    })
+})
+
