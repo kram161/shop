@@ -366,12 +366,15 @@
 }
 .catalog-cards__unit{
     width:210px;
+    height:364px;
     border-radius:20px;
     color:#000;
     font-size:15px;
     font-weight:600;
     margin:25px 8px 10px 8px;
     border:1px solid #fff;
+    overflow: hidden;
+    box-sizing: border-box;
 }
 .catalog-cards__offer-of-the-day{
     border:1px solid #47689AFF;
@@ -387,14 +390,16 @@
 }
 .catalog-cards__unit img{
     width:100%;
-    Height:234px;
-    border-radius:18px 18px 0 0;
+    height:234px;
+}
+.catalog-cards__unit-img{
+    display:block;
+    height:234px;
 }
 .catalog-cards__unit__description{
     background:#fff;
     position:relative;
-    border-radius:0 0 19px 19px;
-    margin-top: -5px;
+    height:130px;
 }
 .catalog-cards__unit__description__name p{
     margin:0;
