@@ -146,6 +146,9 @@
     font-weight:400;
     font-size:14px;
 }
+.sub-menu a{
+    display:flex;
+}
 .sub-menu a:hover{
     color:#86C9D1;
 }
@@ -390,7 +393,7 @@
 .catalog-cards__unit__description{
     background:#fff;
     position:relative;
-    border-radius:0 0 20px 20px;
+    border-radius:0 0 17px 17px;
     margin-top: -5px;
 }
 .catalog-cards__unit__description__name p{
@@ -1165,4 +1168,9 @@
 .custom-2 {
     fill: #ff7f00;
 }
+.active-way{
+    color: #86C9D1 !important;
+}
+
+
 
