@@ -1258,3 +1258,8 @@ datalist,.active__language__us,.inactive__language,.product__region__active__lan
 .scroller-block:hover .scroller-svg{
     fill:#000;
 }
+.description__video iframe{
+    width:100%;
+    min-height:400px;
+    height:auto;
+}
