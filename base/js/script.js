@@ -220,7 +220,7 @@ jQuery(document).ready(function() {
         jQuery('.product-quantity-dropdown-content').toggleClass('product-quantity-dropdown-content__active');
     });
     let blockPosition = 0;
-    jQuery('.description__drop-down__button').click(function(e){
+    jQuery('#Description button').click(function(e){
         if(blockPosition == 0){
             blockPosition = 1;
             jQuery('#Description form').css('max-height','1000px')
