@@ -219,9 +219,17 @@ jQuery(document).ready(function() {
     jQuery('.product-quantity-dropbtn').click(function(e){
         jQuery('.product-quantity-dropdown-content').toggleClass('product-quantity-dropdown-content__active');
     });
+    let blockPosition = 0;
     jQuery('.description__drop-down__button').click(function(e){
-        jQuery('.description__drop-down__text').toggleClass('description__drop-down__text-active')
-        jQuery('.description__drop-down__button-arrow').toggleClass('description__drop-down__button-arrow-active')
+        if(blockPosition == 0){
+            blockPosition = 1;
+            jQuery('#Description form').css('max-height','1000px')
+            jQuery('#Description svg').css('transform','rotate(0deg)')
+        }else if(blockPosition == 1 ){
+            blockPosition = 0;
+            jQuery('#Description form').css('max-height','90px')
+            jQuery('#Description svg').css('transform','rotate(180deg)')
+        }
     })
     jQuery('.game__slider,.review__slider').click(function(e){
         jQuery(this).toggleClass('disable');
