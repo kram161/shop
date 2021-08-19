@@ -804,7 +804,8 @@
     width:50%;
     display:flex;
     flex-direction:column;
-    border-top:1px solid rgba(255, 255, 255, 0.15);
+    margin:auto 20px;
+    border:none;
 }
 
 .product-quantity__main-inf{
@@ -1241,6 +1242,7 @@
 .description__table td,.description__table th{
     padding:15px 10px;
     font-size:14px;
+    text-align:left;
 }
 .description__table tr{
     border-bottom:1px solid #d5d7d7;
@@ -1250,4 +1252,10 @@
 }
 .description__list li{
     font-weight: 400;
+}
+.payment-method{
+    width:27%;
+}
+table{
+    border-spacing: 0 10px;
 }
