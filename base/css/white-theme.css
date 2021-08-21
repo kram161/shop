@@ -344,7 +344,7 @@ body.body__white-theme .next__arrow:hover{
 .body__white-theme #Description table{
     color:#000;
 }
-.body__white-theme #Description thead{
+.body__white-theme #Description thead,.body__white-theme #Description thead tr{
     background: #d0d0d0;
     font-weight:800;
 }

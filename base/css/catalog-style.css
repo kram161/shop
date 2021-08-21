@@ -1226,7 +1226,7 @@
     margin:40px auto;
     border-collapse: collapse;
 }
-#Description thead{
+#Description thead,#Description thead tr{
     background:#171718FF;
 }
 #Description tbody{
